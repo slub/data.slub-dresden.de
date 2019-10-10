@@ -1,2 +1,3 @@
 exclude: [ruby]
+baseurl: data.slub-dresden.de/
 # theme: jekyll-theme-midnight

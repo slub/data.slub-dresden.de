@@ -1,6 +1,7 @@
 ---
 layout: default
-title: SLUB - LOD API - Workflow
+title: Workflow
+nav_order: 6
 ---
 
 # Workflow

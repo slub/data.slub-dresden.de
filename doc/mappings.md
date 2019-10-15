@@ -1,6 +1,8 @@
 ---
 layout: default
-title: SLUB - LOD API - Mappings
+title: Mappings
+nav_order: 4
+
 ---
 
 # Mappings

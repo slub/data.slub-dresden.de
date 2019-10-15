@@ -22,4 +22,3 @@ search_tokenizer_separator: /[\s/]+/
 # Enable or disable heading anchors
 heading_anchors: true
 exclude: ["ruby", "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
->>>>>>> master

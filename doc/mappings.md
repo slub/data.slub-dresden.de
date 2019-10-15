@@ -30,7 +30,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier">identifier</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -57,7 +57,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">Literal</td>
       <td>
         <p>
-          <a href="https://intranet.slub-dresden.de/schema.org/author">
+          <a href="https://schema.org/author">
             <ac:inline-comment-marker ac:ref="278ee28e-7b64-4dad-930d-40ce9283821e">author</ac:inline-comment-marker>
           </a>
         </p>
@@ -71,7 +71,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">700</td>
       <td colspan="1">URI/literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/contributor">contributor</a>
+        <a href="https://schema.org/contributor">contributor</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -82,7 +82,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>130.*.f<br/>260.*.c<br/>264.*.c<br/>362.*.a</td>
       <td colspan="1">ISO8601</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/datePublished">datePublished</a>
+        <a href="https://schema.org/datePublished">datePublished</a>
         <p>
           <br/>
         </p>
@@ -96,23 +96,23 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">936</td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/about">
+        <a href="https://schema.org/about">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">about</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe"> : { </ac:inline-comment-marker>
-        <a href="https://intranet.slub-dresden.de/schema.org/identifier">
+        <a href="https://schema.org/identifier">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">identifier</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://intranet.slub-dresden.de/schema.org/keywords">
+        <a href="https://schema.org/keywords">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">keywords</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://intranet.slub-dresden.de/schema.org/@id">
+        <a href="https://schema.org/@id">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">@id</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://intranet.slub-dresden.de/schema.org/sameAs">
+        <a href="https://schema.org/sameAs">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">sameAs</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">}</ac:inline-comment-marker>
@@ -132,7 +132,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/name">name</a>
+        <a href="https://schema.org/name">name</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">if last 2 characters are " /", then those characters get trimmed.</td>
@@ -144,7 +144,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName">alternateName</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -155,7 +155,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>502.*.abcd</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/Thesis">Thesis</a>
+        <a href="https://schema.org/Thesis">Thesis</a>
       </td>
       <td colspan="1" style="text-align: center;">
         <br/>
@@ -181,7 +181,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">URN/ISSN</td>
       <td>
         <p>
-          <a href="https://intranet.slub-dresden.de/schmea.org/issn">issn</a>
+          <a href="https://gschmea.org/issn">issn</a>
         </p>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
@@ -204,7 +204,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN/ISBN</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/isbn">isbn</a>
+        <a href="https://schema.org/isbn">isbn</a>
         <p>
           <br/>
         </p>
@@ -219,7 +219,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal/URI</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/genre">genre</a>
+        <a href="https://schema.org/genre">genre</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -230,7 +230,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>551 if subfeld 9==4:orth</td>
       <td colspan="1">Literal/URI</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/locationCreated">
+        <a href="https://schema.org/locationCreated">
           <ac:inline-comment-marker ac:ref="b39cb475-76aa-4ca3-81a8-6929237af3f0">locationCreated</ac:inline-comment-marker>
         </a>
       </td>
@@ -279,7 +279,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">773.*.g</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/hasPart">hasPart</a>
+        <a href="https://schema.org/hasPart">hasPart</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -291,7 +291,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/isPartOf">isPartOf</a>
+        <a href="https://schema.org/isPartOf">isPartOf</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -314,7 +314,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI/Literal</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/license">license</a>
+        <a href="https://schema.org/license">license</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -329,7 +329,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/inLanguage">inLanguage</a>
+        <a href="https://schema.org/inLanguage">inLanguage</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -340,7 +340,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">689</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/mentions">mentions</a>
+        <a href="https://schema.org/mentions">mentions</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -364,7 +364,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Integer</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/pageStart">pageStart</a>
+        <a href="https://schema.org/pageStart">pageStart</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -376,7 +376,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Integer</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/issueNumber">issueNumber</a>
+        <a href="https://schema.org/issueNumber">issueNumber</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -387,7 +387,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">500</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/relatedTo">relatedTo</a>
+        <a href="https://schema.org/relatedTo">relatedTo</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -425,7 +425,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">K10Plus-PPN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier">identifier</a>
       </td>
     </tr>
     <tr>
@@ -494,10 +494,10 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">Literal/URI</td>
       <td>
         <p>
-          <a href="https://intranet.slub-dresden.de/schema.org/hasoccupation">hasOccupation</a>
+          <a href="https://schema.org/hasoccupation">hasOccupation</a>
         </p>
         <p>
-          <a href="https://intranet.slub-dresden.de/schema.org/honorificSuffix">honorificSuffix</a>
+          <a href="https://schema.org/honorificSuffix">honorificSuffix</a>
         </p>
       </td>
     </tr>
@@ -516,7 +516,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
         <br/>
       </td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/workLocation">workLocation</a>
+        <a href="https://schema.org/workLocation">workLocation</a>
       </td>
     </tr>
     <tr>
@@ -526,10 +526,10 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">
         <p>
-          <a href="https://intranet.slub-dresden.de/schema.org/birthplace">birthPlace</a>
+          <a href="https://schema.org/birthplace">birthPlace</a>
         </p>
         <p>
-          <a href="https://intranet.slub-dresden.de/schema.org/deathPlace">deathPlace</a>
+          <a href="https://schema.org/deathPlace">deathPlace</a>
         </p>
       </td>
     </tr>
@@ -539,7 +539,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
+        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
     </tr>
   </tbody>
 </table>
@@ -562,7 +562,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier">identifier</a>
       </td>
     </tr>
     <tr>
@@ -585,7 +585,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>110.*.a</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/name">name</a>
+        <a href="https://schema.org/name">name</a>
       </td>
     </tr>
     <tr>
@@ -593,42 +593,42 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName">alternateName</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">550 if Subfeld 9==4:obin</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/additionalType">additionalType</a>
+        <a href="https://schema.org/additionalType">additionalType</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if Subfeld 9==4:adue</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/parentOrganization">parentOrganization</a>
+        <a href="https://schema.org/parentOrganization">parentOrganization</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if Subfeld 9 ==4:orta</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/location">location</a>
+        <a href="https://schema.org/location">location</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if Subfeld 9 ==4:geoa</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/fromLocation">fromLocation</a>
+        <a href="https://schema.org/fromLocation">fromLocation</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if Subfeld 9 ==4:geow</td>
       <td colspan="1">Literal/Uri</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/areaServed">areaServed</a>
+        <a href="https://schema.org/areaServed">areaServed</a>
       </td>
     </tr>
     <tr>
@@ -637,7 +637,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
+        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
     </tr>
   </tbody>
 </table>
@@ -660,7 +660,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier">identifier</a>
       </td>
     </tr>
     <tr>
@@ -683,7 +683,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>110.*.a</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/name">name</a>
+        <a href="https://schema.org/name">name</a>
       </td>
     </tr>
     <tr>
@@ -691,21 +691,21 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName">alternateName</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551</td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/description">description</a>
+        <a href="https://schema.org/description">description</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">034.*.defg</td>
       <td colspan="1">WGS84</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/GeoCoordinates">GeoCoordinates</a>
+        <a href="https://schema.org/GeoCoordinates">GeoCoordinates</a>
       </td>
     </tr>
     <tr>
@@ -714,7 +714,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
+        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
     </tr>
   </tbody>
 </table>
@@ -737,7 +737,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier">identifier</a>
       </td>
     </tr>
     <tr>
@@ -760,7 +760,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>150.*.a</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/name">name</a>
+        <a href="https://schema.org/name">name</a>
       </td>
     </tr>
     <tr>
@@ -768,63 +768,63 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName">alternateName</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">679.*.a</td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/description">description</a>
+        <a href="https://schema.org/description">description</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">550</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/additionalType">additionalType</a>
+        <a href="https://schema.org/additionalType">additionalType</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if Subfeld 9==4:orta</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/location">location</a>
+        <a href="https://schema.org/location">location</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if Subfeld 9==4:geoa</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/fromLocation">fromLocation</a>
+        <a href="https://schema.org/fromLocation">fromLocation</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if Subfeld 9==4:geow</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/areaServed">areaServed</a>
+        <a href="https://schema.org/areaServed">areaServed</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if Subfeld 9==4:punk</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/contentLocation">contentLocation</a>
+        <a href="https://schema.org/contentLocation">contentLocation</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if Subfeld 9==4:bete</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/participant">participant</a>
+        <a href="https://schema.org/participant">participant</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if Subfeld 9==4:vbal</td>
       <td colspan="1">URI/literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/relatedTo">relatedTo</a>
+        <a href="https://schema.org/relatedTo">relatedTo</a>
       </td>
     </tr>
     <tr>
@@ -833,7 +833,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
+        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
     </tr>
   </tbody>
 </table>
@@ -856,7 +856,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier">identifier</a>
       </td>
     </tr>
     <tr>
@@ -879,7 +879,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>110.*.a</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/name">name</a>
+        <a href="https://schema.org/name">name</a>
       </td>
     </tr>
     <tr>
@@ -887,14 +887,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName">alternateName</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551</td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/description">description</a>
+        <a href="https://schema.org/description">description</a>
       </td>
     </tr>
     <tr>
@@ -903,34 +903,34 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
+        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
     </tr>
     <tr>
       <td colspan="1">548</td>
       <td colspan="1">Datum</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/startDate">startDate</a>
+        <a href="https://schema.org/startDate">startDate</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">548</td>
       <td colspan="1">Datum</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/endDate">endDate</a>
+        <a href="https://schema.org/endDate">endDate</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">043.*.c</td>
       <td colspan="1">ISO 3166</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/adressRegion">adressRegion</a>
+        <a href="https://schema.org/adressRegion">adressRegion</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if Subfield 4==ortv</td>
       <td colspan="1">URI</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/location">location</a>
+        <a href="https://schema.org/location">location</a>
       </td>
     </tr>
   </tbody>
@@ -958,7 +958,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier">identifier</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -985,7 +985,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">Literal</td>
       <td>
         <p>
-          <a href="https://intranet.slub-dresden.de/schema.org/author">
+          <a href="https://schema.org/author">
             <ac:inline-comment-marker ac:ref="278ee28e-7b64-4dad-930d-40ce9283821e">author</ac:inline-comment-marker>
           </a>
         </p>
@@ -999,7 +999,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">700</td>
       <td colspan="1">URI/literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/contributor">contributor</a>
+        <a href="https://schema.org/contributor">contributor</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1010,7 +1010,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>130.*.f<br/>260.*.c<br/>264.*.c<br/>362.*.a</td>
       <td colspan="1">ISO8601</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/datePublished">datePublished</a>
+        <a href="https://schema.org/datePublished">datePublished</a>
         <p>
           <br/>
         </p>
@@ -1024,23 +1024,23 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">936</td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/about">
+        <a href="https://schema.org/about">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">about</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe"> : { </ac:inline-comment-marker>
-        <a href="https://intranet.slub-dresden.de/schema.org/identifier">
+        <a href="https://schema.org/identifier">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">identifier</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://intranet.slub-dresden.de/schema.org/keywords">
+        <a href="https://schema.org/keywords">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">keywords</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://intranet.slub-dresden.de/schema.org/@id">
+        <a href="https://schema.org/@id">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">@id</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://intranet.slub-dresden.de/schema.org/sameAs">
+        <a href="https://schema.org/sameAs">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">sameAs</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">}</ac:inline-comment-marker>
@@ -1056,7 +1056,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/name">name</a>
+        <a href="https://schema.org/name">name</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">if last 2 characters are " /", then those characters get trimmed.</td>
@@ -1067,7 +1067,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName">alternateName</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1078,7 +1078,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>502.*.abcd</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/Thesis">Thesis</a>
+        <a href="https://schema.org/Thesis">Thesis</a>
       </td>
       <td colspan="1" style="text-align: center;">
         <br/>
@@ -1104,7 +1104,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">URN/ISSN</td>
       <td>
         <p>
-          <a href="https://intranet.slub-dresden.de/schmea.org/issn">issn</a>
+          <a href="https://gschmea.org/issn">issn</a>
         </p>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
@@ -1127,7 +1127,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN/ISBN</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/isbn">isbn</a>
+        <a href="https://schema.org/isbn">isbn</a>
         <p>
           <br/>
         </p>
@@ -1142,7 +1142,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal/URI</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/genre">genre</a>
+        <a href="https://schema.org/genre">genre</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1153,7 +1153,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>551 if subfeld 9==4:orth</td>
       <td colspan="1">Literal/URI</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/locationCreated">
+        <a href="https://schema.org/locationCreated">
           <ac:inline-comment-marker ac:ref="b39cb475-76aa-4ca3-81a8-6929237af3f0">locationCreated</ac:inline-comment-marker>
         </a>
       </td>
@@ -1202,7 +1202,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">773.*.g</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/hasPart">hasPart</a>
+        <a href="https://schema.org/hasPart">hasPart</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1214,7 +1214,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/isPartOf">isPartOf</a>
+        <a href="https://schema.org/isPartOf">isPartOf</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1237,7 +1237,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI/Literal</td>
       <td>
-        <a href="https://intranet.slub-dresden.de/schema.org/license">license</a>
+        <a href="https://schema.org/license">license</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -1252,7 +1252,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/inLanguage">inLanguage</a>
+        <a href="https://schema.org/inLanguage">inLanguage</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1263,7 +1263,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">689</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/mentions">mentions</a>
+        <a href="https://schema.org/mentions">mentions</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1287,7 +1287,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Integer</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/pageStart">pageStart</a>
+        <a href="https://schema.org/pageStart">pageStart</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -1299,7 +1299,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Integer</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/issueNumber">issueNumber</a>
+        <a href="https://schema.org/issueNumber">issueNumber</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -1310,7 +1310,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">500</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://intranet.slub-dresden.de/schema.org/relatedTo">relatedTo</a>
+        <a href="https://schema.org/relatedTo">relatedTo</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1325,7 +1325,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">
         <br/>
       </td>
-    </tr>
+    </t>
   </tbody>
 </table>
 

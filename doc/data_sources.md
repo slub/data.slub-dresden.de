@@ -1,6 +1,8 @@
 ---
 layout: default
-title: SLUB - LOD API - data sources
+title: Data Sources
+nav_order: 5
+
 ---
 
 # Data Sources

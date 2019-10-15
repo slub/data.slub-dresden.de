@@ -10,9 +10,3 @@ ruby/
 
 # generated web-page
 _site/
-
-# files needed to show just-the-docs offline
-_includes/
-_layouts/
-_sass/
-assets/

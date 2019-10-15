@@ -10,6 +10,7 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 logo: "/assets/images/slublogo_dark.svg"
 
 # theme
+theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "dark"
 
@@ -21,4 +22,11 @@ search_tokenizer_separator: /[\s/]+/
 
 # Enable or disable heading anchors
 heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "LOD API doc on GitHub":
+    - "//github.com/slub/data.slub-dresden.de"
+
+
 exclude: ["ruby", "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]

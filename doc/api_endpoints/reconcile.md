@@ -8,7 +8,10 @@ parent: "API endpoints"
 
 ---
 
-# /reconcile: OpenRefine Reconciliation Service
+# OpenRefine Reconciliation Service
+
+
+
 ## POST
 ## GET
 

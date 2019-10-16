@@ -6,9 +6,13 @@ nav_order: 4
 ---
 
 # Mappings
+{: .no_toc}
 On this page you can find our mapping-tables, which are fed into our processing pipelines to generate Linked Data out of the raw source [MARC21](https://www.loc.gov/marc/bibliographic/ "MARC21") data.
 
+{:toc}
+
 # Bibliographic data
+
 ## Resources
 <table class="relative-table wrapped" style="width: 96.4228%;">
   <colgroup>
@@ -127,7 +131,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
         <p>130.*.a<br/>130.*.p<br/>245.*.a<br/>245.*.p<br/>
           <br/>
         </p>
-        <p>Werke:</p>
+        <p>Works:</p>
         <p>100..t <br/>110..t<br/>130..t<br/>111..t</p>
       </td>
       <td colspan="1">Literal</td>
@@ -597,35 +601,35 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
     </tr>
     <tr>
-      <td colspan="1">550 if Subfeld 9==4:obin</td>
+      <td colspan="1">550 if subfield 9==4:obin</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
         <a href="https://schema.org/additionalType">additionalType</a>
       </td>
     </tr>
     <tr>
-      <td colspan="1">551 if Subfeld 9==4:adue</td>
+      <td colspan="1">551 if subfield 9==4:adue</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
         <a href="https://schema.org/parentOrganization">parentOrganization</a>
       </td>
     </tr>
     <tr>
-      <td colspan="1">551 if Subfeld 9 ==4:orta</td>
+      <td colspan="1">551 if subfield 9 ==4:orta</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
         <a href="https://schema.org/location">location</a>
       </td>
     </tr>
     <tr>
-      <td colspan="1">551 if Subfeld 9 ==4:geoa</td>
+      <td colspan="1">551 if subfield 9 ==4:geoa</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
         <a href="https://schema.org/fromLocation">fromLocation</a>
       </td>
     </tr>
     <tr>
-      <td colspan="1">551 if Subfeld 9 ==4:geow</td>
+      <td colspan="1">551 if subfield 9 ==4:geow</td>
       <td colspan="1">Literal/Uri</td>
       <td colspan="1">
         <a href="https://schema.org/areaServed">areaServed</a>
@@ -786,42 +790,42 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
     </tr>
     <tr>
-      <td colspan="1">551 if Subfeld 9==4:orta</td>
+      <td colspan="1">551 if subfield 9==4:orta</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
         <a href="https://schema.org/location">location</a>
       </td>
     </tr>
     <tr>
-      <td colspan="1">551 if Subfeld 9==4:geoa</td>
+      <td colspan="1">551 if subfield 9==4:geoa</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
         <a href="https://schema.org/fromLocation">fromLocation</a>
       </td>
     </tr>
     <tr>
-      <td colspan="1">551 if Subfeld 9==4:geow</td>
+      <td colspan="1">551 if subfield 9==4:geow</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
         <a href="https://schema.org/areaServed">areaServed</a>
       </td>
     </tr>
     <tr>
-      <td colspan="1">551 if Subfeld 9==4:punk</td>
+      <td colspan="1">551 if subfield 9==4:punk</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
         <a href="https://schema.org/contentLocation">contentLocation</a>
       </td>
     </tr>
     <tr>
-      <td colspan="1">551 if Subfeld 9==4:bete</td>
+      <td colspan="1">551 if subfield 9==4:bete</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
         <a href="https://schema.org/participant">participant</a>
       </td>
     </tr>
     <tr>
-      <td colspan="1">551 if Subfeld 9==4:vbal</td>
+      <td colspan="1">551 if subfield 9==4:vbal</td>
       <td colspan="1">URI/literal</td>
       <td colspan="1">
         <a href="https://schema.org/relatedTo">relatedTo</a>
@@ -829,7 +833,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
     </tr>
     <tr>
       <td colspan="1">
-        <em>Encihment over DNB Data</em>
+        <em>Enrichment over DNB Data</em>
       </td>
       <td colspan="1">URN</td>
       <td colspan="1">
@@ -927,7 +931,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
     </tr>
     <tr>
-      <td colspan="1">551 if Subfield 4==ortv</td>
+      <td colspan="1">551 if subfield 4==ortv</td>
       <td colspan="1">URI</td>
       <td colspan="1">
         <a href="https://schema.org/location">location</a>
@@ -1169,7 +1173,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
         <a href="https://schema.org/publisher">publisher</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
-      <td colspan="1">Following characters and whitespace gets trimmed: (, . : ; ).</td>
+      <td colspan="1">Following characters and whitespace get trimmed: (, . : ; ).</td>
     </tr>
     <tr>
       <td colspan="1">245<span>.*.c</span>

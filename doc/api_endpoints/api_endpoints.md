@@ -21,9 +21,9 @@ permalink: docs/api_endpoints
    The endpoint [`/source`]({{ site.baseurl }}{% link doc/api_endpoints/source.md %}) realizes a direct interface to the (unprocessed) source datasets located in different source indices. A dataset can be requested with its index-specific ID.
 
 ## Query datasets by its entity ('persons', 'organizantions', 'events', …)
-   The endpoint [`/{entityindex}`]({ site.baseurl }}{% link doc/api_endpoints/entity_index.md %}) gives the possibility to query only specified entities.
+   The endpoint [`/{entityindex}`]({{ site.baseurl }}{% link doc/api_endpoints/entity_index.md %}) gives the possibility to query only specified entities.
 
-## Query an ID used by an authority provider (GND, wikidata, SWB, …
-   The endppoint [`/{authority_provider}`]({ site.baseurl }}{% link doc/api_endpoints/authority_provider.md %}) are used to query one dataset by its ID provided by authority providers like GND, wikidata, or SWB.
+## Query an ID used by an authority provider (GND, wikidata, SWB, …)
+   The endppoint [`/{authority_provider}`]({{ site.baseurl }}{% link doc/api_endpoints/authority_provider.md %}) are used to query one dataset by its ID provided by authority providers like GND, wikidata, or SWB.
 
 ## 

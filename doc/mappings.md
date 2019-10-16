@@ -1330,7 +1330,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">
         <br/>
       </td>
-    </t>
+    </tr>
   </tbody>
 </table>
 

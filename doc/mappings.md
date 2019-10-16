@@ -9,6 +9,7 @@ nav_order: 4
 {: .no_toc}
 On this page you can find our mapping-tables, which are fed into our processing pipelines to generate Linked Data out of the raw source [MARC21](https://www.loc.gov/marc/bibliographic/ "MARC21") data.
 
+1. TOC
 {:toc}
 
 # Bibliographic data

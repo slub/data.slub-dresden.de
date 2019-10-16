@@ -9,12 +9,12 @@ nav_order: 4
 {: .no_toc}
 On this page you can find our mapping-tables, which are fed into our processing pipelines to generate Linked Data out of the raw source [MARC21](https://www.loc.gov/marc/bibliographic/ "MARC21") data.
 
-1. TOC
+* TOC
 {:toc}
 
-# Bibliographic data
+## Bibliographic data
 
-## Resources
+### Resources
 <table class="relative-table wrapped" style="width: 96.4228%;">
   <colgroup>
     <col style="width: 24.0686%;"/>
@@ -411,9 +411,9 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </tbody>
 </table>
 
-# Authority data
+## Authority Data
 
-## Persons:
+### Persons
 <table class="relative-table wrapped" style="width: 98.9113%;">
   <colgroup>
     <col style="width: 23.6094%;"/>
@@ -549,7 +549,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </tbody>
 </table>
 
-## Organisations
+### Organisations
 
 <table class="relative-table wrapped" style="width: 98.9113%;">
   <colgroup>
@@ -647,7 +647,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </tbody>
 </table>
 
-## Places
+### Places
 
 <table class="relative-table wrapped" style="width: 98.9113%;">
   <colgroup>
@@ -658,7 +658,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
   <tbody>
     <tr>
       <th>MARC-Field</th>
-      <th colspan="1">Typ</th>
+      <th colspan="1">Type</th>
       <th>schema.org</th>
     </tr>
     <tr>
@@ -724,7 +724,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </tbody>
 </table>
 
-## Topics
+### Topics
 
 <table class="relative-table wrapped" style="width: 98.9113%;">
   <colgroup>
@@ -735,7 +735,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
   <tbody>
     <tr>
       <th>MARC-Field</th>
-      <th colspan="1">Typ</th>
+      <th colspan="1">Type</th>
       <th>schema.org</th>
     </tr>
     <tr>
@@ -843,7 +843,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </tbody>
 </table>
 
-## Events
+### Events
 
 <table class="relative-table wrapped" style="width: 98.9113%;">
   <colgroup>
@@ -854,7 +854,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
   <tbody>
     <tr>
       <th>MARC-Field</th>
-      <th colspan="1">Typ</th>
+      <th colspan="1">Type</th>
       <th>schema.org</th>
     </tr>
     <tr>
@@ -941,7 +941,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </tbody>
 </table>
 
-## Works
+### Works
 
 <table class="relative-table wrapped" style="width: 96.4228%;">
   <colgroup>

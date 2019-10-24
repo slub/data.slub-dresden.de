@@ -3,7 +3,7 @@
 layout: default
 
 title: /{entity_index}
-nav_order: 4
+nav_order: 3
 parent: "API endpoints"
 
 ---
@@ -22,20 +22,21 @@ If one only needs results for certain entities the `/{entity_index}` can be used
 
 ---
 
-possible values for `{entity_index}`:
-* `events`
-* `slub-resources`
-* `works`
-* `organizations`
-* `topics`
-* `geo`
-* `persons`
+| entity_index     | contains types |
+|:-----------------|:------------|
+| `persons`        | [schema.org/Person](https://schema.org/Person)            | 
+| `events`         | [schema.org/Event](https://schema.org/Event)            |
+| `works`          | [schema.org/CreativeWork](https://schema.org/CreativeWork)             | 
+| `organizations`  | [schema.org/Organization](https://schema.org/Organization)             | 
+| `topics`         | [schema.org/Thing](https://schema.org/Thing)             | 
+| `geo`            | [schema.org/Place](https://schema.org/Place)             | 
+| `slub-resources` | [schema.org/CreativeWork](https://schema.org/CreativeWork)             | 
 
-For the usage of `/{entity_index}/search`, compare to [`/search`]({{ site.baseurl }}{% link doc/api_endpoints/search.md %})
+For usage of `/{entity_index}/search`, compare to [`/search`]({{ site.baseurl }}{% link doc/api_endpoints/search.md %})
 
 ## Example
 ```sh
-$
+$ curl -X GET "http://data.slub-dresden.de/persons/search?q=name:Erich+K%C3%A4stner" 
 ```
 
 

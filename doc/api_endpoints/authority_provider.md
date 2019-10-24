@@ -3,14 +3,14 @@
 layout: default
 
 title: /{authority_provider}
-nav_order: 5
+nav_order: 4
 parent: "API endpoints"
 
 ---
 
 # Query LOD API by searching for authority provider's ID
 
-In case you know the ID of your dataset for one of the listed authority providers, you can use this id
+In case you know the ID of your dataset for one of the listed [authority providers](#authority-providers), you can use this ID
 If one only needs results for certain entities the `/{entity_index}` can be used. This makes it possible to look - for example - just for results in organizations or persons.
 
 ## Usage
@@ -23,7 +23,7 @@ If one only needs results for certain entities the `/{entity_index}` can be used
 
 ---
 
-It is preferred to use the second call of the API in case you already know the entity index of your dataset, see [`/{entity_index}`]({{ site.baseurl }}{% link doc/api_endpoints/entity_index.md %}), because this call can be processed much faster by elasticsearch compared to the more general request not providing the entity index.
+It is preferred to use the second call of the API in case you already know the entity index of your dataset, see [`/{entity_index}`]({{ site.baseurl }}{% link doc/api_endpoints/entity_index.md %}), because this call can be processed much faster by Elasticsearch compared to the more general request not providing the entity index.
 
 possible values for `{entity_index}`:
 * `events`
@@ -35,9 +35,19 @@ possible values for `{entity_index}`:
 * `persons`
 
 
+## Authority Providers
+
+| authority_provider    | name |
+|:------|:-----|
+| `gnd` | [Integrated Authority File](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) by [DNB](https://www.dnb.de/) |
+| `swb` | [SWB online index](http://swb.bsz-bw.de) |
+| `viaf`| [Virutal International Authority File](https://viaf.org/) |
+| `wd`  | [wikidata](https://www.wikidata.org) |
+
+
 ## Example
 ```sh
-$
+$ curl -X GET "http://data.slub-dresden.de/gnd/persons/118559206"
 ```
 
 

@@ -7,12 +7,12 @@ permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "ruby"]
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/slublogo_dark.svg"
+logo: "/assets/images/slublogo.svg"
 
 # theme
 theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
-color_scheme: "dark"
+color_scheme: "light"
 
 # Enable or disable the site search
 search_enabled: true

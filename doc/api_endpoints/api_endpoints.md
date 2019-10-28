@@ -26,4 +26,3 @@ permalink: docs/api_endpoints
 ## Connect via OpenRefine reconciliation API
    The endpoint [`/reconcile`]({{ site.baseurl }}{% link doc/api_endpoints/reconcile.md %}) can be used with Google's OpenRefine.
 
-## 

@@ -41,6 +41,18 @@ The following GET-parameter are available:
 |`sort=`         | `string`  | Sort the datasets by a specified `property`. Allowed sorting options are `asc` or `desc`. [See example](#sorted-query)               |
 |`size_arg=`     | `integer` | Number of datasets that should be returned by the search. Default: `10`                            |
 |`from_arg=`     | `integer` | Offset from where to begin returning `size_arg`-number of datasets. Default: `0`                            |
+|`format=`       | `string`  | Format in which the data should be reported by the API. Default: `json`. [See Content-Type](#content-type-of-return-data)  |
+
+
+Searching results can be refined through the use of bolean operators (`AND`, `OR`, `AND NOT`), phrase search using `""`, and truncation using `*`. [See advanced example](#advanced-example)
+
+Furthermore a search can be performed using
+* conrete [field names](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_field_names)
+* [wildcards](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_wildcards)
+* [regular expressions](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_regular_expressions)
+* [fuzziness](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_fuzziness)
+* [proximity searches](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_proximity_searches)
+
 
 ## Content-Type of return data
 The Content-Type of the returned datasets is defined by the `format` property. Following values are allowed and lead to the correspondingly formatted answer:
@@ -52,15 +64,38 @@ The Content-Type of the returned datasets is defined by the `format` property. F
 * `nq` - N-quads
 
 ## Examples
+Some of the below examples we use the json-manipulating tool `jq` to reduce the output for overview's sake. For more information on how to use `jq`, see their [tutorial](https://stedolan.github.io/jq/tutorial/).
+
 ### Simple Query
 ```sh
 $ curl -X GET "data.slub-dresden.de/search?q=SLUB&size_arg=1" -H "accept: application/json"
 [{"@context":"http://schema.org","@id":"http://data.slub-dresden.de/resources/1172980497","@type":"http://schema.org/CreativeWork","about":[{"@id":"https://rvk.uni-regensburg.de/api/json/ancestors/AN 80190","identifier":{"@type":"PropertyValue","propertyID":"RVK","value":"AN 80190"},"keywords":["Allgemeines","Buch- und Bibliothekswesen, Informationswissenschaft","Bibliothekswesen","Bibliothekswesen in einzelnen L\u00e4ndern und einzelne Bibliotheken","Einzelne deutsche Bibliotheken","Bibliotheken D","Dresden","S\u00e4chsische Landesbibliothek - Staats- und Universit\u00e4tsbibliothek"],"name":"S\u00e4chsische Landesbibliothek - Staats- und Universit\u00e4tsbibliothek","sameAs":["http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1270680919"]},{"@id":"https://rvk.uni-regensburg.de/api/json/ancestors/AN 67700","identifier":{"@type":"PropertyValue","propertyID":"RVK","value":"AN 67700"},"keywords":["Allgemeines","Buch- und Bibliothekswesen, Informationswissenschaft","Bibliothekswesen","Bibliotheksarten","Wissenschaftliche Bibliotheken"],"name":"Wissenschaftliche Bibliotheken","sameAs":["http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1270679430"]}],"alternateName":["SLUB"],"alternativeHeadline":"S\u00e4chsisches Staatsministerium der Finanzen. Staatshochbauamt Dresden. [Text Michael Bartsch]","contributor":[{"@id":"http://data.slub-dresden.de/persons/1230186379","name":"Bartsch, Michael"},{"@id":"http://data.slub-dresden.de/organizations/103636129","name":"Sachsen","sameAs":"http://d-nb.info/gnd/5035101-1"}],"dateModified":"2016-05-11T07:07:48Z","datePublished":"2002","inLanguage":["ger"],"isBasedOn":"http://data.slub-dresden.de/source/kxp-de14/1172980497","mentions":[{"@id":"http://data.slub-dresden.de/organizations/191800287","@type":"http://schema.org/Organization","name":"S\u00e4chsische Landesbibliothek - Staats- und Universit\u00e4tsbibliothek Dresden","sameAs":"http://d-nb.info/gnd/5165770-3"},{"@id":"http://data.slub-dresden.de/organizations/105510602","name":"Geb\u00e4ude","sameAs":"http://d-nb.info/gnd/4156127-2"}],"name":"S\u00e4chsische Landesbibliothek - Staats- und Universit\u00e4tsbibliothek Dresden","publisher":{"@type":"Organization","location":{"name":"Dresden","type":"Place"},"name":"Freistaat Sachsen, Staatsministerium der Finanzen"},"sameAs":["http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1172980497"]}]
 ```
+### Field Query
+
+One can query a field directly by using `q=field[.subfield]:querystring`. A detailed description of the query syntax can be found within the [Elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html)
+
+
+```sh
+curl -X GET "data.slub-dresden.de/search?q=name:SLUB" -H "accept: application/json | jq '.[].name'"
+"[SLUB Dresden]"
+"Test SLUB Dresden"
+"Innenansichten SLUB 2010"
+"Der Weg zur SLUB"
+"Der Neubau der SLUB"
+"Seniorenschulungen an der SLUB"
+"SLUB präsentiert Handschriftendatenbank neu"
+"Nachgefragt: Nutzer beurteilen SLUB positiv"
+"Umstellung des Mailsystems der SLUB"
+"Und sonntags in die SLUB!"
+```
 
 ### Filtered Query
 
 Filters must be given in the form `property:value`, where `property` can be a path concatenated by dots ("."). 
+
+Special characters like `@`, `:`, and `/` need to be escaped using [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding)
+
 Example for valid filters:
 
 | property/path | value                          | filter string              |
@@ -78,47 +113,59 @@ $ curl -X GET "http://data.slub-dresden.de/search?q=SLUB&filter=%40type%3Ahttp%3
 For sorting a property (-path) must be defined (compare [Filtered Query](#filtered-query) example) as this will be the property where the sorting is applied to.
 
 ```sh
-$ curl -X GET "http://data.slub-dresden.de/search?q=SLUB&sort=publisher.location.name:asc" | jq '.[].publisher.location.name'
-[
-  "Bad Honnef",
-  "Dresden"
-]
-[
-  "Dresden",
-  "Bautzen"
-]
-[
-  "Bautzen",
-  "Dresden"
-]
-[
-  "Bautzen",
-  "Dresden"
-]
-[
-  "Bautzen",
-  "Dresden"
-]
-[
-  "Bautzen",
-  "Dresden"
-]
-[
-  "Bautzen",
-  "Dresden"
-]
-[
-  "Bautzen",
-  "Dresden"
-]
-[
-  "Bautzen",
-  "Dresden"
-]
-[
-  "Bautzen",
-  "Dresden"
-]
+$ curl -X GET "http://data.slub-dresden.de/search?q=Moldau&sort=publisher.location.name:asc" | jq '.[] | {title: .name, location: .publisher.location.name }' 
+{
+  "title": "Wirksamkeit der EU-Unterstützung für Belarus, Moldau und die Ukraine im Bereich Freiheit, Sicherheit und Recht (gemäß Artikel 248 Absatz 4 Unterabsatz 2 des EG-Vertrags)",
+  "location": " Luxemburg"
+}
+{
+  "title": "Střední Povltaví",
+  "location": " Praha"
+}
+{
+  "title": "Friedrich Smetana, \"Die Moldau\"",
+  "location": "Altenmedingen"
+}
+{
+  "title": "Stifterrecht und Kirchenpatronat im Fürstentum Moldau und in der Bukowina eine historisch-dogmatische Studie zum morgenländischen Kirchenrecht",
+  "location": "Amsterdam"
+}
+{
+  "title": "Greece your strategic partner in the new millennium",
+  "location": "Athens"
+}
+{
+  "title": "Art und Entwicklung der Bodenerosion in Südrussland",
+  "location": "Bad Godesberg"
+}
+{
+  "title": "Konfliktmanagement und Konfliktprävention im Rahmen von OSZE-Langzeitmissionen eine Analyse der Missionen in Moldau und Estland",
+  "location": "Baden-Baden"
+}
+{
+  "title": "Die Verfassung der Sozialistischen Föderativen Republik Jugoslawien  = Ustav Sozialističke Federativne Republike Jugoslavije",
+  "location": "Beograd"
+}
+{
+  "title": "Grundriss der polnischen Verfassungsgeschichte",
+  "location": "Berlin"
+}
+{
+  "title": "Feld-, Noth- und Belagerungsmünzen von Deutschland, Österreich-Ungarn, Siebenbürgen, Moldau, Dänemark, Schweden, Norwegen, Russland, Polen u.s.w.",
+  "location": "Berlin"
+}
 ```
+
+### Advanced Example
+
+To find a entry with the title `Carbonverstärkt entspannen erster SLUB-Lounger aus Textilbeton eingeweiht` lets use only the two words `SLUB` and `textil`. To do so we have to combine both in the following way:
+
+```sh
+curl -X GET "data.slub-dresden.de/search?q=name:(textil*%20AND%20SLUB)" | jq '.[].name'
+"Carbonverstärkt entspannen erster SLUB-Lounger aus Textilbeton eingeweiht"
+```
+`Textilbeton` is matched by `textil*` and both strings are combined with the `AND` operator. Note, that the spaces have to be escsaped as `%20` according to [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding)
+
+
 
 [Try Me](http://data.slub-dresden.de/api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }

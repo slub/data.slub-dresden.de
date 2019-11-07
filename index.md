@@ -19,7 +19,7 @@ There is an [interactive UI](http://data.slub-dresden.de/api) where you can expe
 
 ## Usage
 
-For a detailed overview with examples please have a look at [API endpoits]({{ site.baseurl }}{% link doc/api_endpoints/api_endpoints.md %})
+For a detailed overview with examples please have a look at [API endpoints]({{ site.baseurl }}{% link doc/api_endpoints/api_endpoints.md %})
 
 
 ## Data Types
@@ -28,7 +28,7 @@ See [Data Types]({{ site.baseurl }}{% link doc/data_types/data_types.md %})
 
 ## Behind the scenes
 
-If you are interested how the data was processed from the sources to end up in our API, you may want to have a look at the [mappings]({{ site.baseurl }}{% link doc/mappings.md %}).
+If you are interested how the data was processed from the sources to end up in our API, you may want to have a look at the [mappings]({{ site.baseurl }}{% link doc/mappings/mappings.md %}).
 
 
 ## Data Sources

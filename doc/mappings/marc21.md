@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Mappings
-nav_order: 4
+title: MARC21
+nav_order: 1
+parent: "Mappings"
 
 ---
 
-# Mappings
+# MARC21 Mapping
 {: .no_toc}
 On this page you can find our mapping-tables, which are fed into our processing pipelines to generate Linked Data out of the raw source [MARC21](https://www.loc.gov/marc/bibliographic/ "MARC21") data.
 

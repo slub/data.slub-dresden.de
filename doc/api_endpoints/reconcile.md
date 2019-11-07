@@ -19,9 +19,17 @@ Our API also has an endpoint to use the [OpenRefine Reconciliation Service API](
 * In the new window: Press `Add Standard Service …`
 * Insert our `/reconcile` endpoint as `http://data.slub-dresden.de/reconcile`
 
-## Examples
+## Example
+
+Using the prepared file [painter_born.json]({{ site.baseurl }}{% link files/painter_born.json%}) which only contains painter's names and date of birth we want to enrich these persons by:
+
+* their `birth place`
+* date of death
+* GND-ID
 
 ### Usage of the OpenRefine Reconciliation API
+* open a new project in OpenRefine
+* copy the file's URL `{{ site.baseurl }}{% link files/painter_born.json%}` into OpenRefine's `Web Addresses (URLs)`
 
 ### Usage of the OpenRefine Data Extension API
 

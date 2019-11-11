@@ -550,7 +550,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </tbody>
 </table>
 
-### Organisations
+### Organizations
 
 <table class="relative-table wrapped" style="width: 98.9113%;">
   <colgroup>

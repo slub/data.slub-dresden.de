@@ -9,4 +9,4 @@ permalink: doc/data_types
 ---
 
 # Data Types
-used data types for the LOD API
+We use mainly schemas and vocabulary from [schema.org](https://schema.org) to structure the content of our LOD-API.

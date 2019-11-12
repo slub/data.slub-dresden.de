@@ -10,11 +10,11 @@ parent: "Data Types"
 
 # Organizations
 
-* [organization](https://schema.org/Organization)
-  * [name](https://schema.org/name)
-  * [sameAs](https://schema.org/sameAs)
-  * [additionalType](https://schema.org/additionalType)
-  * [alternateName](https://schema.org/alternateName)
+* [organization](https://schema.org/Organization){: .extlink }
+  * [name](https://schema.org/name){: .extlink }
+  * [sameAs](https://schema.org/sameAs){: .extlink }
+  * [additionalType](https://schema.org/additionalType){: .extlink }
+  * [alternateName](https://schema.org/alternateName){: .extlink }
 
 ## Origin
   

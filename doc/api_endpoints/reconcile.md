@@ -11,7 +11,7 @@ parent: "API endpoints"
 # OpenRefine Reconciliation Service
 {: .no_toc}
 
-Our API also has an endpoint to use the [OpenRefine Reconciliation Service API](https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API) as well as [OpenRefine's Data Extension API](https://github.com/OpenRefine/OpenRefine/wiki/Data-Extension-API).
+Our API also has an endpoint to use the [OpenRefine Reconciliation Service API](https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API){: .extlink } as well as [OpenRefine's Data Extension API](https://github.com/OpenRefine/OpenRefine/wiki/Data-Extension-API){: .extlink }.
 
 
 Contents:

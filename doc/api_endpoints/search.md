@@ -47,11 +47,11 @@ The following GET-parameter are available:
 Searching results can be refined through the use of bolean operators (`AND`, `OR`, `AND NOT`), phrase search using `""`, and truncation using `*`. [See advanced example](#advanced-example)
 
 Furthermore a search can be performed using
-* conrete [field names](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_field_names)
-* [wildcards](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_wildcards)
-* [regular expressions](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_regular_expressions)
-* [fuzziness](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_fuzziness)
-* [proximity searches](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_proximity_searches)
+* conrete [field names](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_field_names){: .extlink }
+* [wildcards](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_wildcards){: .extlink }
+* [regular expressions](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_regular_expressions){: .extlink }
+* [fuzziness](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_fuzziness){: .extlink }
+* [proximity searches](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#_proximity_searches){: .extlink }
 
 
 ## Content-Type of return data
@@ -64,7 +64,7 @@ The Content-Type of the returned datasets is defined by the `format` property. F
 * `nq` - N-quads
 
 ## Examples
-Some of the below examples we use the json-manipulating tool `jq` to reduce the output for overview's sake. For more information on how to use `jq`, see their [tutorial](https://stedolan.github.io/jq/tutorial/).
+Some of the below examples we use the json-manipulating tool `jq` to reduce the output for overview's sake. For more information on how to use `jq`, see their [tutorial](https://stedolan.github.io/jq/tutorial/){: .extlink }.
 
 ### Simple Query
 ```sh
@@ -73,7 +73,7 @@ $ curl -X GET "data.slub-dresden.de/search?q=SLUB&size_arg=1" -H "accept: applic
 ```
 ### Field Query
 
-One can query a field directly by using `q=field[.subfield]:querystring`. A detailed description of the query syntax can be found within the [Elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html)
+One can query a field directly by using `q=field[.subfield]:querystring`. A detailed description of the query syntax can be found within the [Elasticsearch documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html){: .extlink }
 
 
 ```sh
@@ -94,7 +94,7 @@ curl -X GET "data.slub-dresden.de/search?q=name:SLUB" -H "accept: application/js
 
 Filters must be given in the form `property:value`, where `property` can be a path concatenated by dots ("."). 
 
-Special characters like `@`, `:`, and `/` need to be escaped using [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding)
+Special characters like `@`, `:`, and `/` need to be escaped using [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding){: .extlink }
 
 Example for valid filters:
 
@@ -164,7 +164,7 @@ To find a entry with the title `Carbonverstärkt entspannen erster SLUB-Lounger 
 curl -X GET "data.slub-dresden.de/search?q=name:(textil*%20AND%20SLUB)" | jq '.[].name'
 "Carbonverstärkt entspannen erster SLUB-Lounger aus Textilbeton eingeweiht"
 ```
-`Textilbeton` is matched by `textil*` and both strings are combined with the `AND` operator. Note, that the spaces have to be escsaped as `%20` according to [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding)
+`Textilbeton` is matched by `textil*` and both strings are combined with the `AND` operator. Note, that the spaces have to be escsaped as `%20` according to [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding){: .extlink }
 
 
 

@@ -24,13 +24,13 @@ If one only needs results for certain entities the `/{entity_index}` can be used
 
 | entity_index     | contains types |
 |:-----------------|:------------|
-| `persons`        | [schema.org/Person](https://schema.org/Person)            | 
-| `events`         | [schema.org/Event](https://schema.org/Event)            |
-| `works`          | [schema.org/CreativeWork](https://schema.org/CreativeWork)             | 
-| `organizations`  | [schema.org/Organization](https://schema.org/Organization)             | 
-| `topics`         | [schema.org/Thing](https://schema.org/Thing)             | 
-| `geo`            | [schema.org/Place](https://schema.org/Place)             | 
-| `slub-resources` | [schema.org/CreativeWork](https://schema.org/CreativeWork)             | 
+| `persons`        | [schema.org/Person](https://schema.org/Person){: .extlink }            | 
+| `events`         | [schema.org/Event](https://schema.org/Event){: .extlink }            |
+| `works`          | [schema.org/CreativeWork](https://schema.org/CreativeWork){: .extlink }             | 
+| `organizations`  | [schema.org/Organization](https://schema.org/Organization){: .extlink }             | 
+| `topics`         | [schema.org/Thing](https://schema.org/Thing){: .extlink }             | 
+| `geo`            | [schema.org/Place](https://schema.org/Place){: .extlink }             | 
+| `slub-resources` | [schema.org/CreativeWork](https://schema.org/CreativeWork){: .extlink }             | 
 
 For usage of `/{entity_index}/search`, compare to [`/search`]({{ site.baseurl }}{% link doc/api_endpoints/search.md %})
 

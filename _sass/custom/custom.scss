@@ -7,8 +7,9 @@
     src: url(../../assets/css/vistasansbold.woff);
 }
 
-a.externallink:after {
-    content: " (external)"
+a.extlink:after {
+    content: url("../../assets/css/external-link-ltr-icon.svg");
+    // content: " (ext)";
 }
 
 $body-font-family: "VistaSansBold", -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;

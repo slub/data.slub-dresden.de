@@ -39,10 +39,10 @@ possible values for `{entity_index}`:
 
 | authority_provider    | name |
 |:------|:-----|
-| `gnd` | [Integrated Authority File](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) by [DNB](https://www.dnb.de/) |
-| `swb` | [SWB online index](http://swb.bsz-bw.de) |
-| `viaf`| [Virutal International Authority File](https://viaf.org/) |
-| `wd`  | [wikidata](https://www.wikidata.org) |
+| `gnd` | [Integrated Authority File](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html){: .extlink } by [DNB](https://www.dnb.de/){: .extlink } |
+| `swb` | [SWB online index](http://swb.bsz-bw.de){: .extlink } |
+| `viaf`| [Virutal International Authority File](https://viaf.org/){: .extlink } |
+| `wd`  | [wikidata](https://www.wikidata.org){: .extlink } |
 
 
 ## Example

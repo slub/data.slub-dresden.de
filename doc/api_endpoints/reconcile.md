@@ -57,6 +57,7 @@ Using the prepared file [painter_born.json]({{ site.baseurl }}{% link assets/fil
   ![Screenshot-reconcile-4]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-4.png%})
 
 #### Add new columns based on reconciled values
+* todo
 
   ![Screenshot-reconcile-5]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-5.png%})
   ![Screenshot-reconcile-6]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-6.png%})

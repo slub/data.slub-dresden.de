@@ -36,7 +36,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier" class="extlink" >identifier</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">

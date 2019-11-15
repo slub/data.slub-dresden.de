@@ -4,28 +4,41 @@ layout: default
 
 title: Organizations
 nav_order: 1
-parent: "Data Types"
+parent: "Entity Types"
 
 ---
 
 # Organizations
 
 * [organization](https://schema.org/Organization){: .extlink }
-  * [name](https://schema.org/name){: .extlink }
-  * [sameAs](https://schema.org/sameAs){: .extlink }
-  * [additionalType](https://schema.org/additionalType){: .extlink }
-  * [alternateName](https://schema.org/alternateName){: .extlink }
+
+| property                                                                 | Type        | multi-/ single valued | comments |
+|:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
+| @context                                                                 | URI         |  s  | `"http://schema.org"`      |
+| @id                                                                      | URI         |  s  | `"http://data.slub-dresden.de/organizations/SWB-ID"` |
+| @type                                                                    | URI         |  s  | `"http://schema.org/Organization"` |
+| [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
+| [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  s  | |
+| [additionalType](https://schema.org/additionalType){: .extlink }         | Literal/URI |  m  | |
+| [alternateName](https://schema.org/alternateName){: .extlink }           | Literal     |  m  | |
+| [areaServed](https://schema.org/areaServed){: .extlink }                 | Literal/URI |  s  | |
+| [parentOrganization](https://schema.org/parentOrganization){: .extlink } | Literal/URI |  s  | |
+| [location](https://schema.org/location){: .extlink }                     | Literal/URI |  s  | |
+| [fromLocation](https://schema.org/fromLocation){: .extlink }             | Literal/URI |  s  | |
+| [about](https://schema.org/about){: .extlink }                           | Literal/URI |  s  | |
+
 
 ## Origin
   
   See [MARC21-mapping: Organizations]({{ site.baseurl }}{% link doc/mappings/marc21.md %}#organizations)
 
 ## Example
-
-### Overview
-
 ```sh
 $ curl -XGET "http://data.slub-dresden.de/organizations/191800287" | jq
+```
+### Structure
+
+```sh
 [
   {
     "@context": "http://schema.org",
@@ -39,23 +52,12 @@ $ curl -XGET "http://data.slub-dresden.de/organizations/191800287" | jq
     "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/191800287",
     "location": {…},
     "name": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden",
-    "sameAs": [
-      "http://d-nb.info/gnd/5165770-3",
-      "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=191800287",
-      "http://catalogue.bnf.fr/ark:/12148/cb158801721",
-      "http://kalliope-verbund.info/gnd/5165770-3",
-      "https://de.wikipedia.org/wiki/S%C3%A4chsische_Landesbibliothek_%E2%80%93_Staats-_und_Universit%C3%A4tsbibliothek_Dresden",
-      "https://en.wikipedia.org/wiki/Saxon_State_and_University_Library_Dresden",
-      "http://viaf.org/viaf/126840482",
-      "http://www.isni.org/0000000119395418",
-      "http://www.wikidata.org/entity/Q323270"
-    ]
+    "sameAs": […]
   }
 ]
 ```
 ### In Detail  
 ```sh
-$ curl -XGET "http://data.slub-dresden.de/organizations/191800287" | jq
 [
   {
     "@context": "http://schema.org",

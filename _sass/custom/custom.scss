@@ -7,11 +7,6 @@
     src: url(../../assets/css/vistasansbold.woff);
 }
 
-a.extlink:after {
-    content: url("../../assets/css/external-link-ltr-icon.svg");
-    // content: " (ext)";
-}
-
 $body-font-family: "VistaSansBold", -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
 //$mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace;
 //$root-font-size: 16px;         // Base font-size for rems
@@ -47,6 +42,7 @@ $body-font-family: "VistaSansBold", -apple-system, BlinkMacSystemFont, "helvetic
 //$blue-300: #183385;
 $slub-blau:     #00afc8;
 $slub-hellblau: #87cdd7;
+$slub-tuerkis: #078078;
 
 //$green-000: #41d693;
 //$green-100: #11b584;
@@ -74,7 +70,7 @@ $slub-rot: #cc0000;
 //$body-heading-color: $grey-dk-300;
 //$search-result-preview-color: $grey-dk-000;
 //$nav-child-link-color: $grey-dk-100;
-$link-color: $slub-blau;
+$link-color: $slub-tuerkis;
 //$btn-primary-color: $purple-100;
 //$base-button-color: #f7f7f7;
 
@@ -140,3 +136,12 @@ $link-color: $slub-blau;
 //lg: $content-width + $nav-width,
 //xl: 1400px
 //);
+
+a.extlink {
+    color: $slub-blau;
+}
+a.extlink:after {
+    content: url("../../assets/css/external-link-ltr-icon.svg");
+    // content: " (ext)";
+}
+

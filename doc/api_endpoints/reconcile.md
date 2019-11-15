@@ -33,7 +33,7 @@ Using the prepared file [painter_born.json]({{ site.baseurl }}{% link assets/fil
 * date of death (`deathDate`)
 * GND-ID (contained in `sameAs`)
 
-### Usage of the OpenRefine Reconciliation API
+### Usage of the OpenRefine Reconciliation and Data Extension API
 #### Import example file
 * open a new project in OpenRefine
 * copy the file's URL `{{ site.url }}{{ site.baseurl }}{% link assets/files/painter_born.json%}` into OpenRefine's `Web Addresses (URLs)`
@@ -48,22 +48,22 @@ Using the prepared file [painter_born.json]({{ site.baseurl }}{% link assets/fil
 
   ![Screenshot-reconcile-2]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-2.png%})
 
-* Select "Person" as entity and inclue the "_-_-born" column as `birthDate` ([See Data Type details for Persons]({{ site.baseurl }}{% link doc/data_types/persons.md%})). Eventually, press `Start Reconciling`
+* Select "Person" as entity and inclue the "_-_-born" column as `birthDate` ([See Data Type details for Persons]({{ site.baseurl }}{% link doc/entity_types/persons.md%})). Eventually, press `Start Reconciling`
 
   ![Screenshot-reconcile-3]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-3.png%})
 
-* The not-matched data you can match manually by choosing the right dataset
+* Not-matched data have to be matched manually by choosing the right dataset.
 
   ![Screenshot-reconcile-4]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-4.png%})
 
 #### Add new columns based on reconciled values
-* todo
+* Based on the reconciled values we now can add new value with the API's content
+* Choose again the column where the reconciliation took place and select `Edit column` → `Add columns from reconciled values …`
 
   ![Screenshot-reconcile-5]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-5.png%})
+
+* Here we search and add new properties: `birthPlace`, `deathDate`, and `sameAs`. Finally, apply the addition by pressing `OK`.
+
   ![Screenshot-reconcile-6]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-6.png%})
-
-
-### Usage of the OpenRefine Data Extension API
-
 
 

@@ -10,6 +10,9 @@ parent: "Mappings"
 {: .no_toc}
 On this page you can find our mapping-tables, which are fed into our processing pipelines to generate Linked Data out of the raw source [MARC21](https://www.loc.gov/marc/bibliographic/ "MARC21"){: .extlink } data.
 
+
+## Content
+{: .no_toc}
 * TOC
 {:toc}
 
@@ -49,7 +52,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI</td>
       <td>
-        <a href="http://schema.org/sameAs">sameAs</a>
+        <a href="http://schema.org/sameAs" class="extlink">sameAs</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -63,7 +66,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">Literal</td>
       <td>
         <p>
-          <a href="https://schema.org/author">
+          <a href="https://schema.org/author" class="extlink">
             <ac:inline-comment-marker ac:ref="278ee28e-7b64-4dad-930d-40ce9283821e">author</ac:inline-comment-marker>
           </a>
         </p>
@@ -77,7 +80,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">700</td>
       <td colspan="1">URI/literal</td>
       <td colspan="1">
-        <a href="https://schema.org/contributor">contributor</a>
+        <a href="https://schema.org/contributor" class="extlink">contributor</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -88,7 +91,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>130.*.f<br/>260.*.c<br/>264.*.c<br/>362.*.a</td>
       <td colspan="1">ISO8601</td>
       <td>
-        <a href="https://schema.org/datePublished">datePublished</a>
+        <a href="https://schema.org/datePublished" class="extlink">datePublished</a>
         <p>
           <br/>
         </p>
@@ -102,23 +105,23 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">936</td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://schema.org/about">
+        <a href="https://schema.org/about" class="extlink">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">about</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe"> : { </ac:inline-comment-marker>
-        <a href="https://schema.org/identifier">
+        <a href="https://schema.org/identifier" class="extlink">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">identifier</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://schema.org/keywords">
+        <a href="https://schema.org/keywords" class="extlink">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">keywords</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://schema.org/@id">
+        <a href="https://schema.org/@id" class="extlink">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">@id</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://schema.org/sameAs">
+        <a href="https://schema.org/sameAs" class="extlink">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">sameAs</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">}</ac:inline-comment-marker>
@@ -138,7 +141,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/name">name</a>
+        <a href="https://schema.org/name" class="extlink">name</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">if last 2 characters are " /", then those characters get trimmed.</td>
@@ -150,7 +153,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName" class="extlink">alternateName</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -161,7 +164,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>502.*.abcd</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://schema.org/Thesis">Thesis</a>
+        <a href="https://schema.org/Thesis" class="extlink">Thesis</a>
       </td>
       <td colspan="1" style="text-align: center;">
         <br/>
@@ -187,7 +190,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">URN/ISSN</td>
       <td>
         <p>
-          <a href="https://gschmea.org/issn">issn</a>
+          <a href="https://gschmea.org/issn" class="extlink">issn</a>
         </p>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
@@ -210,7 +213,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN/ISBN</td>
       <td>
-        <a href="https://schema.org/isbn">isbn</a>
+        <a href="https://schema.org/isbn" class="extlink">isbn</a>
         <p>
           <br/>
         </p>
@@ -225,7 +228,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal/URI</td>
       <td>
-        <a href="https://schema.org/genre">genre</a>
+        <a href="https://schema.org/genre" class="extlink">genre</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -236,7 +239,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>551 if subfeld 9==4:orth</td>
       <td colspan="1">Literal/URI</td>
       <td>
-        <a href="https://schema.org/locationCreated">
+        <a href="https://schema.org/locationCreated" class="extlink">
           <ac:inline-comment-marker ac:ref="b39cb475-76aa-4ca3-81a8-6929237af3f0">locationCreated</ac:inline-comment-marker>
         </a>
       </td>
@@ -249,7 +252,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">260<br/>264</td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/publisher">publisher</a>
+        <a href="https://schema.org/publisher" class="extlink">publisher</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">Following characters and whitespace gets trimmed: (, . : ; ).</td>
@@ -262,7 +265,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">
         <p>
-          <a href="https://schema.org/disambiguatingDescription">disambiguatingDescription</a>
+          <a href="https://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a>
         </p>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
@@ -274,7 +277,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">520.*.a</td>
       <td colspan="1">Text</td>
       <td colspan="1">
-        <a href="https://schema.org/description">description</a>
+        <a href="https://schema.org/description" class="extlink">description</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -285,7 +288,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">773.*.g</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/hasPart">hasPart</a>
+        <a href="https://schema.org/hasPart" class="extlink">hasPart</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -297,7 +300,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">literal</td>
       <td colspan="1">
-        <a href="https://schema.org/isPartOf">isPartOf</a>
+        <a href="https://schema.org/isPartOf" class="extlink">isPartOf</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -308,7 +311,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">830</td>
       <td colspan="1">URI/literal</td>
       <td colspan="1">
-        <a href="https://schema.org/partOfSeries">partOfSeries</a>
+        <a href="https://schema.org/partOfSeries" class="extlink">partOfSeries</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -320,7 +323,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI/Literal</td>
       <td>
-        <a href="https://schema.org/license">license</a>
+        <a href="https://schema.org/license" class="extlink">license</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -335,7 +338,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/inLanguage">inLanguage</a>
+        <a href="https://schema.org/inLanguage" class="extlink">inLanguage</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -346,7 +349,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">689</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/mentions">mentions</a>
+        <a href="https://schema.org/mentions" class="extlink">mentions</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -358,7 +361,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Integer</td>
       <td colspan="1">
-        <a href="http://schema.org/numberOfPages">numberOfPages</a>
+        <a href="http://schema.org/numberOfPages" class="extlink">numberOfPages</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -370,7 +373,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Integer</td>
       <td colspan="1">
-        <a href="https://schema.org/pageStart">pageStart</a>
+        <a href="https://schema.org/pageStart" class="extlink">pageStart</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -382,7 +385,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Integer</td>
       <td colspan="1">
-        <a href="https://schema.org/issueNumber">issueNumber</a>
+        <a href="https://schema.org/issueNumber" class="extlink">issueNumber</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -393,7 +396,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">500</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/relatedTo">relatedTo</a>
+        <a href="https://schema.org/relatedTo" class="extlink">relatedTo</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -431,7 +434,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">K10Plus-PPN</td>
       <td colspan="1">
-        <a href="https://schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier" class="extlink">identifier</a>
       </td>
     </tr>
     <tr>
@@ -441,7 +444,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI</td>
       <td>
-        <a href="http://schema.org/sameAs">sameAs</a>
+        <a href="http://schema.org/sameAs" class="extlink">sameAs</a>
       </td>
     </tr>
     <tr>
@@ -451,7 +454,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">Literal</td>
       <td>
         <p>
-          <a href="http://schema.org/name">name</a>
+          <a href="http://schema.org/name" class="extlink">name</a>
         </p>
       </td>
     </tr>
@@ -460,10 +463,10 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">Date</td>
       <td>
         <p>
-          <a href="http://schema.org/birthDate">birthDate</a>
+          <a href="http://schema.org/birthDate" class="extlink">birthDate</a>
         </p>
         <p>
-          <a href="http://schema.org/deathDate">deathDate</a>
+          <a href="http://schema.org/deathDate" class="extlink">deathDate</a>
         </p>
       </td>
     </tr>
@@ -471,14 +474,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>375.*.a</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="http://schema.org/gender">gender</a>
+        <a href="http://schema.org/gender" class="extlink">gender</a>
       </td>
     </tr>
     <tr>
       <td>400.*.a</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="http://schema.org/alternateName">alternateName</a>
+        <a href="http://schema.org/alternateName" class="extlink">alternateName</a>
       </td>
     </tr>
     <tr>
@@ -488,10 +491,10 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">URI/Literal</td>
       <td>
         <p>
-          <a href="http://schema.org/relatedTo">relatedTo</a> Person</p>
+          <a href="http://schema.org/relatedTo" class="extlink">relatedTo</a> Person</p>
         <p>e.g.:</p>
         <p>
-          <a href="http://schema.org/spouse">spouse</a> / <a href="http://schema.org/sibling">sibling</a> / <a href="http://schema.org/parent">parent</a> / <a href="http://schema.org/sponsor">sponsor</a> / <a href="http://schema.org/children">children</a> / <a href="http://schema.org/colleague">colleague</a> / <a href="http://schema.org/follows">follows</a> / <a href="http://schema.org/knows">knows</a>
+          <a href="http://schema.org/spouse" class="extlink">spouse</a> / <a href="http://schema.org/sibling" class="extlink">sibling</a> / <a href="http://schema.org/parent" class="extlink">parent</a> / <a href="http://schema.org/sponsor" class="extlink">sponsor</a> / <a href="http://schema.org/children" class="extlink">children</a> / <a href="http://schema.org/colleague" class="extlink">colleague</a> / <a href="http://schema.org/follows" class="extlink">follows</a> / <a href="http://schema.org/knows" class="extlink">knows</a>
         </p>
       </td>
     </tr>
@@ -500,10 +503,10 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">Literal/URI</td>
       <td>
         <p>
-          <a href="https://schema.org/hasoccupation">hasOccupation</a>
+          <a href="https://schema.org/hasoccupation" class="extlink">hasOccupation</a>
         </p>
         <p>
-          <a href="https://schema.org/honorificSuffix">honorificSuffix</a>
+          <a href="https://schema.org/honorificSuffix" class="extlink">honorificSuffix</a>
         </p>
       </td>
     </tr>
@@ -522,7 +525,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
         <br/>
       </td>
       <td>
-        <a href="https://schema.org/workLocation">workLocation</a>
+        <a href="https://schema.org/workLocation" class="extlink">workLocation</a>
       </td>
     </tr>
     <tr>
@@ -532,10 +535,10 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">
         <p>
-          <a href="https://schema.org/birthplace">birthPlace</a>
+          <a href="https://schema.org/birthplace" class="extlink">birthPlace</a>
         </p>
         <p>
-          <a href="https://schema.org/deathPlace">deathPlace</a>
+          <a href="https://schema.org/deathPlace" class="extlink">deathPlace</a>
         </p>
       </td>
     </tr>
@@ -545,7 +548,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
+        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://schema.org/@id" rel="nofollow">@id</a>,<a href="https://schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
     </tr>
   </tbody>
 </table>
@@ -568,7 +571,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier" class="extlink">identifier</a>
       </td>
     </tr>
     <tr>
@@ -577,21 +580,21 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI</td>
       <td>
-        <a href="http://schema.org/sameAs">sameAs</a>
+        <a href="http://schema.org/sameAs" class="extlink">sameAs</a>
       </td>
     </tr>
     <tr>
       <td>035.*.a</td>
       <td colspan="1">URI</td>
       <td>
-        <a href="http://schema.org/sameAs">sameAs</a>
+        <a href="http://schema.org/sameAs" class="extlink">sameAs</a>
       </td>
     </tr>
     <tr>
       <td>110.*.a</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://schema.org/name">name</a>
+        <a href="https://schema.org/name" class="extlink">name</a>
       </td>
     </tr>
     <tr>
@@ -599,42 +602,42 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName" class="extlink">alternateName</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">550 if subfield 9==4:obin</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
-        <a href="https://schema.org/additionalType">additionalType</a>
+        <a href="https://schema.org/additionalType" class="extlink">additionalType</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if subfield 9==4:adue</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
-        <a href="https://schema.org/parentOrganization">parentOrganization</a>
+        <a href="https://schema.org/parentOrganization" class="extlink">parentOrganization</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if subfield 9 ==4:orta</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
-        <a href="https://schema.org/location">location</a>
+        <a href="https://schema.org/location" class="extlink">location</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if subfield 9 ==4:geoa</td>
       <td colspan="1">Literal/URI</td>
       <td colspan="1">
-        <a href="https://schema.org/fromLocation">fromLocation</a>
+        <a href="https://schema.org/fromLocation" class="extlink">fromLocation</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if subfield 9 ==4:geow</td>
       <td colspan="1">Literal/Uri</td>
       <td colspan="1">
-        <a href="https://schema.org/areaServed">areaServed</a>
+        <a href="https://schema.org/areaServed" class="extlink">areaServed</a>
       </td>
     </tr>
     <tr>
@@ -643,7 +646,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
+        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://schema.org/@id" rel="nofollow">@id</a>,<a href="https://schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
     </tr>
   </tbody>
 </table>
@@ -666,7 +669,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier" class="extlink">identifier</a>
       </td>
     </tr>
     <tr>
@@ -675,21 +678,21 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI</td>
       <td>
-        <a href="http://schema.org/sameAs">sameAs</a>
+        <a href="http://schema.org/sameAs" class="extlink">sameAs</a>
       </td>
     </tr>
     <tr>
       <td>035.*.a</td>
       <td colspan="1">URI</td>
       <td>
-        <a href="http://schema.org/sameAs">sameAs</a>
+        <a href="http://schema.org/sameAs" class="extlink">sameAs</a>
       </td>
     </tr>
     <tr>
       <td>110.*.a</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://schema.org/name">name</a>
+        <a href="https://schema.org/name" class="extlink">name</a>
       </td>
     </tr>
     <tr>
@@ -697,21 +700,21 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName" class="extlink">alternateName</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551</td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/description">description</a>
+        <a href="https://schema.org/description" class="extlink">description</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">034.*.defg</td>
       <td colspan="1">WGS84</td>
       <td colspan="1">
-        <a href="https://schema.org/GeoCoordinates">GeoCoordinates</a>
+        <a href="https://schema.org/GeoCoordinates" class="extlink">GeoCoordinates</a>
       </td>
     </tr>
     <tr>
@@ -720,7 +723,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
+        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://schema.org/@id" rel="nofollow">@id</a>,<a href="https://schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
     </tr>
   </tbody>
 </table>
@@ -743,7 +746,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier" class="extlink">identifier</a>
       </td>
     </tr>
     <tr>
@@ -752,21 +755,21 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI</td>
       <td>
-        <a href="http://schema.org/sameAs">sameAs</a>
+        <a href="http://schema.org/sameAs" class="extlink">sameAs</a>
       </td>
     </tr>
     <tr>
       <td>035.*.a</td>
       <td colspan="1">URI</td>
       <td>
-        <a href="http://schema.org/sameAs">sameAs</a>
+        <a href="http://schema.org/sameAs" class="extlink">sameAs</a>
       </td>
     </tr>
     <tr>
       <td>150.*.a</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://schema.org/name">name</a>
+        <a href="https://schema.org/name" class="extlink">name</a>
       </td>
     </tr>
     <tr>
@@ -774,63 +777,63 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName" class="extlink">alternateName</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">679.*.a</td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/description">description</a>
+        <a href="https://schema.org/description" class="extlink">description</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">550</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/additionalType">additionalType</a>
+        <a href="https://schema.org/additionalType" class="extlink">additionalType</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if subfield 9==4:orta</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/location">location</a>
+        <a href="https://schema.org/location" class="extlink">location</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if subfield 9==4:geoa</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/fromLocation">fromLocation</a>
+        <a href="https://schema.org/fromLocation" class="extlink">fromLocation</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if subfield 9==4:geow</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/areaServed">areaServed</a>
+        <a href="https://schema.org/areaServed" class="extlink">areaServed</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if subfield 9==4:punk</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/contentLocation">contentLocation</a>
+        <a href="https://schema.org/contentLocation" class="extlink">contentLocation</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if subfield 9==4:bete</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/participant">participant</a>
+        <a href="https://schema.org/participant" class="extlink">participant</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if subfield 9==4:vbal</td>
       <td colspan="1">URI/literal</td>
       <td colspan="1">
-        <a href="https://schema.org/relatedTo">relatedTo</a>
+        <a href="https://schema.org/relatedTo" class="extlink">relatedTo</a>
       </td>
     </tr>
     <tr>
@@ -839,7 +842,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
+        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://schema.org/@id" rel="nofollow">@id</a>,<a href="https://schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
     </tr>
   </tbody>
 </table>
@@ -862,7 +865,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier" class="extlink">identifier</a>
       </td>
     </tr>
     <tr>
@@ -871,21 +874,21 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI</td>
       <td>
-        <a href="http://schema.org/sameAs">sameAs</a>
+        <a href="http://schema.org/sameAs" class="extlink">sameAs</a>
       </td>
     </tr>
     <tr>
       <td>035.*.a</td>
       <td colspan="1">URI</td>
       <td>
-        <a href="http://schema.org/sameAs">sameAs</a>
+        <a href="http://schema.org/sameAs" class="extlink">sameAs</a>
       </td>
     </tr>
     <tr>
       <td>110.*.a</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://schema.org/name">name</a>
+        <a href="https://schema.org/name" class="extlink">name</a>
       </td>
     </tr>
     <tr>
@@ -893,14 +896,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName" class="extlink">alternateName</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551</td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/description">description</a>
+        <a href="https://schema.org/description" class="extlink">description</a>
       </td>
     </tr>
     <tr>
@@ -909,34 +912,34 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://intranet.slub-dresden.de/schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://intranet.slub-dresden.de/schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://intranet.slub-dresden.de/schema.org/@id" rel="nofollow">@id</a>,<a href="https://intranet.slub-dresden.de/schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
+        <a href="https://schema.org/about" rel="nofollow">about</a> : { <a href="https://schema.org/identifier" rel="nofollow">identifier</a>,<a href="https://schema.org/keywords" rel="nofollow">keywords</a>,<a href="https://schema.org/@id" rel="nofollow">@id</a>,<a href="https://schema.org/sameAs" rel="nofollow">sameAs</a>}</td>
     </tr>
     <tr>
       <td colspan="1">548</td>
       <td colspan="1">Datum</td>
       <td colspan="1">
-        <a href="https://schema.org/startDate">startDate</a>
+        <a href="https://schema.org/startDate" class="extlink">startDate</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">548</td>
       <td colspan="1">Datum</td>
       <td colspan="1">
-        <a href="https://schema.org/endDate">endDate</a>
+        <a href="https://schema.org/endDate" class="extlink">endDate</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">043.*.c</td>
       <td colspan="1">ISO 3166</td>
       <td colspan="1">
-        <a href="https://schema.org/adressRegion">adressRegion</a>
+        <a href="https://schema.org/adressRegion" class="extlink">adressRegion</a>
       </td>
     </tr>
     <tr>
       <td colspan="1">551 if subfield 4==ortv</td>
       <td colspan="1">URI</td>
       <td colspan="1">
-        <a href="https://schema.org/location">location</a>
+        <a href="https://schema.org/location" class="extlink">location</a>
       </td>
     </tr>
   </tbody>
@@ -964,7 +967,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">001</td>
       <td colspan="1">SWB-PPN</td>
       <td colspan="1">
-        <a href="https://schema.org/identifier">identifier</a>
+        <a href="https://schema.org/identifier" class="extlink">identifier</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -977,7 +980,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI</td>
       <td>
-        <a href="http://schema.org/sameAs">sameAs</a>
+        <a href="http://schema.org/sameAs" class="extlink">sameAs</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -991,7 +994,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">Literal</td>
       <td>
         <p>
-          <a href="https://schema.org/author">
+          <a href="https://schema.org/author" class="extlink">
             <ac:inline-comment-marker ac:ref="278ee28e-7b64-4dad-930d-40ce9283821e">author</ac:inline-comment-marker>
           </a>
         </p>
@@ -1005,7 +1008,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">700</td>
       <td colspan="1">URI/literal</td>
       <td colspan="1">
-        <a href="https://schema.org/contributor">contributor</a>
+        <a href="https://schema.org/contributor" class="extlink">contributor</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1016,7 +1019,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>130.*.f<br/>260.*.c<br/>264.*.c<br/>362.*.a</td>
       <td colspan="1">ISO8601</td>
       <td>
-        <a href="https://schema.org/datePublished">datePublished</a>
+        <a href="https://schema.org/datePublished" class="extlink">datePublished</a>
         <p>
           <br/>
         </p>
@@ -1030,23 +1033,23 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">936</td>
       <td colspan="1">URN</td>
       <td colspan="1">
-        <a href="https://schema.org/about">
+        <a href="https://schema.org/about" class="extlink">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">about</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe"> : { </ac:inline-comment-marker>
-        <a href="https://schema.org/identifier">
+        <a href="https://schema.org/identifier" class="extlink">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">identifier</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://schema.org/keywords">
+        <a href="https://schema.org/keywords" class="extlink">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">keywords</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://schema.org/@id">
+        <a href="https://schema.org/@id" class="extlink">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">@id</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">,</ac:inline-comment-marker>
-        <a href="https://schema.org/sameAs">
+        <a href="https://schema.org/sameAs" class="extlink">
           <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">sameAs</ac:inline-comment-marker>
         </a>
         <ac:inline-comment-marker ac:ref="a7378bf9-9eb6-4e9d-8c19-c0a7c0d633fe">}</ac:inline-comment-marker>
@@ -1062,7 +1065,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/name">name</a>
+        <a href="https://schema.org/name" class="extlink">name</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">if last 2 characters are " /", then those characters get trimmed.</td>
@@ -1073,7 +1076,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://schema.org/alternateName">alternateName</a>
+        <a href="https://schema.org/alternateName" class="extlink">alternateName</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1084,7 +1087,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>502.*.abcd</td>
       <td colspan="1">Literal</td>
       <td>
-        <a href="https://schema.org/Thesis">Thesis</a>
+        <a href="https://schema.org/Thesis" class="extlink">Thesis</a>
       </td>
       <td colspan="1" style="text-align: center;">
         <br/>
@@ -1110,7 +1113,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">URN/ISSN</td>
       <td>
         <p>
-          <a href="https://gschmea.org/issn">issn</a>
+          <a href="https://gschmea.org/issn" class="extlink">issn</a>
         </p>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
@@ -1133,7 +1136,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URN/ISBN</td>
       <td>
-        <a href="https://schema.org/isbn">isbn</a>
+        <a href="https://schema.org/isbn" class="extlink">isbn</a>
         <p>
           <br/>
         </p>
@@ -1148,7 +1151,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Literal/URI</td>
       <td>
-        <a href="https://schema.org/genre">genre</a>
+        <a href="https://schema.org/genre" class="extlink">genre</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1159,7 +1162,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>551 if subfeld 9==4:orth</td>
       <td colspan="1">Literal/URI</td>
       <td>
-        <a href="https://schema.org/locationCreated">
+        <a href="https://schema.org/locationCreated" class="extlink">
           <ac:inline-comment-marker ac:ref="b39cb475-76aa-4ca3-81a8-6929237af3f0">locationCreated</ac:inline-comment-marker>
         </a>
       </td>
@@ -1172,7 +1175,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">260<br/>264</td>
       <td colspan="1">Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/publisher">publisher</a>
+        <a href="https://schema.org/publisher" class="extlink">publisher</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">Following characters and whitespace get trimmed: (, . : ; ).</td>
@@ -1185,7 +1188,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">
         <p>
-          <a href="https://schema.org/disambiguatingDescription">disambiguatingDescription</a>
+          <a href="https://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a>
         </p>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
@@ -1197,7 +1200,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">520.*.a</td>
       <td colspan="1">Text</td>
       <td colspan="1">
-        <a href="https://schema.org/description">description</a>
+        <a href="https://schema.org/description" class="extlink">description</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -1208,7 +1211,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">773.*.g</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/hasPart">hasPart</a>
+        <a href="https://schema.org/hasPart" class="extlink">hasPart</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1220,7 +1223,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">literal</td>
       <td colspan="1">
-        <a href="https://schema.org/isPartOf">isPartOf</a>
+        <a href="https://schema.org/isPartOf" class="extlink">isPartOf</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1231,7 +1234,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">830</td>
       <td colspan="1">URI/literal</td>
       <td colspan="1">
-        <a href="https://schema.org/partOfSeries">partOfSeries</a>
+        <a href="https://schema.org/partOfSeries" class="extlink">partOfSeries</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -1243,7 +1246,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI/Literal</td>
       <td>
-        <a href="https://schema.org/license">license</a>
+        <a href="https://schema.org/license" class="extlink">license</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -1258,7 +1261,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/inLanguage">inLanguage</a>
+        <a href="https://schema.org/inLanguage" class="extlink">inLanguage</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1269,7 +1272,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">689</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/mentions">mentions</a>
+        <a href="https://schema.org/mentions" class="extlink">mentions</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
@@ -1281,7 +1284,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Integer</td>
       <td colspan="1">
-        <a href="http://schema.org/numberOfPages">numberOfPages</a>
+        <a href="http://schema.org/numberOfPages" class="extlink">numberOfPages</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -1293,7 +1296,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Integer</td>
       <td colspan="1">
-        <a href="https://schema.org/pageStart">pageStart</a>
+        <a href="https://schema.org/pageStart" class="extlink">pageStart</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -1305,7 +1308,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       </td>
       <td colspan="1">Integer</td>
       <td colspan="1">
-        <a href="https://schema.org/issueNumber">issueNumber</a>
+        <a href="https://schema.org/issueNumber" class="extlink">issueNumber</a>
       </td>
       <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
@@ -1316,7 +1319,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">500</td>
       <td colspan="1">URI/Literal</td>
       <td colspan="1">
-        <a href="https://schema.org/relatedTo">relatedTo</a>
+        <a href="https://schema.org/relatedTo" class="extlink">relatedTo</a>
       </td>
       <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">

@@ -10,7 +10,7 @@ parent: "Entity Types"
 
 # Organizations
 
-* [organization](https://schema.org/Organization){: .extlink }
+* [Organization](https://schema.org/Organization){: .extlink }
 
 | property                                                                 | Type        | multi-/ single valued | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
@@ -25,7 +25,7 @@ parent: "Entity Types"
 | [parentOrganization](https://schema.org/parentOrganization){: .extlink } | Literal/URI |  s  | |
 | [location](https://schema.org/location){: .extlink }                     | Literal/URI |  s  | |
 | [fromLocation](https://schema.org/fromLocation){: .extlink }             | Literal/URI |  s  | |
-| [about](https://schema.org/about){: .extlink }                           | Literal/URI |  s  | |
+| ·[about](https://schema.org/about){: .extlink }                          | Literal/URI |  s  | |
 
 
 ## Origin

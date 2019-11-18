@@ -254,7 +254,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">
         <a href="https://schema.org/publisher" class="extlink">publisher</a>
       </td>
-      <td colspan="1" style="text-align: center;">M</td>
+      <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">Following characters and whitespace gets trimmed: (, . : ; ).</td>
     </tr>
     <tr>
@@ -313,7 +313,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">
         <a href="https://schema.org/partOfSeries" class="extlink">partOfSeries</a>
       </td>
-      <td colspan="1" style="text-align: center;">S</td>
+      <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
         <br/>
       </td>
@@ -1166,7 +1166,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
           <ac:inline-comment-marker ac:ref="b39cb475-76aa-4ca3-81a8-6929237af3f0">locationCreated</ac:inline-comment-marker>
         </a>
       </td>
-      <td colspan="1" style="text-align: center;">M</td>
+      <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">
         <br/>
       </td>
@@ -1177,7 +1177,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">
         <a href="https://schema.org/publisher" class="extlink">publisher</a>
       </td>
-      <td colspan="1" style="text-align: center;">M</td>
+      <td colspan="1" style="text-align: center;">S</td>
       <td colspan="1">Following characters and whitespace get trimmed: (, . : ; ).</td>
     </tr>
     <tr>
@@ -1236,7 +1236,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">
         <a href="https://schema.org/partOfSeries" class="extlink">partOfSeries</a>
       </td>
-      <td colspan="1" style="text-align: center;">S</td>
+      <td colspan="1" style="text-align: center;">M</td>
       <td colspan="1">
         <br/>
       </td>

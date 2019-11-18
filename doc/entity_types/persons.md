@@ -12,22 +12,32 @@ parent: "Entity Types"
 
 * [persons](https://schema.org/persons){: .extlink }
 
-| property                                                                 | Type        | multi-/ single valued | comments |
-|:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
-| @context                                                                 | URI         |  s  | `"http://schema.org"`      |
-| @id                                                                      | URI         |  s  | `"http://data.slub-dresden.de/organizations/SWB-ID"` |
-| @type                                                                    | URI         |  s  | `"http://schema.org/Organization"` |
-| [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
-| [honorificSuffix](https://schema.org/honorificSuffix){: .extlink }       | Literal     |  s  | |
-| [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  s  | |
-| [birthDate](https://schema.org/birthDate){: .extlink }                   | Literal     |  s  | |
-| [birthPlace](https://schema.org/birthPlace){: .extlink }                 | Literal/URI |  s  | |
-| [deathDate](https://schema.org/deathDate){: .extlink }                   | Literal     |  s  | |
-| [deathPlace](https://schema.org/deathPlace){: .extlink }                 | Literal/URI |  s  | |
-| [alternateName](https://schema.org/alternateName){: .extlink }           | Literal     |  m  | |
-| [workLocation](https://schema.org/workLocation){: .extlink }             | URI         |  s/m  | |
-| [relatedTo](https://schema.org/relatedTo){: .extlink }                   | Literal/URI |  m  | e.g. [spouse](https://schema.org/spouse){: .extlink }, [parent](https://schema.org/parent){: .extlink }, [sibling](https://schema.org/sibling){: .extlink }, [children](https://schema.org/children){: .extlink }, [sponsor](https://schema.org/sponsor){: .extlink }, [colleague](https://schema.org/colleague){: .extlink }, [follows](https://schema.org/follows){: .extlink }, [knows](https://schema.org/knows){: .extlink }|  
-| [about](https://schema.org/about){: .extlink }                           | Literal/URI |  s  | |
+| property                                                                 | Type        | multi-/ single valued | example | comments |
+|:-------------------------------------------------------------------------|:------------|:----------------------|:--------|:---------|
+| @context                                                                 | URI         |  s  | | `"http://schema.org"`      |
+| @id                                                                      | URI         |  s  | | `"http://data.slub-dresden.de/organizations/SWB-ID"` |
+| @type                                                                    | URI         |  s  | | `"http://schema.org/Organization"` |
+| [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | | |
+| [alternateName](https://schema.org/alternateName){: .extlink }           | Literal     |  m  | | |
+| [honorificSuffix](https://schema.org/honorificSuffix){: .extlink }       | Literal     |  s  | [080291880](http://data.slub-dresden.de/persons/080291880)|  |
+| [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  s  | | |
+| ·[gender](https://schema.org/gender){: .extlink }                        | Literal     |  s  | | |
+| [birthDate](https://schema.org/birthDate){: .extlink }                   | Literal     |  s  | [077031474](http://data.slub-dresden.de/persons/077031474) | |
+| [birthPlace](https://schema.org/birthPlace){: .extlink }                 | Literal/URI |  s  | [077031474](http://data.slub-dresden.de/persons/077031474) | |
+| [deathDate](https://schema.org/deathDate){: .extlink }                   | Literal     |  s  | [077031474](http://data.slub-dresden.de/persons/077031474) | |
+| [deathPlace](https://schema.org/deathPlace){: .extlink }                 | Literal/URI |  s  | [077031474](http://data.slub-dresden.de/persons/077031474) | |
+| [workLocation](https://schema.org/workLocation){: .extlink }             | URI         | s/m | | |
+| [hasOccupation](https://schema.org/hasOccupation){: .extlink }           | Literal/URI |  m  | | |
+
+| [relatedTo](https://schema.org/relatedTo){: .extlink }                   | Literal/URI |  m  | | |
+| [spouse](https://schema.org/spouse){: .extlink }                         | Literal/URI |  m  | | | 
+| [parent](https://schema.org/parent){: .extlink }                         | Literal/URI |  m  | | |  
+| [sibling](https://schema.org/sibling){: .extlink }                       | Literal/URI |  m  | | |  
+| [children](https://schema.org/children){: .extlink }                     | Literal/URI |  m  | | |  
+| ·[sponsor](https://schema.org/sponsor){: .extlink }                      | Literal/URI |  m  | | |  
+| [colleague](https://schema.org/colleague){: .extlink }                   | Literal/URI |  m  | | |
+| ·[follows](https://schema.org/follows){: .extlink }                      | Literal/URI |  m  | | |  
+| ·[knows](https://schema.org/knows){: .extlink }                          | Literal/URI |  m  | | |   
 
 
 ## Origin

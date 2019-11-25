@@ -17,7 +17,7 @@ parent: "Entity Types"
 | property                                                                 | Type        | multi-/ single valued | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
 | @context                                                                 | URI         |  s  | `"http://schema.org"`      |
-| @id                                                                      | URI         |  s  | `"http://data.slub-dresden.de/organizations/SWB-ID"` |
+| @id                                                                      | URI         |  s  | `"https://data.slub-dresden.de/organizations/SWB-ID"` |
 | @type                                                                    | URI         |  s  | `"http://schema.org/Organization"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
 | [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  s  | |
@@ -52,7 +52,7 @@ parent: "Entity Types"
 
 ## Example
 ```sh
-$ curl -XGET "http://data.slub-dresden.de/resources/1131042077" | jq '.'
+$ curl -XGET "https://data.slub-dresden.de/resources/1131042077" | jq '.'
 ```
 
 ### Structure
@@ -60,7 +60,7 @@ $ curl -XGET "http://data.slub-dresden.de/resources/1131042077" | jq '.'
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/resources/1131042077",
+    "@id": "https://data.slub-dresden.de/resources/1131042077",
     "@type": "http://schema.org/CreativeWorkSeries",
     "about": […],
     "alternateName": […],
@@ -72,7 +72,7 @@ $ curl -XGET "http://data.slub-dresden.de/resources/1131042077" | jq '.'
     "genre": […],
     "hasPart": […],
     "inLanguage": […],
-    "isBasedOn": "http://data.slub-dresden.de/source/kxp-de14/1131042077",
+    "isBasedOn": "https://data.slub-dresden.de/source/kxp-de14/1131042077",
     "isbn": […],
     "issn": […],
     "mentions": […],
@@ -91,7 +91,7 @@ $ curl -XGET "http://data.slub-dresden.de/resources/1131042077" | jq '.'
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/resources/1131042077",
+    "@id": "https://data.slub-dresden.de/resources/1131042077",
     "@type": "http://schema.org/CreativeWorkSeries",
     "about": [
       {
@@ -114,7 +114,7 @@ $ curl -XGET "http://data.slub-dresden.de/resources/1131042077" | jq '.'
       },
       {
         "identifier": {
-          "@id": "http://data.slub-dresden.de/topics/104814519",
+          "@id": "https://data.slub-dresden.de/topics/104814519",
           "name": "Bibliografie",
           "sameAs": "http://d-nb.info/gnd/4006432-3"
         }
@@ -126,14 +126,14 @@ $ curl -XGET "http://data.slub-dresden.de/resources/1131042077" | jq '.'
     "alternativeHeadline": "Volker Bauer",
     "author": [
       {
-        "@id": "http://data.slub-dresden.de/persons/65846096X",
+        "@id": "https://data.slub-dresden.de/persons/65846096X",
         "name": "Bauer, Volker",
         "sameAs": "http://d-nb.info/gnd/1011347938"
       }
     ],
     "contributor": [
       {
-        "@id": "http://data.slub-dresden.de/persons/65846096X",
+        "@id": "https://data.slub-dresden.de/persons/65846096X",
         "name": "Bauer, Volker",
         "sameAs": "http://d-nb.info/gnd/1011347938"
       }
@@ -152,7 +152,7 @@ $ curl -XGET "http://data.slub-dresden.de/resources/1131042077" | jq '.'
     "inLanguage": [
       "ger"
     ],
-    "isBasedOn": "http://data.slub-dresden.de/source/kxp-de14/1131042077",
+    "isBasedOn": "https://data.slub-dresden.de/source/kxp-de14/1131042077",
     "isbn": [
       "3465029577"
     ],
@@ -161,13 +161,13 @@ $ curl -XGET "http://data.slub-dresden.de/resources/1131042077" | jq '.'
     ],
     "mentions": [
       {
-        "@id": "http://data.slub-dresden.de/topics/104704861",
+        "@id": "https://data.slub-dresden.de/topics/104704861",
         "@type": "http://schema.org/Place",
         "name": "Deutschland",
         "sameAs": "http://d-nb.info/gnd/4011882-4"
       },
       {
-        "@id": "http://data.slub-dresden.de/topics/104589043",
+        "@id": "https://data.slub-dresden.de/topics/104589043",
         "name": "Adressbuch",
         "sameAs": "http://d-nb.info/gnd/4141451-2"
       },
@@ -175,7 +175,7 @@ $ curl -XGET "http://data.slub-dresden.de/resources/1131042077" | jq '.'
         "name": "Geschichte 1700-1800"
       },
       {
-        "@id": "http://data.slub-dresden.de/topics/239127870",
+        "@id": "https://data.slub-dresden.de/topics/239127870",
         "name": "Staatshandbuch",
         "sameAs": "http://d-nb.info/gnd/4484374-4"
       }
@@ -184,7 +184,7 @@ $ curl -XGET "http://data.slub-dresden.de/resources/1131042077" | jq '.'
     "pageStart": "1",
     "partOfSeries": [
       {
-        "@id": "http://data.slub-dresden.de/resources/129930350",
+        "@id": "https://data.slub-dresden.de/resources/129930350",
         "name": "Studien zur europäischen Rechtsgeschichte",
         "position": "103"
       }

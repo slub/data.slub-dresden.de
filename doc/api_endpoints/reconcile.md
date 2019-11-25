@@ -23,7 +23,7 @@ Contents:
 * Open an arbitrary project
 * select `Reconcile` → `Start reconciliation …` in the head of a column
 * In the new window: Press `Add Standard Service …`
-* Insert our `/reconcile` endpoint as `http://data.slub-dresden.de/reconcile`
+* Insert our `/reconcile` endpoint as `https://data.slub-dresden.de/reconcile`
 
 ## Example
 
@@ -43,7 +43,7 @@ Using the prepared file [painter_born.json]({{ site.baseurl }}{% link assets/fil
 * Select `Reconcile` → `Start reconciliation …` in the head of the name column
 
   ![Screenshot-reconcile-1]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-1.png%})
-* Insert `http://data.slub-dresden.de/reconcile` as additional Standard Service and select it
+* Insert `https://data.slub-dresden.de/reconcile` as additional Standard Service and select it
 
 
   ![Screenshot-reconcile-2]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-2.png%})

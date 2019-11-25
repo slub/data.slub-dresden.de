@@ -47,9 +47,9 @@ possible values for `{entity_index}`:
 
 ## Example
 ```sh
-$ curl -X GET "http://data.slub-dresden.de/gnd/persons/118559206"
+$ curl -X GET "https://data.slub-dresden.de/gnd/persons/118559206"
 ```
 
 
 
-[Try Me](http://data.slub-dresden.de/api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }
+[Try Me](https://data.slub-dresden.de/doc/api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }

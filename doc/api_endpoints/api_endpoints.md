@@ -9,9 +9,9 @@ permalink: doc/api_endpoints
 ---
 
 # How to query the API
-  The API is used through its endpoints. Depending on the task at hand some endpoints are better suited than others. You can also have a look at the comprehensive [Swagger UI](https://data.slub-dresden.de/api){: .extlink }.
+  The API is used through its endpoints. Depending on the task at hand some endpoints are better suited than others. You can also have a look at the comprehensive [Swagger UI](https://data.slub-dresden.de/doc/api){: .extlink }.
 
-[Try Me](http://data.slub-dresden.de/api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }
+[Try Me](https://data.slub-dresden.de/doc/api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }
 
 ## Search for an entry
    The endpoint [`/search`]({{ site.baseurl }}{% link doc/api_endpoints/search.md %}) provides an interface for searching through all resources

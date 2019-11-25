@@ -41,4 +41,4 @@ $ curl -X GET "data.slub-dresden.de/source/kxp-de14/130215090" -H "accept: appli
 
 
 
-[Try Me](http://data.slub-dresden.de/api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }
+[Try Me](https://data.slub-dresden.de/doc/api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }

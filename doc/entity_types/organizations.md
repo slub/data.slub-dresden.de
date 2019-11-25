@@ -15,7 +15,7 @@ parent: "Entity Types"
 | property                                                                 | Type        | multi-/ single valued | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
 | @context                                                                 | URI         |  s  | `"http://schema.org"`      |
-| @id                                                                      | URI         |  s  | `"http://data.slub-dresden.de/organizations/SWB-ID"` |
+| @id                                                                      | URI         |  s  | `"https://data.slub-dresden.de/organizations/SWB-ID"` |
 | @type                                                                    | URI         |  s  | `"http://schema.org/Organization"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
 | [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  s  | |
@@ -34,7 +34,7 @@ parent: "Entity Types"
 
 ## Example
 ```sh
-$ curl -XGET "http://data.slub-dresden.de/organizations/191800287" | jq
+$ curl -XGET "https://data.slub-dresden.de/organizations/191800287" | jq
 ```
 ### Structure
 
@@ -42,14 +42,14 @@ $ curl -XGET "http://data.slub-dresden.de/organizations/191800287" | jq
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/organizations/191800287",
+    "@id": "https://data.slub-dresden.de/organizations/191800287",
     "@type": "http://schema.org/Organization",
     "about": […],
     "additionalType": […],
     "alternateName": […],
     "areaServed": {…},
     "dateModified": "2019-03-17T13:36:00Z",
-    "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/191800287",
+    "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/191800287",
     "location": {…},
     "name": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden",
     "sameAs": […]
@@ -61,7 +61,7 @@ $ curl -XGET "http://data.slub-dresden.de/organizations/191800287" | jq
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/organizations/191800287",
+    "@id": "https://data.slub-dresden.de/organizations/191800287",
     "@type": "http://schema.org/Organization",
     "about": [
       {
@@ -83,13 +83,13 @@ $ curl -XGET "http://data.slub-dresden.de/organizations/191800287" | jq
     ],
     "additionalType": [
       {
-        "@id": "http://data.slub-dresden.de/topics/105431869",
+        "@id": "https://data.slub-dresden.de/topics/105431869",
         "description": "Oberbegriff instantiell",
         "name": "Landesbibliothek",
         "sameAs": "http://d-nb.info/gnd/4166544-2"
       },
       {
-        "@id": "http://data.slub-dresden.de/topics/10568094X",
+        "@id": "https://data.slub-dresden.de/topics/10568094X",
         "description": "Oberbegriff instantiell",
         "name": "Universitätsbibliothek",
         "sameAs": "http://d-nb.info/gnd/4133334-2"
@@ -102,15 +102,15 @@ $ curl -XGET "http://data.slub-dresden.de/organizations/191800287" | jq
       "SLUB"
     ],
     "areaServed": {
-      "@id": "http://data.slub-dresden.de/geo/106178245",
+      "@id": "https://data.slub-dresden.de/geo/106178245",
       "description": "Wirkungsraum",
       "name": "Sachsen",
       "sameAs": "http://d-nb.info/gnd/4051176-5"
     },
     "dateModified": "2019-03-17T13:36:00Z",
-    "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/191800287",
+    "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/191800287",
     "location": {
-      "@id": "http://data.slub-dresden.de/geo/106345745",
+      "@id": "https://data.slub-dresden.de/geo/106345745",
       "description": "Ort",
       "name": "Dresden",
       "sameAs": "http://d-nb.info/gnd/4012995-0"

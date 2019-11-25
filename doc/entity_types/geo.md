@@ -15,7 +15,7 @@ parent: "Entity Types"
 | property                                                                 | Type        | multi-/ single valued | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
 | @context                                                                 | URI         |  s  | `"http://schema.org"`      |
-| @id                                                                      | URI         |  s  | `"http://data.slub-dresden.de/geo/SWB-ID"` |
+| @id                                                                      | URI         |  s  | `"https://data.slub-dresden.de/geo/SWB-ID"` |
 | @type                                                                    | URI         |  s  | `"http://schema.org/geo"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
 | [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  s  | |
@@ -36,7 +36,7 @@ parent: "Entity Types"
 
 ## Example
 ```sh
-$ curl -XGET "http://data.slub-dresden.de/geo/104460563" | jq
+$ curl -XGET "https://data.slub-dresden.de/geo/104460563" | jq
 ```
 ### Structure
 
@@ -44,7 +44,7 @@ $ curl -XGET "http://data.slub-dresden.de/geo/104460563" | jq
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/geo/104460563",
+    "@id": "https://data.slub-dresden.de/geo/104460563",
     "@type": "http://schema.org/Place",
     "about": […],
     "adressRegion": "XD-VE",
@@ -52,7 +52,7 @@ $ curl -XGET "http://data.slub-dresden.de/geo/104460563" | jq
     "dateModified": "2019-03-17T13:40:00Z",
     "description": {…},
     "geo": {…},
-    "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/104460563",
+    "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/104460563",
     "name": "Trujillo",
     "sameAs": […]
   }
@@ -64,7 +64,7 @@ $ curl -XGET "http://data.slub-dresden.de/geo/104460563" | jq
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/geo/104460563",
+    "@id": "https://data.slub-dresden.de/geo/104460563",
     "@type": "http://schema.org/Place",
     "about": [
       {
@@ -83,7 +83,7 @@ $ curl -XGET "http://data.slub-dresden.de/geo/104460563" | jq
     ],
     "dateModified": "2019-03-17T13:40:00Z",
     "description": {
-      "@id": "http://data.slub-dresden.de/geo/106131540",
+      "@id": "https://data.slub-dresden.de/geo/106131540",
       "description": "Oberbegriff partitiv",
       "name": "Venezuela",
       "sameAs": "http://d-nb.info/gnd/4062512-6"
@@ -93,7 +93,7 @@ $ curl -XGET "http://data.slub-dresden.de/geo/104460563" | jq
       "latitude": "009.370839",
       "longitude": "-070.434719"
     },
-    "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/104460563",
+    "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/104460563",
     "name": "Trujillo",
     "sameAs": [
       "http://d-nb.info/gnd/4274592-5",

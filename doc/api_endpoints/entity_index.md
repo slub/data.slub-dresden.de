@@ -36,9 +36,9 @@ For usage of `/{entity_index}/search`, compare to [`/search`]({{ site.baseurl }}
 
 ## Example
 ```sh
-$ curl -X GET "http://data.slub-dresden.de/persons/search?q=name:Erich+K%C3%A4stner" 
+$ curl -X GET "https://data.slub-dresden.de/persons/search?q=name:Erich+K%C3%A4stner" 
 ```
 
 
 
-[Try Me](http://data.slub-dresden.de/api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }
+[Try Me](https://data.slub-dresden.de/doc/api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }

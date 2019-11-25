@@ -15,17 +15,17 @@ parent: "Entity Types"
 | property                                                                 | Type        | multi-/ single valued | example | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:--------|:---------|
 | @context                                                                 | URI         |  s  | | `"http://schema.org"`      |
-| @id                                                                      | URI         |  s  | | `"http://data.slub-dresden.de/organizations/SWB-ID"` |
+| @id                                                                      | URI         |  s  | | `"https://data.slub-dresden.de/organizations/SWB-ID"` |
 | @type                                                                    | URI         |  s  | | `"http://schema.org/Organization"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | | |
 | [alternateName](https://schema.org/alternateName){: .extlink }           | Literal     |  m  | | |
-| [honorificSuffix](https://schema.org/honorificSuffix){: .extlink }       | Literal     |  s  | [080291880](http://data.slub-dresden.de/persons/080291880)|  |
+| [honorificSuffix](https://schema.org/honorificSuffix){: .extlink }       | Literal     |  s  | [080291880](https://data.slub-dresden.de/persons/080291880)|  |
 | [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  s  | | |
 | ·[gender](https://schema.org/gender){: .extlink }                        | Literal     |  s  | | |
-| [birthDate](https://schema.org/birthDate){: .extlink }                   | Literal     |  s  | [077031474](http://data.slub-dresden.de/persons/077031474) | |
-| [birthPlace](https://schema.org/birthPlace){: .extlink }                 | Literal/URI |  s  | [077031474](http://data.slub-dresden.de/persons/077031474) | |
-| [deathDate](https://schema.org/deathDate){: .extlink }                   | Literal     |  s  | [077031474](http://data.slub-dresden.de/persons/077031474) | |
-| [deathPlace](https://schema.org/deathPlace){: .extlink }                 | Literal/URI |  s  | [077031474](http://data.slub-dresden.de/persons/077031474) | |
+| [birthDate](https://schema.org/birthDate){: .extlink }                   | Literal     |  s  | [077031474](https://data.slub-dresden.de/persons/077031474) | |
+| [birthPlace](https://schema.org/birthPlace){: .extlink }                 | Literal/URI |  s  | [077031474](https://data.slub-dresden.de/persons/077031474) | |
+| [deathDate](https://schema.org/deathDate){: .extlink }                   | Literal     |  s  | [077031474](https://data.slub-dresden.de/persons/077031474) | |
+| [deathPlace](https://schema.org/deathPlace){: .extlink }                 | Literal/URI |  s  | [077031474](https://data.slub-dresden.de/persons/077031474) | |
 | [workLocation](https://schema.org/workLocation){: .extlink }             | URI         | s/m | | |
 | [hasOccupation](https://schema.org/hasOccupation){: .extlink }           | Literal/URI |  m  | | |
 
@@ -46,7 +46,7 @@ parent: "Entity Types"
 
 ## Example
 ```sh
-$ curl -XGET "http://data.slub-dresden.de/persons/035230606" | jq '.'
+$ curl -XGET "https://data.slub-dresden.de/persons/035230606" | jq '.'
 ```
 
 ### Structure
@@ -54,7 +54,7 @@ $ curl -XGET "http://data.slub-dresden.de/persons/035230606" | jq '.'
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/persons/035230606",
+    "@id": "https://data.slub-dresden.de/persons/035230606",
     "@type": "http://schema.org/Person",
     "alternateName": […],
     "birthDate": "1911",
@@ -63,7 +63,7 @@ $ curl -XGET "http://data.slub-dresden.de/persons/035230606" | jq '.'
     "deathDate": "1996",
     "deathPlace": {…},
     "hasOccupation": […],
-    "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/035230606",
+    "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/035230606",
     "name": "Elytēs, Odysseas",
     "sameAs": […],
     "workLocation": […]
@@ -76,7 +76,7 @@ $ curl -XGET "http://data.slub-dresden.de/persons/035230606" | jq '.'
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/persons/035230606",
+    "@id": "https://data.slub-dresden.de/persons/035230606",
     "@type": "http://schema.org/Person",
     "alternateName": [
       "Alepudelēs, Odysseas",
@@ -103,7 +103,7 @@ $ curl -XGET "http://data.slub-dresden.de/persons/035230606" | jq '.'
     ],
     "birthDate": "1911",
     "birthPlace": {
-      "@id": "http://data.slub-dresden.de/geo/106283979",
+      "@id": "https://data.slub-dresden.de/geo/106283979",
       "description": "Geburtsort",
       "name": "Heraklion",
       "sameAs": "http://d-nb.info/gnd/4027652-1"
@@ -111,32 +111,32 @@ $ curl -XGET "http://data.slub-dresden.de/persons/035230606" | jq '.'
     "dateModified": "2019-11-12T21:26:00Z",
     "deathDate": "1996",
     "deathPlace": {
-      "@id": "http://data.slub-dresden.de/geo/106389807",
+      "@id": "https://data.slub-dresden.de/geo/106389807",
       "description": "Sterbeort",
       "name": "Athen",
       "sameAs": "http://d-nb.info/gnd/4003366-1"
     },
     "hasOccupation": [
       {
-        "@id": "http://data.slub-dresden.de/topics/104744138",
+        "@id": "https://data.slub-dresden.de/topics/104744138",
         "description": "Charakteristischer Beruf",
         "name": "Schriftsteller",
         "sameAs": "http://d-nb.info/gnd/4053309-8"
       },
       {
-        "@id": "http://data.slub-dresden.de/topics/105424315",
+        "@id": "https://data.slub-dresden.de/topics/105424315",
         "description": "Beruf",
         "name": "Librettist",
         "sameAs": "http://d-nb.info/gnd/4167564-2"
       },
       {
-        "@id": "http://data.slub-dresden.de/topics/106214551",
+        "@id": "https://data.slub-dresden.de/topics/106214551",
         "description": "Beruf",
         "name": "Nobelpreisträger",
         "sameAs": "http://d-nb.info/gnd/4042421-2"
       }
     ],
-    "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/035230606",
+    "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/035230606",
     "name": "Elytēs, Odysseas",
     "sameAs": [
       "http://d-nb.info/gnd/118688898",
@@ -153,13 +153,13 @@ $ curl -XGET "http://data.slub-dresden.de/persons/035230606" | jq '.'
     ],
     "workLocation": [
       {
-        "@id": "http://data.slub-dresden.de/geo/106389807",
+        "@id": "https://data.slub-dresden.de/geo/106389807",
         "description": "Wirkungsort",
         "name": "Athen",
         "sameAs": "http://d-nb.info/gnd/4003366-1"
       },
       {
-        "@id": "http://data.slub-dresden.de/geo/106204734",
+        "@id": "https://data.slub-dresden.de/geo/106204734",
         "description": "Wirkungsort",
         "name": "Paris",
         "sameAs": "http://d-nb.info/gnd/4044660-8"

@@ -15,7 +15,7 @@ parent: "Entity Types"
 | property                                                                 | Type        | multi-/ single valued | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
 | @context                                                                 | URI         |  s  | `"http://schema.org"`      |
-| @id                                                                      | URI         |  s  | `"http://data.slub-dresden.de/organizations/SWB-ID"` |
+| @id                                                                      | URI         |  s  | `"https://data.slub-dresden.de/organizations/SWB-ID"` |
 | @type                                                                    | URI         |  s  | `"http://schema.org/Organization"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
 | [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  s  | |
@@ -50,7 +50,7 @@ parent: "Entity Types"
 
 ## Example
 ```sh
-$ curl -XGET "http://data.slub-dresden.de/works/875674879" | jq '.'
+$ curl -XGET "https://data.slub-dresden.de/works/875674879" | jq '.'
 ```
 
 ### Structure
@@ -58,13 +58,13 @@ $ curl -XGET "http://data.slub-dresden.de/works/875674879" | jq '.'
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/works/875674879",
+    "@id": "https://data.slub-dresden.de/works/875674879",
     "@type": "http://schema.org/CreativeWork",
     "alternateName": […],
     "author": […],
     "dateModified": "2019-03-17T12:48:00Z",
     "inLanguage": […],
-    "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/875674879",
+    "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/875674879",
     "name": […],
     "relatedTo": {…},
     "sameAs": […]
@@ -77,7 +77,7 @@ $ curl -XGET "http://data.slub-dresden.de/works/875674879" | jq '.'
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/works/875674879",
+    "@id": "https://data.slub-dresden.de/works/875674879",
     "@type": "http://schema.org/CreativeWork",
     "alternateName": [
       "Drachenreiter - Die Feder eines Greifs",
@@ -85,7 +85,7 @@ $ curl -XGET "http://data.slub-dresden.de/works/875674879" | jq '.'
     ],
     "author": [
       {
-        "@id": "http://data.slub-dresden.de/persons/080339891",
+        "@id": "https://data.slub-dresden.de/persons/080339891",
         "description": "Verfasserschaft1",
         "name": "Funke, Cornelia",
         "sameAs": "http://d-nb.info/gnd/119523604"
@@ -99,12 +99,12 @@ $ curl -XGET "http://data.slub-dresden.de/works/875674879" | jq '.'
     "inLanguage": [
       "ger"
     ],
-    "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/875674879",
+    "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/875674879",
     "name": [
       "Die Feder eines Greifs"
     ],
     "relatedTo": {
-      "@id": "http://data.slub-dresden.de/persons/1047774569",
+      "@id": "https://data.slub-dresden.de/persons/1047774569",
       "name": "Funke, Cornelia",
       "sameAs": "http://d-nb.info/gnd/1176751743"
     },

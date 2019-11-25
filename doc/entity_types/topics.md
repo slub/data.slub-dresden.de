@@ -15,7 +15,7 @@ parent: "Entity Types"
 | property                                                                 | Type        | multi-/ single valued | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
 | @context                                                                 | URI         |  s  | `"http://schema.org"`      |
-| @id                                                                      | URI         |  s  | `"http://data.slub-dresden.de/organizations/SWB-ID"` |
+| @id                                                                      | URI         |  s  | `"https://data.slub-dresden.de/organizations/SWB-ID"` |
 | @type                                                                    | URI         |  s  | `"http://schema.org/Organization"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
 | [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  m  | |
@@ -37,7 +37,7 @@ parent: "Entity Types"
 
 ## Example
 ```sh
-$ curl -XGET "http://data.slub-dresden.de/topics/104305371" | jq
+$ curl -XGET "https://data.slub-dresden.de/topics/104305371" | jq
 ```
 ### Structure
 
@@ -45,14 +45,14 @@ $ curl -XGET "http://data.slub-dresden.de/topics/104305371" | jq
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/topics/104305371",
+    "@id": "https://data.slub-dresden.de/topics/104305371",
     "@type": "http://schema.org/Thing",
     "about": {…},
     "additionalType": […],
     "alternateName": […],
     "dateModified": "2019-03-17T12:34:00Z",
     "description": "Am 15.07.1410 bei Tannenberg und Grünfelde zwischen dem Heer des Deutschen Ordens und der Streitmacht des Königreichs Polen ausgefochten",
-    "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/104305371",
+    "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/104305371",
     "location": […],
     "name": "Schlacht bei Tannenberg",
     "participant": […],
@@ -66,7 +66,7 @@ $ curl -XGET "http://data.slub-dresden.de/topics/104305371" | jq
 [
   {
     "@context": "http://schema.org",
-    "@id": "http://data.slub-dresden.de/topics/104305371",
+    "@id": "https://data.slub-dresden.de/topics/104305371",
     "@type": "http://schema.org/Thing",
     "about": {
       "@id": "http://d-nb.info/standards/vocab/gnd/gnd-sc#8.4",
@@ -78,13 +78,13 @@ $ curl -XGET "http://data.slub-dresden.de/topics/104305371" | jq
     },
     "additionalType": [
       {
-        "@id": "http://data.slub-dresden.de/topics/104477628",
+        "@id": "https://data.slub-dresden.de/topics/104477628",
         "description": "Oberbegriff partitiv",
         "name": "Polen",
         "sameAs": "http://d-nb.info/gnd/4273637-7"
       },
       {
-        "@id": "http://data.slub-dresden.de/topics/104359994",
+        "@id": "https://data.slub-dresden.de/topics/104359994",
         "description": "Oberbegriff instantiell",
         "name": "Schlacht",
         "sameAs": "http://d-nb.info/gnd/4052531-4"
@@ -97,16 +97,16 @@ $ curl -XGET "http://data.slub-dresden.de/topics/104305371" | jq
     ],
     "dateModified": "2019-03-17T12:34:00Z",
     "description": "Am 15.07.1410 bei Tannenberg und Grünfelde zwischen dem Heer des Deutschen Ordens und der Streitmacht des Königreichs Polen ausgefochten",
-    "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/104305371",
+    "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/104305371",
     "location": [
       {
-        "@id": "http://data.slub-dresden.de/geo/104730099",
+        "@id": "https://data.slub-dresden.de/geo/104730099",
         "description": "Ort",
         "name": "Tannenberg",
         "sameAs": "http://d-nb.info/gnd/4059009-4"
       },
       {
-        "@id": "http://data.slub-dresden.de/geo/703393596",
+        "@id": "https://data.slub-dresden.de/geo/703393596",
         "description": "Ort",
         "name": "Grunwald",
         "sameAs": "http://d-nb.info/gnd/4306530-2"
@@ -115,7 +115,7 @@ $ curl -XGET "http://data.slub-dresden.de/topics/104305371" | jq
     "name": "Schlacht bei Tannenberg",
     "participant": [
       {
-        "@id": "http://data.slub-dresden.de/geo/106197762",
+        "@id": "https://data.slub-dresden.de/geo/106197762",
         "description": "Beteiligte",
         "name": "Polen",
         "sameAs": "http://d-nb.info/gnd/4046496-9"

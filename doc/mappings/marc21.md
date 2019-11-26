@@ -932,7 +932,7 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td colspan="1">043.*.c</td>
       <td colspan="1">ISO 3166</td>
       <td colspan="1">
-        <a href="https://schema.org/adressRegion" class="extlink">adressRegion</a>
+        <a href="https://schema.org/addressRegion" class="extlink">addressRegion</a>
       </td>
     </tr>
     <tr>

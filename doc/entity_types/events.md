@@ -20,14 +20,12 @@ parent: "Entity Types"
 | @type                                                                    | URI         |  s  | `"http://schema.org/Event"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
 | [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  m  | |
-| [additionalType](https://schema.org/additionalType){: .extlink }         | Literal/URI |  m  | |
 | [alternateName](https://schema.org/alternateName){: .extlink }           | Literal     |  m  | |
-| [areaServed](https://schema.org/areaServed){: .extlink }                 | Literal/URI |  m  | |
-| [location](https://schema.org/location){: .extlink }                     | Literal/URI |  m  | |
-| [fromLocation](https://schema.org/fromLocation){: .extlink }             | Literal/URI |  m  | |
-| ·[contentLocation](https://schema.org/contentLocation){: .extlink }      | Literal/URI |  s  | |
 | [description](https://schema.org/description){: .extlink }               | Literal     |  s  | |
-| [participant](https://schema.org/participant){: .extlink }               | Literal/URI |  m  | |
+| [location](https://schema.org/location){: .extlink }                     | Literal/URI |  m  | |
+| [startDate](https://schema.org/startDate){: .extlink }                   | Date (ISO8601) |  m  | |
+| [endDate](https://schema.org/endDate){: .extlink }                       | Date (ISO8601) |  m  | |
+| [addressRegion](https://schema.org/addressRegion){: .extlink }           | ISO3166 |  m  | |
 | [relatedTo](https://schema.org/relatedTo){: .extlink }                   | Literal/URI |  m  | |
 | [about](https://schema.org/about){: .extlink }                           | Literal/URI | s/m | |
 

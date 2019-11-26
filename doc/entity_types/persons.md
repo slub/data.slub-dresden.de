@@ -10,13 +10,13 @@ parent: "Entity Types"
 
 # Persons
 
-* [persons](https://schema.org/persons){: .extlink }
+* [person](https://schema.org/Person){: .extlink }
 
 | property                                                                 | Type        | multi-/ single valued | example | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:--------|:---------|
 | @context                                                                 | URI         |  s  | | `"http://schema.org"`      |
 | @id                                                                      | URI         |  s  | | `"https://data.slub-dresden.de/organizations/SWB-ID"` |
-| @type                                                                    | URI         |  s  | | `"http://schema.org/Organization"` |
+| @type                                                                    | URI         |  s  | | `"http://schema.org/Person"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | | |
 | [alternateName](https://schema.org/alternateName){: .extlink }           | Literal     |  m  | | |
 | [honorificSuffix](https://schema.org/honorificSuffix){: .extlink }       | Literal     |  s  | [080291880](https://data.slub-dresden.de/persons/080291880)|  |

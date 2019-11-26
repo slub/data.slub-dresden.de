@@ -10,13 +10,13 @@ parent: "Entity Types"
 
 # Topics
 
-* [Topics](https://schema.org/Topics){: .extlink }
+* [Thing](https://schema.org/Thing){: .extlink }
 
 | property                                                                 | Type        | multi-/ single valued | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
 | @context                                                                 | URI         |  s  | `"http://schema.org"`      |
 | @id                                                                      | URI         |  s  | `"https://data.slub-dresden.de/organizations/SWB-ID"` |
-| @type                                                                    | URI         |  s  | `"http://schema.org/Organization"` |
+| @type                                                                    | URI         |  s  | `"http://schema.org/Thing"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
 | [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  m  | |
 | [additionalType](https://schema.org/additionalType){: .extlink }         | Literal/URI |  m  | |

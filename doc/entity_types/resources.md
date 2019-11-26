@@ -18,7 +18,7 @@ parent: "Entity Types"
 |:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
 | @context                                                                 | URI         |  s  | `"http://schema.org"`      |
 | @id                                                                      | URI         |  s  | `"https://data.slub-dresden.de/organizations/SWB-ID"` |
-| @type                                                                    | URI         |  s  | `"http://schema.org/Organization"` |
+| @type                                                                    | URI         |  s  | |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
 | [sameAs](https://schema.org/sameAs){: .extlink }                         | URI         |  s  | |
 | [alternateName](https://schema.org/alternateName){: .extlink }           | Literal     |  m  | |

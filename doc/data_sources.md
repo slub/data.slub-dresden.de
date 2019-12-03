@@ -6,12 +6,12 @@ nav_order: 5
 ---
 
 # Data Sources
-In our project, we are merging and enriching multiple sources. However, we only offer a subset of the K10Plus data which is connected to our local resources here at the SLUB-Dresden. Therefore also the data for the enrichment process (via GND, wikidata, and GeoNames) are available only with fitting our local resources.
+In our project, we are merging and enriching multiple sources. However, we only offer a subset of the K10Plus data which is connected to our local resources here at the SLUB-Dresden. Therefore also data for the enrichment process (via GND, wikidata, and GeoNames) are only available fitting to our local resources.
 
 
 | Source | licence |
 |:---|:--- |
-| K10Plus - de14  | [CC0](https://wiki.k10plus.de/display/K10PLUS/Migrationsprojekt){:.extlink} |
+| K10Plus (DE-14)  | [CC0](https://wiki.k10plus.de/display/K10PLUS/Migrationsprojekt){:.extlink} |
 | GND      | [CC0](https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html#doc58016bodyText4){: .extlink }|
 | Wikidata | [CC0](https://www.wikidata.org/wiki/Wikidata:Database_download#License){: .extlink }|
 | GeoNames | [CC BY 4.0](https://www.geonames.org/){: .extlink } |

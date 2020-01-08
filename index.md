@@ -9,7 +9,7 @@ permalink: /
 # SLUB LOD API documentation
 The API provided by [data.slub-dresden.de](https://data.slub-dresden.de) for Linked Open Data can be used to process datasets from different sources (K10Plus, SWB), enriched with norm data from multiple authority providers (GND, wikidata, SWB, …).
 
-There is an [interactive UI](https://data.slub-dresden.de/doc/api) where you can experience the API directly and try out some request with various options before coding them.
+There is an [interactive UI](https://data.slub-dresden.de/doc/api) where you can experience the API directly and try out some requests with various options before coding them.
 
 
 ## TL;DR

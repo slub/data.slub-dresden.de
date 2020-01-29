@@ -36,7 +36,7 @@ parent: "Entity Types"
 
 ## Example
 ```sh
-$ curl -XGET "http://data.slub-dresden.de/events/711162468" | jq
+$ curl -XGET "https://data.slub-dresden.de/events/711162468" | jq
 ```
 ### Structure
 

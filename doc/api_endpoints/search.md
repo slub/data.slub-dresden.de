@@ -68,7 +68,7 @@ Some of the below examples we use the json-manipulating tool `jq` to reduce the 
 
 ### Simple Query
 ```sh
-$ curl -X GET "data.slub-dresden.de/search?q=SLUB&size=1" -H "accept: application/json"
+$ curl -X GET "https://data.slub-dresden.de/search?q=SLUB&size=1" -H "accept: application/json"
 [{"@context":"http://schema.org","@id":"https://data.slub-dresden.de/resources/1172980497","@type":"http://schema.org/CreativeWork","about":[{"@id":"https://rvk.uni-regensburg.de/api/json/ancestors/AN 80190","identifier":{"@type":"PropertyValue","propertyID":"RVK","value":"AN 80190"},"keywords":["Allgemeines","Buch- und Bibliothekswesen, Informationswissenschaft","Bibliothekswesen","Bibliothekswesen in einzelnen L\u00e4ndern und einzelne Bibliotheken","Einzelne deutsche Bibliotheken","Bibliotheken D","Dresden","S\u00e4chsische Landesbibliothek - Staats- und Universit\u00e4tsbibliothek"],"name":"S\u00e4chsische Landesbibliothek - Staats- und Universit\u00e4tsbibliothek","sameAs":["http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1270680919"]},{"@id":"https://rvk.uni-regensburg.de/api/json/ancestors/AN 67700","identifier":{"@type":"PropertyValue","propertyID":"RVK","value":"AN 67700"},"keywords":["Allgemeines","Buch- und Bibliothekswesen, Informationswissenschaft","Bibliothekswesen","Bibliotheksarten","Wissenschaftliche Bibliotheken"],"name":"Wissenschaftliche Bibliotheken","sameAs":["http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1270679430"]}],"alternateName":["SLUB"],"alternativeHeadline":"S\u00e4chsisches Staatsministerium der Finanzen. Staatshochbauamt Dresden. [Text Michael Bartsch]","contributor":[{"@id":"https://data.slub-dresden.de/persons/1230186379","name":"Bartsch, Michael"},{"@id":"https://data.slub-dresden.de/organizations/103636129","name":"Sachsen","sameAs":"http://d-nb.info/gnd/5035101-1"}],"dateModified":"2016-05-11T07:07:48Z","datePublished":"2002","inLanguage":["ger"],"isBasedOn":"https://data.slub-dresden.de/source/kxp-de14/1172980497","mentions":[{"@id":"https://data.slub-dresden.de/organizations/191800287","@type":"http://schema.org/Organization","name":"S\u00e4chsische Landesbibliothek - Staats- und Universit\u00e4tsbibliothek Dresden","sameAs":"http://d-nb.info/gnd/5165770-3"},{"@id":"https://data.slub-dresden.de/organizations/105510602","name":"Geb\u00e4ude","sameAs":"http://d-nb.info/gnd/4156127-2"}],"name":"S\u00e4chsische Landesbibliothek - Staats- und Universit\u00e4tsbibliothek Dresden","publisher":{"@type":"Organization","location":{"name":"Dresden","type":"Place"},"name":"Freistaat Sachsen, Staatsministerium der Finanzen"},"sameAs":["http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1172980497"]}]
 ```
 ### Field Query
@@ -77,7 +77,7 @@ One can query a field directly by using `q=field[.subfield]:querystring`. A deta
 
 
 ```sh
-curl -X GET "data.slub-dresden.de/search?q=name:SLUB" -H "accept: application/json | jq '.[].name'"
+curl -X GET "https://data.slub-dresden.de/search?q=name:SLUB" -H "accept: application/json | jq '.[].name'"
 "[SLUB Dresden]"
 "Test SLUB Dresden"
 "Innenansichten SLUB 2010"
@@ -161,7 +161,7 @@ $ curl -X GET "https://data.slub-dresden.de/search?q=Moldau&sort=publisher.locat
 To find a entry with the title `Carbonverstärkt entspannen erster SLUB-Lounger aus Textilbeton eingeweiht` lets use only the two words `SLUB` and `textil`. To do so we have to combine both in the following way:
 
 ```sh
-curl -X GET "data.slub-dresden.de/search?q=name:(textil*%20AND%20SLUB)" | jq '.[].name'
+curl -X GET "https://data.slub-dresden.de/search?q=name:(textil*%20AND%20SLUB)" | jq '.[].name'
 "Carbonverstärkt entspannen erster SLUB-Lounger aus Textilbeton eingeweiht"
 ```
 `Textilbeton` is matched by `textil*` and both strings are combined with the `AND` operator. Note, that the spaces have to be escsaped as `%20` according to [Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding){: .extlink }

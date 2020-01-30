@@ -43,7 +43,7 @@ Using the prepared file [painter_born.json]({{ site.baseurl }}{% link assets/fil
 * Select `Reconcile` → `Start reconciliation …` in the head of the name column
 
   ![Screenshot-reconcile-1]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-1.png%})
-* Insert `https://data.slub-dresden.de/reconcile` as additional Standard Service and select it
+* Insert `https://data.slub-dresden.de/reconcile/` as additional Standard Service and select it
 
 
   ![Screenshot-reconcile-2]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-2.png%})

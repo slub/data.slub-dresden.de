@@ -23,6 +23,9 @@ search_tokenizer_separator: /[\s/]+/
 # Enable or disable heading anchors
 heading_anchors: true
 
+# Footer with imprint and Copyright
+footer_content: "Copyright &copy; 2019-2020 SLUB Dresden. <a href=\"https://www.slub-dresden.de/impressum/\">Legal Notice</a>"
+
 # Aux links for the upper right navigation
 aux_links:
   "LOD API documentation on GitHub":

@@ -32,7 +32,7 @@ parent: "Entity Types"
 
 ## Origin
   
-  TODO
+  See [MARC21-mapping: Events]({{ site.baseurl }}{% link doc/mappings/marc21.md %}#places)
 
 ## Example
 ```sh

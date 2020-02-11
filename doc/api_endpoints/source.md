@@ -28,10 +28,10 @@ Using the endpoint `/source` one can query a resource directly by its ID from on
 
 ### List of available indices
 
-| Source Index   | Description              |
-|:---------------|:-----------------------  |
-| `swb-aut`      | ToBeDone                 |
-| `kxp-de14`     | ToBeDone                 |
+| Source Index   | Description                                                  |
+|:---------------|:------------------------------------------------------------ |
+| `swb-aut`      | Data from the [SWB](https://swb.bsz-bw.de/)                  |
+| `kxp-de14`     | Data from [K10Plus](https://www.bszgbv.de/services/k10plus/) |
 
 ## Example
 ```sh

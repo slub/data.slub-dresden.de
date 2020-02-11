@@ -14,7 +14,7 @@ parent: "Entity Types"
 
 | property                                                                 | Type        | multi-/ single valued | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
-| @context                                                                 | URI         |  s  | `"http://schema.org"`      |
+| @context                                                                 | URI         |  s  | `"https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"`      |
 | @id                                                                      | URI         |  s  | `"https://data.slub-dresden.de/geo/SWB-ID"` |
 | @type                                                                    | URI         |  s  | `"http://schema.org/geo"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
@@ -43,7 +43,7 @@ $ curl -XGET "https://data.slub-dresden.de/geo/104460563" | jq
 ```sh
 [
   {
-    "@context": "http://schema.org",
+    "@context": "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld",
     "@id": "https://data.slub-dresden.de/geo/104460563",
     "@type": "http://schema.org/Place",
     "about": […],
@@ -63,7 +63,7 @@ $ curl -XGET "https://data.slub-dresden.de/geo/104460563" | jq
 ```sh
 [
   {
-    "@context": "http://schema.org",
+    "@context": "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld",
     "@id": "https://data.slub-dresden.de/geo/104460563",
     "@type": "http://schema.org/Place",
     "about": [

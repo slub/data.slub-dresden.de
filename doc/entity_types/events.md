@@ -15,7 +15,7 @@ parent: "Entity Types"
 
 | property                                                                 | Type        | multi-/ single valued | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
-| @context                                                                 | URI         |  s  | `"http://schema.org"`      |
+| @context                                                                 | URI         |  s  | `"https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld",`      |
 | @id                                                                      | URI         |  s  | `"https://data.slub-dresden.de/organizations/SWB-ID"` |
 | @type                                                                    | URI         |  s  | `"http://schema.org/Event"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
@@ -43,7 +43,7 @@ $ curl -XGET "https://data.slub-dresden.de/events/711162468" | jq
 ```sh
 [
   {
-    "@context": "http://schema.org",
+    "@context": "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld",
     "@id": "http://data.slub-dresden.de/events/711162468",
     "@type": "http://schema.org/Event",
     "adressRegion": "XA-DE",
@@ -61,7 +61,7 @@ $ curl -XGET "https://data.slub-dresden.de/events/711162468" | jq
 ```sh
 [
   {
-    "@context": "http://schema.org",
+    "@context": "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld",
     "@id": "http://data.slub-dresden.de/events/711162468",
     "@type": "http://schema.org/Event",
     "adressRegion": "XA-DE",

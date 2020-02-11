@@ -14,7 +14,7 @@ parent: "Entity Types"
 
 | property                                                                 | Type        | multi-/ single valued | comments |
 |:-------------------------------------------------------------------------|:------------|:----------------------|:---------|
-| @context                                                                 | URI         |  s  | `"http://schema.org"`      |
+| @context                                                                 | URI         |  s  | `"https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"`      |
 | @id                                                                      | URI         |  s  | `"https://data.slub-dresden.de/organizations/SWB-ID"` |
 | @type                                                                    | URI         |  s  | `"http://schema.org/CreativeWork"` |
 | [name](https://schema.org/name){: .extlink }                             | Literal     |  s  | |
@@ -57,7 +57,7 @@ $ curl -XGET "https://data.slub-dresden.de/works/875674879" | jq '.'
 ```sh
 [
   {
-    "@context": "http://schema.org",
+    "@context": "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld",
     "@id": "https://data.slub-dresden.de/works/875674879",
     "@type": "http://schema.org/CreativeWork",
     "alternateName": […],
@@ -76,7 +76,7 @@ $ curl -XGET "https://data.slub-dresden.de/works/875674879" | jq '.'
 ```sh
 [
   {
-    "@context": "http://schema.org",
+    "@context": "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld",
     "@id": "https://data.slub-dresden.de/works/875674879",
     "@type": "http://schema.org/CreativeWork",
     "alternateName": [

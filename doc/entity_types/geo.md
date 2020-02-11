@@ -53,7 +53,7 @@ $ curl -XGET "https://data.slub-dresden.de/geo/104460563" | jq
     "description": {…},
     "geo": {…},
     "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/104460563",
-    "name": "Trujillo",
+    "preferredName": "Trujillo",
     "sameAs": […]
   }
 ]
@@ -94,13 +94,67 @@ $ curl -XGET "https://data.slub-dresden.de/geo/104460563" | jq
       "longitude": "-070.434719"
     },
     "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/104460563",
-    "name": "Trujillo",
+    "preferredName": "Trujillo",
     "sameAs": [
-      "http://d-nb.info/gnd/4274592-5",
-      "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=104460563",
-      "http://sws.geonames.org/3625979",
-      "http://viaf.org/viaf/246645389",
-      "http://www.wikidata.org/entity/Q1020535"
+      {
+        "@id": "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=104460563",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/104460563",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/103302212",
+          "abbr": "KXP",
+          "preferredName": "K10Plus"
+        }
+      },
+      {
+        "@id": "https://d-nb.info/gnd/4274592-5",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/104460563",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/514366265",
+          "abbr": "DNB",
+          "preferredName": "Deutsche Nationalbibliothek"
+        }
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q1020535",
+        "isBasedOn": {
+          "@id": "http://www.wikidata.org/entity/Q1020535",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://www.wikidata.org/wiki/Q2013",
+          "abbr": "WIKIDATA",
+          "preferredName": "Wikidata"
+        }
+      },
+      {
+        "@id": "http://sws.geonames.org/3625979",
+        "isBasedOn": {
+          "@id": "http://sws.geonames.org/3625979",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "abbr": "geonames",
+          "preferredName": "GeoNames"
+        }
+      },
+      {
+        "@id": "http://viaf.org/viaf/246645389",
+        "isBasedOn": {
+          "@id": "http://hub.culturegraph.org/entityfacts/4274592-5",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/100092306",
+          "abbr": "VIAF",
+          "preferredName": "Virtual International Authority File (VIAF)"
+        }
+      }
     ]
   }
 ]

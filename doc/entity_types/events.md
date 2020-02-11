@@ -51,7 +51,7 @@ $ curl -XGET "https://data.slub-dresden.de/events/711162468" | jq
     "dateModified": "2019-03-17T13:55:00Z",
     "isBasedOn": "http://data.slub-dresden.de/source/swb-aut/711162468",
     "location": […],
-    "name": "Symposium Innovative Lichttechnik in Gebäuden",
+    "preferredName": "Symposium Innovative Lichttechnik in Gebäuden",
     "sameAs": […]
   }
 ]
@@ -84,11 +84,32 @@ $ curl -XGET "https://data.slub-dresden.de/events/711162468" | jq
         "sameAs": "http://d-nb.info/gnd/4004479-8"
       }
     ],
-    "name": "Symposium Innovative Lichttechnik in Gebäuden",
+    "preferredName": "Symposium Innovative Lichttechnik in Gebäuden",
     "sameAs": [
-      "http://d-nb.info/gnd/5310362-2",
-      "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=711162468",
-      "http://viaf.org/viaf/131069195"
+      {
+        "@id": "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=711162468",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/711162468",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/103302212",
+          "abbr": "KXP",
+          "preferredName": "K10Plus"
+        }
+      },
+      {
+        "@id": "https://d-nb.info/gnd/5310362-2",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/711162468",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/514366265",
+          "abbr": "DNB",
+          "preferredName": "Deutsche Nationalbibliothek"
+        }
+      }
     ]
   }
 ]

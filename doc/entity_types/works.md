@@ -65,7 +65,7 @@ $ curl -XGET "https://data.slub-dresden.de/works/875674879" | jq '.'
     "dateModified": "2019-03-17T12:48:00Z",
     "inLanguage": […],
     "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/875674879",
-    "name": […],
+    "preferredName": "Die Feder eines Greifs",
     "relatedTo": {…},
     "sameAs": […]
   }
@@ -97,20 +97,40 @@ $ curl -XGET "https://data.slub-dresden.de/works/875674879" | jq '.'
     ],
     "dateModified": "2019-03-17T12:48:00Z",
     "inLanguage": [
-      "ger"
+      "ger"https://data.slub-dresden.de/source/swb-aut/875674879
     ],
     "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/875674879",
-    "name": [
-      "Die Feder eines Greifs"
-    ],
+    "preferredName": "Die Feder eines Greifs",
     "relatedTo": {
       "@id": "https://data.slub-dresden.de/persons/1047774569",
       "name": "Funke, Cornelia",
       "sameAs": "http://d-nb.info/gnd/1176751743"
     },
     "sameAs": [
-      "http://d-nb.info/gnd/112244432X",
-      "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=875674879"
+      {
+        "@id": "https://d-nb.info/gnd/112244432X",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/875674879",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/514366265",
+          "abbr": "DNB",
+          "preferredName": "Deutsche Nationalbibliothek"
+        }
+      },
+      {
+        "@id": "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=875674879",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/875674879",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/103302212",
+          "abbr": "KXP",
+          "preferredName": "K10Plus"
+        }
+      }
     ]
   }
 ]

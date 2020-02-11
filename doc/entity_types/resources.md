@@ -76,7 +76,7 @@ $ curl -XGET "https://data.slub-dresden.de/resources/1131042077" | jq '.'
     "isbn": […],
     "issn": […],
     "mentions": […],
-    "name": "Repertorium territorialer Amtskalender und Amtshandbücher im Alten Reich",
+    "preferredName": "Repertorium territorialer Amtskalender und Amtshandbücher im Alten Reich",
     "pageStart": "1",
     "partOfSeries": […],
     "publisher": {…},
@@ -180,7 +180,7 @@ $ curl -XGET "https://data.slub-dresden.de/resources/1131042077" | jq '.'
         "sameAs": "http://d-nb.info/gnd/4484374-4"
       }
     ],
-    "name": "Repertorium territorialer Amtskalender und Amtshandbücher im Alten Reich",
+    "preferredName": "Repertorium territorialer Amtskalender und Amtshandbücher im Alten Reich",
     "pageStart": "1",
     "partOfSeries": [
       {
@@ -198,7 +198,18 @@ $ curl -XGET "https://data.slub-dresden.de/resources/1131042077" | jq '.'
       "name": "Klostermann"
     },
     "sameAs": [
-      "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1131042077"
+      {
+        "@id": "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1131042077",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/kxp-de14/1131042077",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/103302212",
+          "abbr": "KXP",
+          "preferredName": "K10Plus"
+        }
+      }
     ]
   }
 ]

@@ -10,7 +10,7 @@ parent: "API endpoints"
 
 # Query only specific entities
 
-If one only needs results for certain entities the `/{entity_index}` can be used. This makes it possible to look - for example - just for results in organizations or persons.
+If one only needs results for certain entities the `/{entity_index}` endpoint can be used. This makes it possible to look - for example - just for results in organizations or persons.
 
 ## Usage
 

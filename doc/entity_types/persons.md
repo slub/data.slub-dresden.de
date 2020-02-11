@@ -64,7 +64,7 @@ $ curl -XGET "https://data.slub-dresden.de/persons/035230606" | jq '.'
     "deathPlace": {…},
     "hasOccupation": […],
     "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/035230606",
-    "name": "Elytēs, Odysseas",
+    "preferredName": "Elytēs, Odysseas",
     "sameAs": […],
     "workLocation": […]
   }
@@ -137,19 +137,80 @@ $ curl -XGET "https://data.slub-dresden.de/persons/035230606" | jq '.'
       }
     ],
     "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/035230606",
-    "name": "Elytēs, Odysseas",
+    "preferredName": "Elytēs, Odysseas",
     "sameAs": [
-      "http://d-nb.info/gnd/118688898",
-      "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=035230606",
-      "http://catalogue.bnf.fr/ark:/12148/cb11901708s",
-      "http://kalliope-verbund.info/gnd/118688898",
-      "https://de.wikipedia.org/wiki/Odysseas_Elytis",
-      "https://en.wikipedia.org/wiki/Odysseas_Elytis",
-      "https://www.deutsche-digitale-bibliothek.de/person/gnd/118688898",
-      "http://id.loc.gov/rwo/agents/n50011817",
-      "http://isni.org/isni/0000000121244088",
-      "http://viaf.org/viaf/24601064",
-      "http://www.wikidata.org/entity/Q160478"
+      {
+        "@id": "https://d-nb.info/gnd/118688898",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/035230606",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/514366265",
+          "abbr": "DNB",
+          "preferredName": "Deutsche Nationalbibliothek"
+        }
+      },
+      {
+        "@id": "http://id.loc.gov/rwo/agents/n50011817",
+        "isBasedOn": {
+          "@id": "http://hub.culturegraph.org/entityfacts/118688898",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/100822142",
+          "abbr": "LC",
+          "preferredName": "NACO Authority File"
+        }
+      },
+      {
+        "@id": "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=035230606",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/035230606",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/103302212",
+          "abbr": "KXP",
+          "preferredName": "K10Plus"
+        }
+      },
+      {
+        "@id": "https://www.deutsche-digitale-bibliothek.de/person/gnd/118688898",
+        "isBasedOn": {
+          "@id": "http://hub.culturegraph.org/entityfacts/118688898",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/824631854",
+          "abbr": "DDB",
+          "preferredName": "Deutsche Digitale Bibliothek"
+        }
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q160478",
+        "isBasedOn": {
+          "@id": "http://www.wikidata.org/entity/Q160478",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://www.wikidata.org/wiki/Q2013",
+          "abbr": "WIKIDATA",
+          "preferredName": "Wikidata"
+        }
+      },
+      {
+        "@id": "http://viaf.org/viaf/24601064",
+        "isBasedOn": {
+          "@id": "http://hub.culturegraph.org/entityfacts/118688898",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/100092306",
+          "abbr": "VIAF",
+          "preferredName": "Virtual International Authority File (VIAF)"
+        }
+      }
     ],
     "workLocation": [
       {

@@ -54,7 +54,7 @@ $ curl -XGET "https://data.slub-dresden.de/topics/104305371" | jq
     "description": "Am 15.07.1410 bei Tannenberg und Grünfelde zwischen dem Heer des Deutschen Ordens und der Streitmacht des Königreichs Polen ausgefochten",
     "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/104305371",
     "location": […],
-    "name": "Schlacht bei Tannenberg",
+    "preferredName": "Schlacht bei Tannenberg",
     "participant": […],
     "sameAs": […]
   }
@@ -112,7 +112,7 @@ $ curl -XGET "https://data.slub-dresden.de/topics/104305371" | jq
         "sameAs": "http://d-nb.info/gnd/4306530-2"
       }
     ],
-    "name": "Schlacht bei Tannenberg",
+    "preferredName": "Schlacht bei Tannenberg",
     "participant": [
       {
         "@id": "https://data.slub-dresden.de/geo/106197762",
@@ -121,9 +121,31 @@ $ curl -XGET "https://data.slub-dresden.de/topics/104305371" | jq
         "sameAs": "http://d-nb.info/gnd/4046496-9"
       }
     ],
-    "sameAs": [
-      "http://d-nb.info/gnd/4184406-3",
-      "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=104305371"
+    "sameAs": [     
+      {
+        "@id": "https://d-nb.info/gnd/4184406-3",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/104305371",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/514366265",
+          "abbr": "DNB",
+          "preferredName": "Deutsche Nationalbibliothek"
+        }
+      },
+      {
+        "@id": "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=104305371",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/104305371",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/103302212",
+          "abbr": "KXP",
+          "preferredName": "K10Plus"
+        }
+      }
     ]
   }
 ]

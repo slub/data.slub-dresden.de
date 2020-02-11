@@ -51,7 +51,7 @@ $ curl -XGET "https://data.slub-dresden.de/organizations/191800287" | jq
     "dateModified": "2019-03-17T13:36:00Z",
     "isBasedOn": "https://data.slub-dresden.de/source/swb-aut/191800287",
     "location": {…},
-    "name": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden",
+    "preferredName": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden",
     "sameAs": […]
   }
 ]
@@ -115,17 +115,113 @@ $ curl -XGET "https://data.slub-dresden.de/organizations/191800287" | jq
       "name": "Dresden",
       "sameAs": "http://d-nb.info/gnd/4012995-0"
     },
-    "name": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden",
+    "preferredName": "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden",
     "sameAs": [
-      "http://d-nb.info/gnd/5165770-3",
-      "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=191800287",
-      "http://catalogue.bnf.fr/ark:/12148/cb158801721",
-      "http://kalliope-verbund.info/gnd/5165770-3",
-      "https://de.wikipedia.org/wiki/S%C3%A4chsische_Landesbibliothek_%E2%80%93_Staats-_und_Universit%C3%A4tsbibliothek_Dresden",
-      "https://en.wikipedia.org/wiki/Saxon_State_and_University_Library_Dresden",
-      "http://viaf.org/viaf/126840482",
-      "http://www.isni.org/0000000119395418",
-      "http://www.wikidata.org/entity/Q323270"
+      {
+        "@id": "http://kalliope-verbund.info/gnd/5165770-3",
+        "isBasedOn": {
+          "@id": "http://hub.culturegraph.org/entityfacts/5165770-3",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/103675612",
+          "abbr": "DE-611",
+          "preferredName": "kalliope Verbundkatalog"
+        }
+      },
+      {
+        "@id": "http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=191800287",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/191800287",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/103302212",
+          "abbr": "KXP",
+          "preferredName": "K10Plus"
+        }
+      },
+      {
+        "@id": "https://en.wikipedia.org/wiki/Saxon_State_and_University_Library_Dresden",
+        "isBasedOn": {
+          "@id": "http://hub.culturegraph.org/entityfacts/5165770-3",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "abbr": "enwiki",
+          "preferredName": "Wikipedia (Englisch)"
+        }
+      },
+      {
+        "@id": "http://www.isni.org/0000000119395418",
+        "isBasedOn": {
+          "@id": "http://hub.culturegraph.org/entityfacts/5165770-3",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "abbr": "ISNI",
+          "preferredName": "International Standard Name Identifier (ISNI)"
+        }
+      },
+      {
+        "@id": "http://catalogue.bnf.fr/ark:/12148/cb158801721",
+        "isBasedOn": {
+          "@id": "http://hub.culturegraph.org/entityfacts/5165770-3",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/188898441",
+          "abbr": "BNF",
+          "preferredName": "Bibliothèque nationale de France"
+        }
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q323270",
+        "isBasedOn": {
+          "@id": "http://www.wikidata.org/entity/Q323270",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://www.wikidata.org/wiki/Q2013",
+          "abbr": "WIKIDATA",
+          "preferredName": "Wikidata"
+        }
+      },
+      {
+        "@id": "https://d-nb.info/gnd/5165770-3",
+        "isBasedOn": {
+          "@id": "https://data.slub-dresden.de/source/swb-aut/191800287",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/514366265",
+          "abbr": "DNB",
+          "preferredName": "Deutsche Nationalbibliothek"
+        }
+      },
+      {
+        "@id": "http://viaf.org/viaf/126840482",
+        "isBasedOn": {
+          "@id": "http://hub.culturegraph.org/entityfacts/5165770-3",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "@id": "https://data.slub-dresden.de/organizations/100092306",
+          "abbr": "VIAF",
+          "preferredName": "Virtual International Authority File (VIAF)"
+        }
+      },
+      {
+        "@id": "https://de.wikipedia.org/wiki/S%C3%A4chsische_Landesbibliothek_%E2%80%93_Staats-_und_Universit%C3%A4tsbibliothek_Dresden",
+        "isBasedOn": {
+          "@id": "http://hub.culturegraph.org/entityfacts/5165770-3",
+          "@type": "Dataset"
+        },
+        "publisher": {
+          "abbr": "dewiki",
+          "preferredName": "Wikipedia (Deutsch)"
+        }
+      }
     ]
   }
 ]

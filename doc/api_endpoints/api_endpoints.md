@@ -19,7 +19,7 @@ permalink: doc/api_endpoints
 ## Query one source index (SWB, K10Plus) directly
    The endpoint [`/source`]({{ site.baseurl }}{% link doc/api_endpoints/source.md %}) realizes a direct interface to the (unprocessed) source datasets located in different source indices. A dataset can be requested with its index-specific ID.
 
-## Query datasets by its entity ('persons', 'organizantions', 'events', …)
+## Query datasets by its entity ('persons', 'organizations', 'events', …)
    The endpoint [`/{entity_index}`]({{ site.baseurl }}{% link doc/api_endpoints/entity_index.md %}) gives the possibility to query only specified entities.
 
 ## Query an ID used by an authority provider (GND, wikidata, SWB, …)

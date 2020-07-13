@@ -12,7 +12,7 @@ logo: "/assets/images/slublogo.svg"
 # theme
 theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
-color_scheme: "light"
+color_scheme: "slub_light"
 
 # Enable or disable the site search
 search_enabled: true

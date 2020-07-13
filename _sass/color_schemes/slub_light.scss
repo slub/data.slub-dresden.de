@@ -18,7 +18,7 @@ $body-font-family: "VistaSansBold", -apple-system, BlinkMacSystemFont, "helvetic
 //// Colors
 ////
 
-//$white: #fff;
+$white: #fff;
 
 //$grey-dk-000: #959396;
 //$grey-dk-100: #5c5962;
@@ -144,4 +144,11 @@ a.extlink:after {
     content: url("../../assets/css/external-link-ltr-icon.svg");
     // content: " (ext)";
 }
-
+.note {
+    background: $slub-rot;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+.note-text {
+    color: $white;
+}

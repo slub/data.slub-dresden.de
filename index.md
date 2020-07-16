@@ -38,6 +38,6 @@ If you are interested how the data was processed from the sources to end up in o
 
 
 ## Adopt this project for your own LOD-API
-The implementation of our LOD-API can be adopted by you since it is puplished under the [Apache 2.0 licence](https://github.com/slub/efre-lod-api/blob/master/LICENSE).
+The implementation of our LOD-API can be adopted by you since it is published under the [Apache 2.0 licence](https://github.com/slub/efre-lod-api/blob/master/LICENSE).
 
 [View API implementation on GitHub](https://github.com/slub/efre-lod-api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }

@@ -6,13 +6,6 @@ description: "SLUB LOD API"
 permalink: /
 ---
 
-<div class="note" ><span class="fs-5 note-text">
-note: Dear user,<br>
-extensive and legally required technical maintenance work will take place from August 15th until August 26th 2020. Unfortunately, massive restrictions must be expected. As a consequence the LOD API will not be accessible. We apologize for any inconvenience.
-</span></div>
-
-
-
 # SLUB LOD API documentation
 The API provided by [data.slub-dresden.de](https://data.slub-dresden.de) for Linked Open Data can be used to process datasets from different sources (K10Plus, SWB), enriched with norm data from multiple authority providers (GND, wikidata, SWB, …).
 

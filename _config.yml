@@ -24,7 +24,7 @@ search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
 
 # Footer with imprint and Copyright
-footer_content: "Copyright &copy; 2019-2020 SLUB Dresden. <a href=\"https://www.slub-dresden.de/impressum/\">Legal Notice</a>, <a href=\"https://docs.github.com/en/github/site-policy/github-privacy-statement\"> Privacy Policy</a>"
+footer_content: "Copyright &copy; 2019-2020 SLUB Dresden. <a href=\"https://www.slub-dresden.de/impressum/\">Legal Notice</a>, <a href=\"https://docs.github.com/en/github/site-policy/github-privacy-statement\"> Privacy Policy (Documentation), <a href=\"https://www.slub-dresden.de/en/privacy-policy/\"> Privacy Policy (LOD API)</a>"
 
 # Aux links for the upper right navigation
 aux_links:

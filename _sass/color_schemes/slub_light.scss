@@ -14,6 +14,8 @@ $body-font-family: "VistaSansBold", -apple-system, BlinkMacSystemFont, "helvetic
 //$content-line-height: 1.5;
 //$body-heading-line-height: 1.15;
 
+
+
 ////
 //// Colors
 ////
@@ -151,4 +153,12 @@ a.extlink:after {
 }
 .note-text {
     color: $white;
+}
+
+img.efre {
+    height: 7em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
 }

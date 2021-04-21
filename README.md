@@ -1,3 +1,5 @@
+<img alt="EFRE-Lod logo" src="assets/images/EFRE_EU_quer_2015_rgb_engl.svg" width="300" >
+
 # static documentation for LOD API
 for editing this page and see the changes offline
 

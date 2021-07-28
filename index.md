@@ -15,8 +15,12 @@ There is an [interactive UI](https://data.slub-dresden.de/doc/api) where you can
 ## TL;DR
 [Try the API](https://data.slub-dresden.de/doc/api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }
 
+## Explore our data
 
-## Usage
+[![explorative-search-preview]({{ site.baseurl }}{% link assets/images/explorative-Suche-preview.png%})](https://data.slub-dresden.de/explore){:target="_blank"}
+We provide a way to explore our data interactively using the "explorative Suche". It is a frontend that let you jump from topic to topic based on their existance and mutual occurences in our resources. Feel free to [plunge into our data](https://data.slub-dresden.de/explore){:target="_blank"}.
+
+## API usage
 
 For a detailed overview with examples please have a look at [API endpoints]({{ site.baseurl }}{% link doc/api_endpoints/api_endpoints.md %}). If you are interested what information are contained in our API you might be interested in the [Data Types]({{ site.baseurl }}{% link doc/entity_types/entity_types.md %}) page.
 

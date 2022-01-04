@@ -22,7 +22,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>MARC21-Field(s)</th>
       <th>Type</th>
       <th>field</th>
@@ -33,7 +32,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
       <td>URI</td>
       <td>@context</td>
@@ -42,7 +40,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>1</th>
       <td>001</td>
       <td>URI</td>
       <td>@id</td>
@@ -51,7 +48,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>2</th>
       <td><a href="http://schema.org/CreativeWork" target="_blank">http://schema.org/CreativeWork</a></td>
       <td>URI</td>
       <td>@type</td>
@@ -60,7 +56,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>3</th>
       <td>502$a<br\>502$b<br\>502$c<br\>502$d</td>
       <td>literal</td>
       <td><a href="http://schema.org/Thesis" class="extlink">Thesis</a></td>
@@ -69,7 +64,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>4</th>
       <td>003<br\>852$a<br\>924$b</td>
       <td>literal</td>
       <td>_isil</td>
@@ -78,7 +72,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>5</th>
       <td>001</td>
       <td>literal</td>
       <td>_ppn</td>
@@ -87,7 +80,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>6</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/about" class="extlink">about</a></td>
@@ -96,7 +88,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>7</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>URI</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.@id</td>
@@ -105,7 +96,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>8</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>object</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a></td>
@@ -114,7 +104,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>9</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.@type</td>
@@ -123,7 +112,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>10</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/propertyID" class="extlink">propertyID</a></td>
@@ -132,7 +120,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>11</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/value" class="extlink">value</a></td>
@@ -141,7 +128,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>12</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/keywords" class="extlink">keywords</a></td>
@@ -150,16 +136,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>13</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Historische Darstellungen</td>
+      <td>Gesamte Schweiz</td>
       <td></td>
     </tr>
     <tr>
-      <th>14</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>list of URIs</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -168,7 +152,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>15</th>
       <td>240$a<br\>240$p<br\>246$a<br\>246$b<br\>245$p<br\>249$a<br\>249$b<br\>730$a<br\>730$p<br\>740$a<br\>740$p<br\>920$t</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
@@ -177,16 +160,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>16</th>
       <td>245$c</td>
       <td>literal</td>
       <td><a href="http://schema.org/alternativeHeadline" class="extlink">alternativeHeadline</a></td>
       <td></td>
-      <td>Oskar Hoffmann</td>
+      <td>Torsten Bröhan; Thomas Berg. [Ed. by Simone Philippi]</td>
       <td></td>
     </tr>
     <tr>
-      <th>17</th>
       <td>100<br\>110</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/author" class="extlink">author</a></td>
@@ -195,7 +176,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>18</th>
       <td>100<br\>110</td>
       <td>URI</td>
       <td><a href="http://schema.org/author" class="extlink">author</a>.@id</td>
@@ -204,16 +184,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>19</th>
       <td>100<br\>110</td>
       <td>literal</td>
       <td><a href="http://schema.org/author" class="extlink">author</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Hoffmann, Oskar</td>
+      <td>Isahakyan, Avetik̕</td>
       <td></td>
     </tr>
     <tr>
-      <th>20</th>
       <td>100<br\>110</td>
       <td>URI</td>
       <td><a href="http://schema.org/author" class="extlink">author</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -222,34 +200,30 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>21</th>
       <td>700<br\>710</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/contributor" class="extlink">contributor</a></td>
       <td></td>
-      <td>[{'sameAs': 'https://d-nb.info/gnd/119066378', '@id': 'https://data.slub-dresden.de/persons/079857167', 'name': 'Bröhan, Torsten'}, {'@id': 'https://data.slub-dresden.de/persons/1234925206', 'name': 'Berg, Thomas'}, {'name': 'Philippi, Simone'}]</td>
+      <td>[{'name': 'Leitsmann, ...'}]</td>
       <td></td>
     </tr>
     <tr>
-      <th>22</th>
       <td>700<br\>710</td>
       <td>URI</td>
       <td><a href="http://schema.org/contributor" class="extlink">contributor</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/persons/079857167" target="_blank">https://data.slub-dresden.de/persons/079857167</a></td>
+      <td><a href="https://data.slub-dresden.de/swb/305903144" target="_blank">https://data.slub-dresden.de/swb/305903144</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>23</th>
       <td>700<br\>710</td>
       <td>literal</td>
       <td><a href="http://schema.org/contributor" class="extlink">contributor</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Leitsmann, ...</td>
+      <td>Bröhan, Torsten</td>
       <td></td>
     </tr>
     <tr>
-      <th>24</th>
       <td>700<br\>710</td>
       <td>URI</td>
       <td><a href="http://schema.org/contributor" class="extlink">contributor</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -258,7 +232,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>25</th>
       <td>008</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
@@ -267,7 +240,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>26</th>
       <td>005</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
@@ -276,16 +248,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>27</th>
       <td>008<br\>533<br\>534<br\>264</td>
       <td>object</td>
       <td>dateOriginalPublished</td>
       <td></td>
-      <td>{'dateOrigin': '[1578]', 'dateParsed': '1578'}</td>
+      <td>{'dateOrigin': '27.03.1929', 'dateParsed': '1929-03-27'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>28</th>
       <td>008<br\>533<br\>534<br\>264</td>
       <td>literal</td>
       <td>dateOriginalPublished.dateOrigin</td>
@@ -294,16 +264,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>29</th>
       <td>008<br\>533<br\>534<br\>264</td>
       <td>literal</td>
       <td>dateOriginalPublished.dateParsed</td>
       <td></td>
-      <td>1578</td>
+      <td>1929-03-27</td>
       <td></td>
     </tr>
     <tr>
-      <th>30</th>
       <td>008<br\>533<br\>534<br\>264</td>
       <td>literal</td>
       <td>dateOriginalPublished.dateParsedEarliest</td>
@@ -312,7 +280,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>31</th>
       <td>008<br\>533<br\>534<br\>264</td>
       <td>literal</td>
       <td>dateOriginalPublished.dateParsedLatest</td>
@@ -321,7 +288,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>32</th>
       <td>008<br\>533<br\>534<br\>264</td>
       <td>object</td>
       <td><a href="http://schema.org/datePublished" class="extlink">datePublished</a></td>
@@ -330,7 +296,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>33</th>
       <td>008<br\>533<br\>534<br\>264</td>
       <td>literal</td>
       <td><a href="http://schema.org/datePublished" class="extlink">datePublished</a>.dateOrigin</td>
@@ -339,7 +304,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>34</th>
       <td>008<br\>533<br\>534<br\>264</td>
       <td>literal</td>
       <td><a href="http://schema.org/datePublished" class="extlink">datePublished</a>.dateParsed</td>
@@ -348,7 +312,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>35</th>
       <td>008<br\>533<br\>534<br\>264</td>
       <td>literal</td>
       <td><a href="http://schema.org/datePublished" class="extlink">datePublished</a>.dateParsedEarliest</td>
@@ -357,16 +320,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>36</th>
       <td>008<br\>533<br\>534<br\>264</td>
       <td>literal</td>
       <td><a href="http://schema.org/datePublished" class="extlink">datePublished</a>.dateParsedLatest</td>
       <td></td>
-      <td>1801</td>
+      <td>1925</td>
       <td></td>
     </tr>
     <tr>
-      <th>37</th>
       <td>500$a<br\>520$a</td>
       <td>literal</td>
       <td><a href="http://schema.org/description" class="extlink">description</a></td>
@@ -375,7 +336,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>38</th>
       <td>655$a</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/genre" class="extlink">genre</a></td>
@@ -384,7 +344,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>39</th>
       <td>655$a</td>
       <td>literal</td>
       <td><a href="http://schema.org/genre" class="extlink">genre</a>.@type</td>
@@ -393,7 +352,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>40</th>
       <td>655$a</td>
       <td>literal</td>
       <td><a href="http://schema.org/genre" class="extlink">genre</a>.<a href="http://schema.org/Text" class="extlink">Text</a></td>
@@ -402,16 +360,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>41</th>
       <td>700</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/hasPart" class="extlink">hasPart</a></td>
       <td></td>
-      <td>[{'name': 'Jews without money <dt.>', 'author': 'Gold, Michael'}]</td>
+      <td>[{'name': 'Orbis descriptio <lat.>', 'author': 'Dionysius'}]</td>
       <td></td>
     </tr>
     <tr>
-      <th>42</th>
       <td>700</td>
       <td>URI</td>
       <td><a href="http://schema.org/hasPart" class="extlink">hasPart</a>.@id</td>
@@ -420,7 +376,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>43</th>
       <td>700</td>
       <td>literal</td>
       <td><a href="http://schema.org/hasPart" class="extlink">hasPart</a>.<a href="http://schema.org/author" class="extlink">author</a></td>
@@ -429,7 +384,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>44</th>
       <td>700</td>
       <td>literal</td>
       <td><a href="http://schema.org/hasPart" class="extlink">hasPart</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -438,16 +392,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>45</th>
       <td>700</td>
       <td>URI</td>
       <td><a href="http://schema.org/hasPart" class="extlink">hasPart</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
-      <td><a href="https://d-nb.info/gnd/300142390" target="_blank">https://d-nb.info/gnd/300142390</a></td>
+      <td><a href="https://d-nb.info/gnd/1106347978" target="_blank">https://d-nb.info/gnd/1106347978</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>46</th>
       <td>001</td>
       <td>literal</td>
       <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
@@ -456,7 +408,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>47</th>
       <td>377$a<br\>041$a<br\>041$d<br\>130$l<br\>730$l</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/inLanguage" class="extlink">inLanguage</a></td>
@@ -465,25 +416,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>48</th>
       <td>URI</td>
       <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/source/kxp-de14/1322972605" target="_blank">https://data.slub-dresden.de/source/kxp-de14/1322972605</a></td>
+      <td><a href="https://data.slub-dresden.de/source/kxp-de14/161804950X" target="_blank">https://data.slub-dresden.de/source/kxp-de14/161804950X</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>49</th>
       <td>773$t<br\>773$s<br\>773$a</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/isPartOf" class="extlink">isPartOf</a></td>
       <td></td>
-      <td>[Art press / English edition]</td>
+      <td>[mot : die Autozeitschrift]</td>
       <td></td>
     </tr>
     <tr>
-      <th>50</th>
       <td>020$a<br\>022$a<br\>022$z<br\>776$z<br\>780$z<br\>785$z</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/isbn" class="extlink">isbn</a></td>
@@ -492,25 +440,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>51</th>
       <td>022$a<br\>022$y<br\>022$z<br\>029$a<br\>490$x<br\>730$x<br\>773$x<br\>776$x<br\>780$x<br\>785$x<br\>800$x<br\>810$x<br\>811$x<br\>830$x</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/issn" class="extlink">issn</a></td>
       <td></td>
-      <td>[0417-2000]</td>
+      <td>[2210-8866]</td>
       <td></td>
     </tr>
     <tr>
-      <th>52</th>
       <td>540$a</td>
       <td>literal</td>
       <td><a href="http://schema.org/license" class="extlink">license</a></td>
       <td></td>
-      <td>Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International</td>
+      <td>Public Domain Mark 1.0</td>
       <td></td>
     </tr>
     <tr>
-      <th>53</th>
       <td>689</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/mentions" class="extlink">mentions</a></td>
@@ -519,16 +464,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>54</th>
       <td>689</td>
       <td>URI</td>
       <td><a href="http://schema.org/mentions" class="extlink">mentions</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/geo/104584904" target="_blank">https://data.slub-dresden.de/geo/104584904</a></td>
+      <td><a href="https://data.slub-dresden.de/topics/10609422X" target="_blank">https://data.slub-dresden.de/topics/10609422X</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>55</th>
       <td>689</td>
       <td>URI</td>
       <td><a href="http://schema.org/mentions" class="extlink">mentions</a>.@type</td>
@@ -537,7 +480,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>56</th>
       <td>689</td>
       <td>literal</td>
       <td><a href="http://schema.org/mentions" class="extlink">mentions</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -546,7 +488,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>57</th>
       <td>689</td>
       <td>literal</td>
       <td><a href="http://schema.org/mentions" class="extlink">mentions</a>.<a href="http://schema.org/position" class="extlink">position</a></td>
@@ -555,7 +496,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>58</th>
       <td>689</td>
       <td>URI</td>
       <td><a href="http://schema.org/mentions" class="extlink">mentions</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -564,7 +504,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>59</th>
       <td>245$a</td>
       <td>literal</td>
       <td>nameShort</td>
@@ -573,16 +512,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>60</th>
       <td>245$b</td>
       <td>literal</td>
       <td>nameSub</td>
       <td></td>
-      <td>1880 - 1930</td>
+      <td>Handbuch für Reisende</td>
       <td></td>
     </tr>
     <tr>
-      <th>61</th>
       <td>300$a<br\>300$b<br\>300$c<br\>300$d<br\>300$e<br\>300$f<br\>300$g</td>
       <td>None</td>
       <td><a href="http://schema.org/numberOfPages" class="extlink">numberOfPages</a></td>
@@ -591,16 +528,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>62</th>
       <td>924$b<br\>001</td>
       <td>object</td>
       <td><a href="http://schema.org/offers" class="extlink">offers</a></td>
       <td></td>
-      <td>{'@type': 'Offer', 'offeredBy': {'@id': 'https://data.slub-dresden.de/organizations/191800287', '@type': 'Library', 'name': 'Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden', 'branchCode': 'DE-14'}, 'availability': 'https://katalog.slub-dresden.de/id/0-1322972605'}</td>
+      <td>{'@type': 'Offer', 'offeredBy': {'@id': 'https://data.slub-dresden.de/organizations/191800287', '@type': 'Library', 'name': 'Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden', 'branchCode': 'DE-14'}, 'availability': 'https://katalog.slub-dresden.de/id/0-161804950X'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>63</th>
       <td>924$b<br\>001</td>
       <td>literal</td>
       <td><a href="http://schema.org/offers" class="extlink">offers</a>.@type</td>
@@ -609,16 +544,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>64</th>
       <td>924$b<br\>001</td>
       <td>URI</td>
       <td><a href="http://schema.org/offers" class="extlink">offers</a>.<a href="http://schema.org/availability" class="extlink">availability</a></td>
       <td></td>
-      <td><a href="https://katalog.slub-dresden.de/id/0-1322972605" target="_blank">https://katalog.slub-dresden.de/id/0-1322972605</a></td>
+      <td><a href="https://katalog.slub-dresden.de/id/0-161804950X" target="_blank">https://katalog.slub-dresden.de/id/0-161804950X</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>65</th>
       <td>924$b<br\>001</td>
       <td>object</td>
       <td><a href="http://schema.org/offers" class="extlink">offers</a>.<a href="http://schema.org/offeredBy" class="extlink">offeredBy</a></td>
@@ -627,7 +560,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>66</th>
       <td>924$b<br\>001</td>
       <td>URI</td>
       <td><a href="http://schema.org/offers" class="extlink">offers</a>.<a href="http://schema.org/offeredBy" class="extlink">offeredBy</a>.@id</td>
@@ -636,7 +568,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>67</th>
       <td>924$b<br\>001</td>
       <td>literal</td>
       <td><a href="http://schema.org/offers" class="extlink">offers</a>.<a href="http://schema.org/offeredBy" class="extlink">offeredBy</a>.@type</td>
@@ -645,7 +576,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>68</th>
       <td>924$b<br\>001</td>
       <td>literal</td>
       <td><a href="http://schema.org/offers" class="extlink">offers</a>.<a href="http://schema.org/offeredBy" class="extlink">offeredBy</a>.<a href="http://schema.org/branchCode" class="extlink">branchCode</a></td>
@@ -654,7 +584,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>69</th>
       <td>924$b<br\>001</td>
       <td>literal</td>
       <td><a href="http://schema.org/offers" class="extlink">offers</a>.<a href="http://schema.org/offeredBy" class="extlink">offeredBy</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -663,7 +592,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>70</th>
       <td>773$q</td>
       <td>literal</td>
       <td><a href="http://schema.org/pageStart" class="extlink">pageStart</a></td>
@@ -672,7 +600,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>71</th>
       <td>830</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/partOfSeries" class="extlink">partOfSeries</a></td>
@@ -681,16 +608,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>72</th>
       <td>830</td>
       <td>URI</td>
       <td><a href="http://schema.org/partOfSeries" class="extlink">partOfSeries</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/resources/130290025" target="_blank">https://data.slub-dresden.de/resources/130290025</a></td>
+      <td><a href="https://data.slub-dresden.de/resources/308449258" target="_blank">https://data.slub-dresden.de/resources/308449258</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>73</th>
       <td>830</td>
       <td>literal</td>
       <td><a href="http://schema.org/partOfSeries" class="extlink">partOfSeries</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -699,7 +624,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>74</th>
       <td>830</td>
       <td>literal</td>
       <td><a href="http://schema.org/partOfSeries" class="extlink">partOfSeries</a>.<a href="http://schema.org/position" class="extlink">position</a></td>
@@ -708,7 +632,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>75</th>
       <td>830</td>
       <td>URI</td>
       <td><a href="http://schema.org/partOfSeries" class="extlink">partOfSeries</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -717,7 +640,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>76</th>
       <td>300<br\>533</td>
       <td>object</td>
       <td>physical_description</td>
@@ -726,7 +648,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>77</th>
       <td>300<br\>533</td>
       <td>literal</td>
       <td>physical_description.accompanying_material</td>
@@ -735,7 +656,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>78</th>
       <td>300<br\>533</td>
       <td>literal</td>
       <td>physical_description.dimensions</td>
@@ -744,7 +664,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>79</th>
       <td>300<br\>533</td>
       <td>literal</td>
       <td>physical_description.extent</td>
@@ -753,7 +672,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>80</th>
       <td>300<br\>533</td>
       <td>literal</td>
       <td>physical_description.physical_details</td>
@@ -762,7 +680,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>81</th>
       <td>300<br\>533</td>
       <td>literal</td>
       <td>physical_description.reproduction_extent</td>
@@ -771,7 +688,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>82</th>
       <td>245$a<br\>245$b</td>
       <td>literal</td>
       <td>preferredName</td>
@@ -780,7 +696,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>83</th>
       <td>260$a260$b<br\>264$a<br\>264$b</td>
       <td>object</td>
       <td><a href="http://schema.org/publisher" class="extlink">publisher</a></td>
@@ -789,7 +704,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>84</th>
       <td>260$a260$b<br\>264$a<br\>264$b</td>
       <td>literal</td>
       <td><a href="http://schema.org/publisher" class="extlink">publisher</a>.@type</td>
@@ -798,16 +712,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>85</th>
       <td>260$a260$b<br\>264$a<br\>264$b</td>
       <td>object</td>
       <td><a href="http://schema.org/publisher" class="extlink">publisher</a>.<a href="http://schema.org/location" class="extlink">location</a></td>
       <td></td>
-      <td>{'name': ['Dresden-Radebeul', 'Leipzig'], 'type': 'Place'}</td>
+      <td>{'name': 'Köln [u.a.]', 'type': 'Place'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>86</th>
       <td>260$a260$b<br\>264$a<br\>264$b</td>
       <td>literal</td>
       <td><a href="http://schema.org/publisher" class="extlink">publisher</a>.<a href="http://schema.org/location" class="extlink">location</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -816,7 +728,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>87</th>
       <td>260$a260$b<br\>264$a<br\>264$b</td>
       <td>literal</td>
       <td><a href="http://schema.org/publisher" class="extlink">publisher</a>.<a href="http://schema.org/location" class="extlink">location</a>.type</td>
@@ -825,7 +736,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>88</th>
       <td>260$a260$b<br\>264$a<br\>264$b</td>
       <td>literal</td>
       <td><a href="http://schema.org/publisher" class="extlink">publisher</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -834,16 +744,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>89</th>
       <td>711</td>
       <td>list of objects</td>
       <td>relatedEvent</td>
       <td></td>
-      <td>[{'sameAs': 'https://d-nb.info/gnd/5545899-3', '@id': 'https://data.slub-dresden.de/events/364536403', 'name': 'International Conference on Software Maintenance'}]</td>
+      <td>[{'sameAs': 'https://d-nb.info/gnd/5129192-7', '@id': 'https://data.slub-dresden.de/events/18417550X', 'name': 'Exhibition Robert Frank - Moving Out'}]</td>
       <td></td>
     </tr>
     <tr>
-      <th>90</th>
       <td>711</td>
       <td>URI</td>
       <td>relatedEvent.@id</td>
@@ -852,7 +760,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>91</th>
       <td>711</td>
       <td>literal</td>
       <td>relatedEvent.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -861,7 +768,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>92</th>
       <td>711</td>
       <td>literal</td>
       <td>relatedEvent.<a href="http://schema.org/position" class="extlink">position</a></td>
@@ -870,7 +776,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>93</th>
       <td>711</td>
       <td>URI</td>
       <td>relatedEvent.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -879,7 +784,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>94</th>
       <td>035$a<br\>670$u</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -888,7 +792,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>95</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.@id</td>
@@ -897,7 +800,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>96</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
@@ -906,7 +808,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>97</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@id</td>
@@ -915,7 +816,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>98</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@type</td>
@@ -924,7 +824,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>99</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a></td>
@@ -933,7 +832,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>100</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.@id</td>
@@ -942,7 +840,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>101</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.abbr</td>
@@ -951,7 +848,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>102</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.preferredName</td>
@@ -969,7 +865,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>MARC21-Field(s)</th>
       <th>Type</th>
       <th>field</th>
@@ -980,7 +875,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
       <td>URI</td>
       <td>@context</td>
@@ -989,16 +883,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>1</th>
       <td>001</td>
       <td>URI</td>
       <td>@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/persons/577187082" target="_blank">https://data.slub-dresden.de/persons/577187082</a></td>
+      <td><a href="https://data.slub-dresden.de/persons/588731439" target="_blank">https://data.slub-dresden.de/persons/588731439</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>2</th>
       <td><a href="http://schema.org/Person" target="_blank">http://schema.org/Person</a></td>
       <td>URI</td>
       <td>@type</td>
@@ -1007,7 +899,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>3</th>
       <td>003</td>
       <td>literal</td>
       <td>_isil</td>
@@ -1016,7 +907,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>4</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/about" class="extlink">about</a></td>
@@ -1025,7 +915,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>5</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>URI</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.@id</td>
@@ -1034,7 +923,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>6</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>object</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a></td>
@@ -1043,7 +931,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>7</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.@type</td>
@@ -1052,7 +939,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>8</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/propertyID" class="extlink">propertyID</a></td>
@@ -1061,7 +947,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>9</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/value" class="extlink">value</a></td>
@@ -1070,7 +955,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>10</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -1079,7 +963,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>11</th>
       <td>400$a<br\>400$c</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
@@ -1088,16 +971,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>12</th>
       <td>548^datl,datx</td>
       <td>object</td>
       <td><a href="http://schema.org/birthDate" class="extlink">birthDate</a></td>
       <td></td>
-      <td>{'@value': '1931', 'disambiguatingDescription': 'Lebensdaten', 'description': '1931-'}</td>
+      <td>{'@value': '1953', 'disambiguatingDescription': 'Lebensdaten', 'description': '1953-'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>13</th>
       <td>548^datl,datx</td>
       <td>literal</td>
       <td><a href="http://schema.org/birthDate" class="extlink">birthDate</a>.@value</td>
@@ -1106,7 +987,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>14</th>
       <td>548^datl,datx</td>
       <td>literal</td>
       <td><a href="http://schema.org/birthDate" class="extlink">birthDate</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -1115,7 +995,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>15</th>
       <td>548^datl,datx</td>
       <td>literal</td>
       <td><a href="http://schema.org/birthDate" class="extlink">birthDate</a>.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -1124,7 +1003,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>16</th>
       <td>551^ortg</td>
       <td>object</td>
       <td><a href="http://schema.org/birthPlace" class="extlink">birthPlace</a></td>
@@ -1133,7 +1011,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>17</th>
       <td>551^ortg</td>
       <td>URI</td>
       <td><a href="http://schema.org/birthPlace" class="extlink">birthPlace</a>.@id</td>
@@ -1142,7 +1019,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>18</th>
       <td>551^ortg</td>
       <td>literal</td>
       <td><a href="http://schema.org/birthPlace" class="extlink">birthPlace</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -1151,7 +1027,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>19</th>
       <td>551^ortg</td>
       <td>literal</td>
       <td><a href="http://schema.org/birthPlace" class="extlink">birthPlace</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -1160,7 +1035,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>20</th>
       <td>551^ortg</td>
       <td>URI</td>
       <td><a href="http://schema.org/birthPlace" class="extlink">birthPlace</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -1169,7 +1043,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>21</th>
       <td>object</td>
       <td><a href="http://schema.org/category" class="extlink">category</a></td>
       <td></td>
@@ -1178,7 +1051,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>22</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs</td>
       <td></td>
@@ -1187,7 +1059,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>23</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.@id</td>
       <td></td>
@@ -1196,7 +1067,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>24</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1205,7 +1075,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>25</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -1214,7 +1083,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>26</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de</td>
       <td></td>
@@ -1223,7 +1091,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>27</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.@id</td>
       <td></td>
@@ -1232,7 +1099,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>28</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1241,7 +1107,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>29</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -1250,16 +1115,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>30</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en</td>
       <td></td>
-      <td>[{'@id': 'https://en.wikipedia.org/wiki/?curid=9329647', 'sameAs': 'https://en.wikipedia.org/wiki/Category:All_articles_with_unsourced_statements', 'name': 'All articles with unsourced statements'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=39382986', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_ISNI_identifiers', 'name': 'Articles with ISNI identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=38547913', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_LCCN_identifiers', 'name': 'Articles with LCCN identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=66262065', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_PLWABN_identifiers', 'name': 'Articles with PLWABN identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=38289939', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_VIAF_identifiers', 'name': 'Articles with VIAF identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=65072063', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_WORLDCATID_identifiers', 'name': 'Articles with WORLDCATID identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=56024289', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_short_description', 'name': 'Articles with short description'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=62463460', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_December_2019', 'name': 'Articles with unsourced statements from December 2019'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=27943677', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Brazilian_animators', 'name': 'Brazilian animators'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=2391927', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Brazilian_comics_artists', 'name': 'Brazilian comics artists'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=9957676', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Brazilian_comics_writers', 'name': 'Brazilian comics writers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=1999867', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Brazilian_film_directors', 'name': 'Brazilian film directors'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=21304496', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Comics_creator_BLP_pop', 'name': 'Comics creator BLP pop'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=20220612', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Comics_creator_pop', 'name': 'Comics creator pop'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=23867111', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Comics_infobox_image_less_alt_text', 'name': 'Comics infobox image less alt text'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=24502627', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Comics_nation_sweep', 'name': 'Comics nation sweep'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=59055145', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Commons_category_link_from_Wikidata', 'name': 'Commons category link from Wikidata'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=3782398', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Living_people', 'name': 'Living people'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=64773288', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Short_description_is_different_from_Wikidata', 'name': 'Short description is different from Wikidata'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=32128854', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Track_variant_DoB', 'name': 'Track variant DoB'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=11014529', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Year_of_birth_missing_(living_people)', 'name': 'Year of birth missing (living people)'}]</td>
+      <td>[{'@id': 'https://en.wikipedia.org/wiki/?curid=1005377', 'sameAs': 'https://en.wikipedia.org/wiki/Category:1959_births', 'name': '1959 births'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=24815679', 'sameAs': 'https://en.wikipedia.org/wiki/Category:All_articles_lacking_reliable_references', 'name': 'All articles lacking reliable references'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=51849372', 'sameAs': 'https://en.wikipedia.org/wiki/Category:All_articles_sourced_by_IMDb', 'name': 'All articles sourced by IMDb'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=39705130', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_containing_Japanese-language_text', 'name': 'Articles containing Japanese-language text'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=51207960', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_August_2016', 'name': 'Articles lacking reliable references from August 2016'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=51208049', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_sourced_only_by_IMDb_from_August_2016', 'name': 'Articles sourced only by IMDb from August 2016'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=38547981', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_BNF_identifiers', 'name': 'Articles with BNF identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=57707713', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_CINII_identifiers', 'name': 'Articles with CINII identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=38547977', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_GND_identifiers', 'name': 'Articles with GND identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=39382986', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_ISNI_identifiers', 'name': 'Articles with ISNI identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=38547913', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_LCCN_identifiers', 'name': 'Articles with LCCN identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=43420884', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_NDL_identifiers', 'name': 'Articles with NDL identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=62441372', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_NLK_identifiers', 'name': 'Articles with NLK identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=57707729', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_SUDOC_identifiers', 'name': 'Articles with SUDOC identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=38289939', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_VIAF_identifiers', 'name': 'Articles with VIAF identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=65072063', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_WORLDCATID_identifiers', 'name': 'Articles with WORLDCATID identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=12054615', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_hCards', 'name': 'Articles with hCards'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=56024289', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_short_description', 'name': 'Articles with short description'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=51208069', 'sameAs': 'https://en.wikipedia.org/wiki/Category:BLP_articles_lacking_sources_from_August_2016', 'name': 'BLP articles lacking sources from August 2016'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=40388552', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Japanese_male_film_actors', 'name': 'Japanese male film actors'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=40974406', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Japanese_male_television_actors', 'name': 'Japanese male television actors'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=3782398', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Living_people', 'name': 'Living people'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=34021140', 'sameAs': 'https://en.wikipedia.org/wiki/Category:People_from_Saitama_(city)', 'name': 'People from Saitama (city)'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=64773288', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Short_description_is_different_from_Wikidata', 'name': 'Short description is different from Wikidata'}]</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>31</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.@id</td>
       <td></td>
@@ -1268,7 +1131,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>32</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1277,7 +1139,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>33</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -1286,7 +1147,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>34</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl</td>
       <td></td>
@@ -1295,7 +1155,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>35</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.@id</td>
       <td></td>
@@ -1304,7 +1163,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>36</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1313,7 +1171,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>37</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -1322,7 +1179,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>38</th>
       <td>object</td>
       <td><a href="http://schema.org/children" class="extlink">children</a></td>
       <td></td>
@@ -1331,7 +1187,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>39</th>
       <td>URI</td>
       <td><a href="http://schema.org/children" class="extlink">children</a>.@id</td>
       <td></td>
@@ -1340,7 +1195,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>40</th>
       <td>literal</td>
       <td><a href="http://schema.org/children" class="extlink">children</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1349,7 +1203,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>41</th>
       <td>URI</td>
       <td><a href="http://schema.org/children" class="extlink">children</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -1358,7 +1211,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>42</th>
       <td>object</td>
       <td><a href="http://schema.org/colleague" class="extlink">colleague</a></td>
       <td></td>
@@ -1367,7 +1219,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>43</th>
       <td>URI</td>
       <td><a href="http://schema.org/colleague" class="extlink">colleague</a>.@id</td>
       <td></td>
@@ -1376,7 +1227,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>44</th>
       <td>literal</td>
       <td><a href="http://schema.org/colleague" class="extlink">colleague</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1385,7 +1235,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>45</th>
       <td>URI</td>
       <td><a href="http://schema.org/colleague" class="extlink">colleague</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -1394,7 +1243,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>46</th>
       <td>object</td>
       <td><a href="http://schema.org/contributor" class="extlink">contributor</a></td>
       <td></td>
@@ -1403,7 +1251,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>47</th>
       <td>URI</td>
       <td><a href="http://schema.org/contributor" class="extlink">contributor</a>.@id</td>
       <td></td>
@@ -1412,7 +1259,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>48</th>
       <td>literal</td>
       <td><a href="http://schema.org/contributor" class="extlink">contributor</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1421,7 +1267,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>49</th>
       <td>URI</td>
       <td><a href="http://schema.org/contributor" class="extlink">contributor</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -1430,7 +1275,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>50</th>
       <td>008</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
@@ -1439,7 +1283,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>51</th>
       <td>005</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
@@ -1448,7 +1291,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>52</th>
       <td>548^datl,datx</td>
       <td>object</td>
       <td><a href="http://schema.org/deathDate" class="extlink">deathDate</a></td>
@@ -1457,7 +1299,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>53</th>
       <td>548^datl,datx</td>
       <td>literal</td>
       <td><a href="http://schema.org/deathDate" class="extlink">deathDate</a>.@value</td>
@@ -1466,7 +1307,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>54</th>
       <td>548^datl,datx</td>
       <td>literal</td>
       <td><a href="http://schema.org/deathDate" class="extlink">deathDate</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -1475,7 +1315,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>55</th>
       <td>548^datl,datx</td>
       <td>literal</td>
       <td><a href="http://schema.org/deathDate" class="extlink">deathDate</a>.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -1484,7 +1323,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>56</th>
       <td>551^orts</td>
       <td>object</td>
       <td><a href="http://schema.org/deathPlace" class="extlink">deathPlace</a></td>
@@ -1493,7 +1331,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>57</th>
       <td>551^orts</td>
       <td>URI</td>
       <td><a href="http://schema.org/deathPlace" class="extlink">deathPlace</a>.@id</td>
@@ -1502,7 +1339,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>58</th>
       <td>551^orts</td>
       <td>literal</td>
       <td><a href="http://schema.org/deathPlace" class="extlink">deathPlace</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -1511,7 +1347,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>59</th>
       <td>551^orts</td>
       <td>literal</td>
       <td><a href="http://schema.org/deathPlace" class="extlink">deathPlace</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -1520,7 +1355,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>60</th>
       <td>551^orts</td>
       <td>URI</td>
       <td><a href="http://schema.org/deathPlace" class="extlink">deathPlace</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -1529,7 +1363,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>61</th>
       <td>object</td>
       <td><a href="http://schema.org/follows" class="extlink">follows</a></td>
       <td></td>
@@ -1538,7 +1371,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>62</th>
       <td>URI</td>
       <td><a href="http://schema.org/follows" class="extlink">follows</a>.@id</td>
       <td></td>
@@ -1547,7 +1379,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>63</th>
       <td>literal</td>
       <td><a href="http://schema.org/follows" class="extlink">follows</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1556,7 +1387,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>64</th>
       <td>URI</td>
       <td><a href="http://schema.org/follows" class="extlink">follows</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -1565,7 +1395,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>65</th>
       <td>550</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/hasOccupation" class="extlink">hasOccupation</a></td>
@@ -1574,7 +1403,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>66</th>
       <td>550</td>
       <td>URI</td>
       <td><a href="http://schema.org/hasOccupation" class="extlink">hasOccupation</a>.@id</td>
@@ -1583,7 +1411,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>67</th>
       <td>550</td>
       <td>literal</td>
       <td><a href="http://schema.org/hasOccupation" class="extlink">hasOccupation</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -1592,7 +1419,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>68</th>
       <td>550</td>
       <td>literal</td>
       <td><a href="http://schema.org/hasOccupation" class="extlink">hasOccupation</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -1601,7 +1427,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>69</th>
       <td>550</td>
       <td>URI</td>
       <td><a href="http://schema.org/hasOccupation" class="extlink">hasOccupation</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -1610,16 +1435,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>70</th>
       <td>550^adel<br\>550^akad</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/honorificPrefix" class="extlink">honorificPrefix</a></td>
       <td></td>
-      <td>[{'name': 'Dr. rer. nat.', 'description': 'Akademischer Grad'}]</td>
+      <td>[{'name': 'PhD', 'description': 'Akademischer Grad'}]</td>
       <td></td>
     </tr>
     <tr>
-      <th>71</th>
       <td>550^adel<br\>550^akad</td>
       <td>URI</td>
       <td><a href="http://schema.org/honorificPrefix" class="extlink">honorificPrefix</a>.@id</td>
@@ -1628,7 +1451,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>72</th>
       <td>550^adel<br\>550^akad</td>
       <td>literal</td>
       <td><a href="http://schema.org/honorificPrefix" class="extlink">honorificPrefix</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -1637,7 +1459,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>73</th>
       <td>550^adel<br\>550^akad</td>
       <td>literal</td>
       <td><a href="http://schema.org/honorificPrefix" class="extlink">honorificPrefix</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -1646,7 +1467,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>74</th>
       <td>550^adel<br\>550^akad</td>
       <td>URI</td>
       <td><a href="http://schema.org/honorificPrefix" class="extlink">honorificPrefix</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -1655,7 +1475,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>75</th>
       <td>001</td>
       <td>literal</td>
       <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
@@ -1664,7 +1483,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>76</th>
       <td>URI</td>
       <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
       <td></td>
@@ -1673,7 +1491,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>77</th>
       <td>object</td>
       <td><a href="http://schema.org/knows" class="extlink">knows</a></td>
       <td></td>
@@ -1682,7 +1499,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>78</th>
       <td>URI</td>
       <td><a href="http://schema.org/knows" class="extlink">knows</a>.@id</td>
       <td></td>
@@ -1691,7 +1507,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>79</th>
       <td>literal</td>
       <td><a href="http://schema.org/knows" class="extlink">knows</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1700,7 +1515,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>80</th>
       <td>URI</td>
       <td><a href="http://schema.org/knows" class="extlink">knows</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -1709,7 +1523,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>81</th>
       <td>object</td>
       <td><a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1718,7 +1531,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>82</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.cs</td>
       <td></td>
@@ -1727,16 +1539,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>83</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.de</td>
       <td></td>
-      <td>[Sönke Wortmann]</td>
+      <td>[Daniel Benga]</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>84</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.en</td>
       <td></td>
@@ -1745,7 +1555,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>85</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.pl</td>
       <td></td>
@@ -1754,7 +1563,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>86</th>
       <td>object</td>
       <td><a href="http://schema.org/parent" class="extlink">parent</a></td>
       <td></td>
@@ -1763,16 +1571,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>87</th>
       <td>URI</td>
       <td><a href="http://schema.org/parent" class="extlink">parent</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/persons/134332709" target="_blank">https://data.slub-dresden.de/persons/134332709</a></td>
+      <td><a href="https://data.slub-dresden.de/persons/076606899" target="_blank">https://data.slub-dresden.de/persons/076606899</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>88</th>
       <td>literal</td>
       <td><a href="http://schema.org/parent" class="extlink">parent</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1781,7 +1587,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>89</th>
       <td>URI</td>
       <td><a href="http://schema.org/parent" class="extlink">parent</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -1790,7 +1595,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>90</th>
       <td>548^datw,datz</td>
       <td>object</td>
       <td>periodOfActivityEnd</td>
@@ -1799,7 +1603,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>91</th>
       <td>548^datw,datz</td>
       <td>literal</td>
       <td>periodOfActivityEnd.@value</td>
@@ -1808,7 +1611,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>92</th>
       <td>548^datw,datz</td>
       <td>literal</td>
       <td>periodOfActivityEnd.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -1817,7 +1619,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>93</th>
       <td>548^datw,datz</td>
       <td>literal</td>
       <td>periodOfActivityEnd.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -1826,7 +1627,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>94</th>
       <td>548^datw,datz</td>
       <td>object</td>
       <td>periodOfActivityStart</td>
@@ -1835,7 +1635,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>95</th>
       <td>548^datw,datz</td>
       <td>literal</td>
       <td>periodOfActivityStart.@value</td>
@@ -1844,7 +1643,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>96</th>
       <td>548^datw,datz</td>
       <td>literal</td>
       <td>periodOfActivityStart.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -1853,7 +1651,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>97</th>
       <td>548^datw,datz</td>
       <td>literal</td>
       <td>periodOfActivityStart.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -1862,7 +1659,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>98</th>
       <td>100$a</td>
       <td>literal</td>
       <td>preferredName</td>
@@ -1871,7 +1667,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>99</th>
       <td>object</td>
       <td>recipent</td>
       <td></td>
@@ -1880,7 +1675,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>100</th>
       <td>URI</td>
       <td>recipent.@id</td>
       <td></td>
@@ -1889,7 +1683,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>101</th>
       <td>literal</td>
       <td>recipent.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -1898,7 +1691,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>102</th>
       <td>URI</td>
       <td>recipent.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -1907,7 +1699,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>103</th>
       <td>500$0</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a></td>
@@ -1916,7 +1707,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>104</th>
       <td>500$0</td>
       <td>URI</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a>.@id</td>
@@ -1925,7 +1715,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>105</th>
       <td>500$0</td>
       <td>literal</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -1934,7 +1723,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>106</th>
       <td>500$0</td>
       <td>URI</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -1943,7 +1731,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>107</th>
       <td>035$a<br\>670$u</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -1952,7 +1739,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>108</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.@id</td>
@@ -1961,7 +1747,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>109</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
@@ -1970,16 +1755,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>110</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/source/swb-aut/588731439" target="_blank">https://data.slub-dresden.de/source/swb-aut/588731439</a></td>
+      <td><a href="https://data.slub-dresden.de/source/swb-aut/577187082" target="_blank">https://data.slub-dresden.de/source/swb-aut/577187082</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>111</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@type</td>
@@ -1988,7 +1771,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>112</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a></td>
@@ -1997,7 +1779,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>113</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.@id</td>
@@ -2006,7 +1787,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>114</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.abbr</td>
@@ -2015,7 +1795,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>115</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.preferredName</td>
@@ -2024,16 +1803,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>116</th>
       <td>object</td>
       <td><a href="http://schema.org/sibling" class="extlink">sibling</a></td>
       <td></td>
-      <td>{'name': 'Schadow, Wilhelm von', 'sameAs': 'https://d-nb.info/gnd/118748181', '@id': 'https://data.slub-dresden.de/persons/145297047'}</td>
+      <td>{'name': 'Liebig, Eugen von', 'sameAs': 'https://d-nb.info/gnd/101840012', '@id': 'https://data.slub-dresden.de/persons/613777816'}</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>117</th>
       <td>URI</td>
       <td><a href="http://schema.org/sibling" class="extlink">sibling</a>.@id</td>
       <td></td>
@@ -2042,7 +1819,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>118</th>
       <td>literal</td>
       <td><a href="http://schema.org/sibling" class="extlink">sibling</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -2051,7 +1827,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>119</th>
       <td>URI</td>
       <td><a href="http://schema.org/sibling" class="extlink">sibling</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -2060,7 +1835,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>120</th>
       <td>object</td>
       <td><a href="http://schema.org/spouse" class="extlink">spouse</a></td>
       <td></td>
@@ -2069,7 +1843,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>121</th>
       <td>URI</td>
       <td><a href="http://schema.org/spouse" class="extlink">spouse</a>.@id</td>
       <td></td>
@@ -2078,7 +1851,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>122</th>
       <td>literal</td>
       <td><a href="http://schema.org/spouse" class="extlink">spouse</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -2087,7 +1859,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>123</th>
       <td>URI</td>
       <td><a href="http://schema.org/spouse" class="extlink">spouse</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -2096,7 +1867,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>124</th>
       <td>551^ortw</td>
       <td>object</td>
       <td><a href="http://schema.org/workLocation" class="extlink">workLocation</a></td>
@@ -2105,7 +1875,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>125</th>
       <td>551^ortw</td>
       <td>URI</td>
       <td><a href="http://schema.org/workLocation" class="extlink">workLocation</a>.@id</td>
@@ -2114,7 +1883,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>126</th>
       <td>551^ortw</td>
       <td>literal</td>
       <td><a href="http://schema.org/workLocation" class="extlink">workLocation</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -2123,7 +1891,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>127</th>
       <td>551^ortw</td>
       <td>literal</td>
       <td><a href="http://schema.org/workLocation" class="extlink">workLocation</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -2132,7 +1899,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>128</th>
       <td>551^ortw</td>
       <td>URI</td>
       <td><a href="http://schema.org/workLocation" class="extlink">workLocation</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -2149,7 +1915,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>MARC21-Field(s)</th>
       <th>Type</th>
       <th>field</th>
@@ -2160,7 +1925,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
       <td>URI</td>
       <td>@context</td>
@@ -2169,7 +1933,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>1</th>
       <td>001</td>
       <td>URI</td>
       <td>@id</td>
@@ -2178,7 +1941,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>2</th>
       <td><a href="http://schema.org/Organization" target="_blank">http://schema.org/Organization</a></td>
       <td>URI</td>
       <td>@type</td>
@@ -2187,7 +1949,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>3</th>
       <td>003</td>
       <td>literal</td>
       <td>_isil</td>
@@ -2196,7 +1957,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>4</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/about" class="extlink">about</a></td>
@@ -2205,7 +1965,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>5</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>URI</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.@id</td>
@@ -2214,7 +1973,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>6</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>object</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a></td>
@@ -2223,7 +1981,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>7</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.@type</td>
@@ -2232,7 +1989,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>8</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/propertyID" class="extlink">propertyID</a></td>
@@ -2241,7 +1997,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>9</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/value" class="extlink">value</a></td>
@@ -2250,7 +2005,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>10</th>
       <td>550^obin</td>
       <td>object</td>
       <td><a href="http://schema.org/additionalType" class="extlink">additionalType</a></td>
@@ -2259,7 +2013,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>11</th>
       <td>550^obin</td>
       <td>URI</td>
       <td><a href="http://schema.org/additionalType" class="extlink">additionalType</a>.@id</td>
@@ -2268,7 +2021,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>12</th>
       <td>550^obin</td>
       <td>literal</td>
       <td><a href="http://schema.org/additionalType" class="extlink">additionalType</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -2277,7 +2029,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>13</th>
       <td>550^obin</td>
       <td>literal</td>
       <td><a href="http://schema.org/additionalType" class="extlink">additionalType</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -2286,7 +2037,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>14</th>
       <td>550^obin</td>
       <td>URI</td>
       <td><a href="http://schema.org/additionalType" class="extlink">additionalType</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -2295,7 +2045,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>15</th>
       <td>410$a+b</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
@@ -2304,7 +2053,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>16</th>
       <td>551^geow</td>
       <td>object</td>
       <td><a href="http://schema.org/areaServed" class="extlink">areaServed</a></td>
@@ -2313,7 +2061,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>17</th>
       <td>551^geow</td>
       <td>URI</td>
       <td><a href="http://schema.org/areaServed" class="extlink">areaServed</a>.@id</td>
@@ -2322,7 +2069,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>18</th>
       <td>551^geow</td>
       <td>literal</td>
       <td><a href="http://schema.org/areaServed" class="extlink">areaServed</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -2331,16 +2077,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>19</th>
       <td>551^geow</td>
       <td>literal</td>
       <td><a href="http://schema.org/areaServed" class="extlink">areaServed</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Nordrhein-Westfalen</td>
+      <td>Deutschland</td>
       <td></td>
     </tr>
     <tr>
-      <th>20</th>
       <td>551^geow</td>
       <td>URI</td>
       <td><a href="http://schema.org/areaServed" class="extlink">areaServed</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -2349,7 +2093,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>21</th>
       <td>object</td>
       <td><a href="http://schema.org/category" class="extlink">category</a></td>
       <td></td>
@@ -2358,7 +2101,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>22</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs</td>
       <td></td>
@@ -2367,7 +2109,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>23</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.@id</td>
       <td></td>
@@ -2376,7 +2117,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>24</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -2385,7 +2125,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>25</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -2394,7 +2133,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>26</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de</td>
       <td></td>
@@ -2403,7 +2141,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>27</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.@id</td>
       <td></td>
@@ -2412,7 +2149,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>28</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -2421,7 +2157,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>29</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -2430,7 +2165,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>30</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en</td>
       <td></td>
@@ -2439,7 +2173,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>31</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.@id</td>
       <td></td>
@@ -2448,7 +2181,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>32</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -2457,7 +2189,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>33</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -2466,7 +2197,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>34</th>
       <td>object</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl</td>
       <td></td>
@@ -2475,7 +2205,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>35</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.@id</td>
       <td></td>
@@ -2484,7 +2213,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>36</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -2493,7 +2221,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>37</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -2502,34 +2229,30 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>38</th>
       <td>008</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
       <td></td>
-      <td>2012-04-28</td>
+      <td>2015-01-28</td>
       <td></td>
     </tr>
     <tr>
-      <th>39</th>
       <td>005</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
       <td></td>
-      <td>2019-03-17T12:44:00Z</td>
+      <td>2019-03-17T12:53:00Z</td>
       <td></td>
     </tr>
     <tr>
-      <th>40</th>
       <td>548^datb</td>
       <td>object</td>
       <td>dateOfEstablishment</td>
       <td></td>
-      <td>{'@value': '1994-01-01', 'disambiguatingDescription': 'Zeitraum', 'description': '01.01.1994-XX.XX.1996'}</td>
+      <td>{'disambiguatingDescription': 'Zeitraum', 'description': 'XX.06.2012-30.08.2015'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>41</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfEstablishment.@value</td>
@@ -2538,7 +2261,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>42</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfEstablishment.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -2547,7 +2269,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>43</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfEstablishment.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -2556,7 +2277,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>44</th>
       <td>548^datb</td>
       <td>object</td>
       <td>dateOfTermination</td>
@@ -2565,25 +2285,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>45</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfTermination.@value</td>
       <td></td>
-      <td>2015-08-30</td>
+      <td>2011</td>
       <td></td>
     </tr>
     <tr>
-      <th>46</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfTermination.<a href="http://schema.org/description" class="extlink">description</a></td>
       <td></td>
-      <td>01.01.1994-XX.XX.1996</td>
+      <td>XX.06.2012-30.08.2015</td>
       <td></td>
     </tr>
     <tr>
-      <th>47</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfTermination.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -2592,25 +2309,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>48</th>
       <td>551^geoa</td>
       <td>object</td>
       <td><a href="http://schema.org/fromLocation" class="extlink">fromLocation</a></td>
       <td></td>
-      <td>{'sameAs': 'https://d-nb.info/gnd/1052044476', '@id': 'https://data.slub-dresden.de/geo/787612022', 'name': 'Springbach', 'description': 'Geografikum allgemein'}</td>
+      <td>{'sameAs': 'https://d-nb.info/gnd/4104502-6', '@id': 'https://data.slub-dresden.de/geo/703004131', 'name': 'Schloss Gracht', 'description': 'Geografikum allgemein'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>49</th>
       <td>551^geoa</td>
       <td>URI</td>
       <td><a href="http://schema.org/fromLocation" class="extlink">fromLocation</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/geo/787612022" target="_blank">https://data.slub-dresden.de/geo/787612022</a></td>
+      <td><a href="https://data.slub-dresden.de/geo/703004131" target="_blank">https://data.slub-dresden.de/geo/703004131</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>50</th>
       <td>551^geoa</td>
       <td>literal</td>
       <td><a href="http://schema.org/fromLocation" class="extlink">fromLocation</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -2619,61 +2333,54 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>51</th>
       <td>551^geoa</td>
       <td>literal</td>
       <td><a href="http://schema.org/fromLocation" class="extlink">fromLocation</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Springbach</td>
+      <td>Schloss Gracht</td>
       <td></td>
     </tr>
     <tr>
-      <th>52</th>
       <td>551^geoa</td>
       <td>URI</td>
       <td><a href="http://schema.org/fromLocation" class="extlink">fromLocation</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
-      <td><a href="https://d-nb.info/gnd/4104502-6" target="_blank">https://d-nb.info/gnd/4104502-6</a></td>
+      <td><a href="https://d-nb.info/gnd/1052044476" target="_blank">https://d-nb.info/gnd/1052044476</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>53</th>
       <td>001</td>
       <td>literal</td>
       <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
       <td></td>
-      <td>708723349</td>
+      <td>816809534</td>
       <td></td>
     </tr>
     <tr>
-      <th>54</th>
       <td>URI</td>
       <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/source/swb-aut/816809534" target="_blank">https://data.slub-dresden.de/source/swb-aut/816809534</a></td>
+      <td><a href="https://data.slub-dresden.de/source/swb-aut/708723349" target="_blank">https://data.slub-dresden.de/source/swb-aut/708723349</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>55</th>
       <td>551^orta</td>
       <td>object</td>
       <td><a href="http://schema.org/location" class="extlink">location</a></td>
       <td></td>
-      <td>{'sameAs': 'https://d-nb.info/gnd/4079879-3', '@id': 'https://data.slub-dresden.de/geo/106071637', 'name': 'Austin, Tex.', 'description': 'Ort'}</td>
+      <td>{'sameAs': 'https://d-nb.info/gnd/4023118-5', '@id': 'https://data.slub-dresden.de/geo/106305433', 'name': 'Hamburg', 'description': 'Ort'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>56</th>
       <td>551^orta</td>
       <td>URI</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/geo/106305433" target="_blank">https://data.slub-dresden.de/geo/106305433</a></td>
+      <td><a href="https://data.slub-dresden.de/geo/106071637" target="_blank">https://data.slub-dresden.de/geo/106071637</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>57</th>
       <td>551^orta</td>
       <td>literal</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -2682,7 +2389,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>58</th>
       <td>551^orta</td>
       <td>literal</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -2691,16 +2397,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>59</th>
       <td>551^orta</td>
       <td>URI</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
-      <td><a href="https://d-nb.info/gnd/4023118-5" target="_blank">https://d-nb.info/gnd/4023118-5</a></td>
+      <td><a href="https://d-nb.info/gnd/4079879-3" target="_blank">https://d-nb.info/gnd/4079879-3</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>60</th>
       <td>object</td>
       <td><a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -2709,7 +2413,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>61</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.cs</td>
       <td></td>
@@ -2718,7 +2421,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>62</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.de</td>
       <td></td>
@@ -2727,7 +2429,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>63</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.en</td>
       <td></td>
@@ -2736,7 +2437,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>64</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.pl</td>
       <td></td>
@@ -2745,7 +2445,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>65</th>
       <td>551^adue</td>
       <td>object</td>
       <td><a href="http://schema.org/parentOrganization" class="extlink">parentOrganization</a></td>
@@ -2754,16 +2453,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>66</th>
       <td>551^adue</td>
       <td>URI</td>
       <td><a href="http://schema.org/parentOrganization" class="extlink">parentOrganization</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/geo/104585110" target="_blank">https://data.slub-dresden.de/geo/104585110</a></td>
+      <td><a href="https://data.slub-dresden.de/geo/707200520" target="_blank">https://data.slub-dresden.de/geo/707200520</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>67</th>
       <td>551^adue</td>
       <td>literal</td>
       <td><a href="http://schema.org/parentOrganization" class="extlink">parentOrganization</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -2772,16 +2469,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>68</th>
       <td>551^adue</td>
       <td>literal</td>
       <td><a href="http://schema.org/parentOrganization" class="extlink">parentOrganization</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Indonesien</td>
+      <td>Sevenoaks</td>
       <td></td>
     </tr>
     <tr>
-      <th>69</th>
       <td>551^adue</td>
       <td>URI</td>
       <td><a href="http://schema.org/parentOrganization" class="extlink">parentOrganization</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -2790,7 +2485,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>70</th>
       <td>110$a+b</td>
       <td>literal</td>
       <td>preferredName</td>
@@ -2799,16 +2493,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>71</th>
       <td>035$a<br\>670$u</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
-      <td>[{'@id': 'https://d-nb.info/gnd/106566110X', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/514366265', 'preferredName': 'Deutsche Nationalbibliothek', 'abbr': 'DNB'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/816809534'}}, {'@id': 'http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=816809534', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/103302212', 'preferredName': 'K10Plus', 'abbr': 'KXP'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/816809534'}}]</td>
+      <td>[{'@id': 'https://d-nb.info/gnd/1092712-8', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/514366265', 'preferredName': 'Deutsche Nationalbibliothek', 'abbr': 'DNB'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/708723349'}}, {'@id': 'http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=708723349', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/103302212', 'preferredName': 'K10Plus', 'abbr': 'KXP'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/708723349'}}]</td>
       <td></td>
     </tr>
     <tr>
-      <th>72</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.@id</td>
@@ -2817,25 +2509,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>73</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
       <td></td>
-      <td>{'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/816809534'}</td>
+      <td>{'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/708723349'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>74</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/source/swb-aut/708723349" target="_blank">https://data.slub-dresden.de/source/swb-aut/708723349</a></td>
+      <td><a href="https://data.slub-dresden.de/source/swb-aut/816809534" target="_blank">https://data.slub-dresden.de/source/swb-aut/816809534</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>75</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@type</td>
@@ -2844,7 +2533,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>76</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a></td>
@@ -2853,7 +2541,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>77</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.@id</td>
@@ -2862,7 +2549,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>78</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.abbr</td>
@@ -2871,7 +2557,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>79</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.preferredName</td>
@@ -2888,7 +2573,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>MARC21-Field(s)</th>
       <th>Type</th>
       <th>field</th>
@@ -2899,7 +2583,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
       <td>URI</td>
       <td>@context</td>
@@ -2908,16 +2591,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>1</th>
       <td>001</td>
       <td>URI</td>
       <td>@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/events/709381840" target="_blank">https://data.slub-dresden.de/events/709381840</a></td>
+      <td><a href="https://data.slub-dresden.de/events/708851886" target="_blank">https://data.slub-dresden.de/events/708851886</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>2</th>
       <td><a href="http://schema.org/Event" target="_blank">http://schema.org/Event</a></td>
       <td>URI</td>
       <td>@type</td>
@@ -2926,7 +2607,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>3</th>
       <td>003</td>
       <td>literal</td>
       <td>_isil</td>
@@ -2935,7 +2615,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>4</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/about" class="extlink">about</a></td>
@@ -2944,7 +2623,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>5</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>URI</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.@id</td>
@@ -2953,7 +2631,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>6</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>object</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a></td>
@@ -2962,7 +2639,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>7</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.@type</td>
@@ -2971,7 +2647,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>8</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/propertyID" class="extlink">propertyID</a></td>
@@ -2980,7 +2655,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>9</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/value" class="extlink">value</a></td>
@@ -2989,7 +2663,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>10</th>
       <td>043$c</td>
       <td>literal</td>
       <td>adressRegion</td>
@@ -2998,16 +2671,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>11</th>
       <td>411$a</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
       <td></td>
-      <td>[International Conference on Waterfront Archaeology]</td>
+      <td>[International Symposium on the Holocene of South America, Holocene of South America]</td>
       <td></td>
     </tr>
     <tr>
-      <th>12</th>
       <td>object</td>
       <td><a href="http://schema.org/category" class="extlink">category</a></td>
       <td></td>
@@ -3016,7 +2687,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>13</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs</td>
       <td></td>
@@ -3025,7 +2695,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>14</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.@id</td>
       <td></td>
@@ -3034,7 +2703,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>15</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -3043,7 +2711,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>16</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -3052,7 +2719,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>17</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de</td>
       <td></td>
@@ -3061,7 +2727,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>18</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.@id</td>
       <td></td>
@@ -3070,7 +2735,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>19</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -3079,7 +2743,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>20</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -3088,7 +2751,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>21</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en</td>
       <td></td>
@@ -3097,7 +2759,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>22</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.@id</td>
       <td></td>
@@ -3106,7 +2767,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>23</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -3115,7 +2775,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>24</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -3124,7 +2783,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>25</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl</td>
       <td></td>
@@ -3133,7 +2791,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>26</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.@id</td>
       <td></td>
@@ -3142,7 +2799,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>27</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -3151,7 +2807,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>28</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -3160,7 +2815,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>29</th>
       <td>008</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
@@ -3169,7 +2823,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>30</th>
       <td>005</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
@@ -3178,7 +2831,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>31</th>
       <td>548^datv</td>
       <td>object</td>
       <td><a href="http://schema.org/endDate" class="extlink">endDate</a></td>
@@ -3187,7 +2839,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>32</th>
       <td>548^datv</td>
       <td>literal</td>
       <td><a href="http://schema.org/endDate" class="extlink">endDate</a>.@value</td>
@@ -3196,7 +2847,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>33</th>
       <td>548^datv</td>
       <td>literal</td>
       <td><a href="http://schema.org/endDate" class="extlink">endDate</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -3205,7 +2855,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>34</th>
       <td>548^datv</td>
       <td>literal</td>
       <td><a href="http://schema.org/endDate" class="extlink">endDate</a>.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -3214,7 +2863,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>35</th>
       <td>001</td>
       <td>literal</td>
       <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
@@ -3223,7 +2871,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>36</th>
       <td>URI</td>
       <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
       <td></td>
@@ -3232,7 +2879,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>37</th>
       <td>551^ortv</td>
       <td>object</td>
       <td><a href="http://schema.org/location" class="extlink">location</a></td>
@@ -3241,7 +2887,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>38</th>
       <td>551^ortv</td>
       <td>URI</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.@id</td>
@@ -3250,7 +2895,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>39</th>
       <td>551^ortv</td>
       <td>literal</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -3259,7 +2903,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>40</th>
       <td>551^ortv</td>
       <td>literal</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -3268,16 +2911,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>41</th>
       <td>551^ortv</td>
       <td>URI</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
-      <td><a href="https://d-nb.info/gnd/4034201-3" target="_blank">https://d-nb.info/gnd/4034201-3</a></td>
+      <td><a href="https://d-nb.info/gnd/4036361-2" target="_blank">https://d-nb.info/gnd/4036361-2</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>42</th>
       <td>object</td>
       <td><a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -3286,7 +2927,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>43</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.cs</td>
       <td></td>
@@ -3295,7 +2935,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>44</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.de</td>
       <td></td>
@@ -3304,7 +2943,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>45</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.en</td>
       <td></td>
@@ -3313,7 +2951,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>46</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.pl</td>
       <td></td>
@@ -3322,16 +2959,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>47</th>
       <td>111$a</td>
       <td>literal</td>
       <td>preferredName</td>
       <td></td>
-      <td>Erlanger Podiums-Diskussion über Diabetes Mellitus</td>
+      <td>International Conference on Data Engineering</td>
       <td></td>
     </tr>
     <tr>
-      <th>48</th>
       <td>035$a<br\>670$u</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -3340,16 +2975,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>49</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.@id</td>
       <td></td>
-      <td><a href="https://d-nb.info/gnd/16126981-3" target="_blank">https://d-nb.info/gnd/16126981-3</a></td>
+      <td><a href="https://d-nb.info/gnd/800541-2" target="_blank">https://d-nb.info/gnd/800541-2</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>50</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
@@ -3358,7 +2991,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>51</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@id</td>
@@ -3367,7 +2999,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>52</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@type</td>
@@ -3376,7 +3007,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>53</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a></td>
@@ -3385,7 +3015,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>54</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.@id</td>
@@ -3394,7 +3023,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>55</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.abbr</td>
@@ -3403,7 +3031,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>56</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.preferredName</td>
@@ -3412,7 +3039,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>57</th>
       <td>548^datv</td>
       <td>object</td>
       <td><a href="http://schema.org/startDate" class="extlink">startDate</a></td>
@@ -3421,7 +3047,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>58</th>
       <td>548^datv</td>
       <td>literal</td>
       <td><a href="http://schema.org/startDate" class="extlink">startDate</a>.@value</td>
@@ -3430,7 +3055,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>59</th>
       <td>548^datv</td>
       <td>literal</td>
       <td><a href="http://schema.org/startDate" class="extlink">startDate</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -3439,7 +3063,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>60</th>
       <td>548^datv</td>
       <td>literal</td>
       <td><a href="http://schema.org/startDate" class="extlink">startDate</a>.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -3456,7 +3079,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>MARC21-Field(s)</th>
       <th>Type</th>
       <th>field</th>
@@ -3467,7 +3089,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
       <td>URI</td>
       <td>@context</td>
@@ -3476,16 +3097,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>1</th>
       <td>001</td>
       <td>URI</td>
       <td>@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/geo/703167847" target="_blank">https://data.slub-dresden.de/geo/703167847</a></td>
+      <td><a href="https://data.slub-dresden.de/geo/703737058" target="_blank">https://data.slub-dresden.de/geo/703737058</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>2</th>
       <td><a href="http://schema.org/Place" target="_blank">http://schema.org/Place</a></td>
       <td>URI</td>
       <td>@type</td>
@@ -3494,7 +3113,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>3</th>
       <td>003</td>
       <td>literal</td>
       <td>_isil</td>
@@ -3503,34 +3121,30 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>4</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/about" class="extlink">about</a></td>
       <td></td>
-      <td>[{'identifier': {'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '43316'}, '@id': 'http://purl.org/NET/decimalised#c433'}]</td>
+      <td>[{'identifier': {'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '4361224'}, '@id': 'http://purl.org/NET/decimalised#c436'}]</td>
       <td></td>
     </tr>
     <tr>
-      <th>5</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>URI</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.@id</td>
       <td></td>
-      <td><a href="http://purl.org/NET/decimalised#c436" target="_blank">http://purl.org/NET/decimalised#c436</a></td>
+      <td><a href="http://purl.org/NET/decimalised#c433" target="_blank">http://purl.org/NET/decimalised#c433</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>6</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>object</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a></td>
       <td></td>
-      <td>{'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '4361224'}</td>
+      <td>{'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '43316'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>7</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.@type</td>
@@ -3539,7 +3153,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>8</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/propertyID" class="extlink">propertyID</a></td>
@@ -3548,25 +3161,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>9</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/value" class="extlink">value</a></td>
       <td></td>
-      <td>43316</td>
+      <td>4361224</td>
       <td></td>
     </tr>
     <tr>
-      <th>10</th>
       <td>043$c</td>
       <td>literal</td>
       <td>adressRegion</td>
       <td></td>
-      <td>XA-GB</td>
+      <td>XA-DE-NW</td>
       <td></td>
     </tr>
     <tr>
-      <th>11</th>
       <td>451$a</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
@@ -3575,7 +3185,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>12</th>
       <td>object</td>
       <td><a href="http://schema.org/category" class="extlink">category</a></td>
       <td></td>
@@ -3584,7 +3193,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>13</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs</td>
       <td></td>
@@ -3593,16 +3201,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>14</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.@id</td>
       <td></td>
-      <td><a href="https://cs.wikipedia.org/wiki/?curid=1720495" target="_blank">https://cs.wikipedia.org/wiki/?curid=1720495</a></td>
+      <td><a href="https://cs.wikipedia.org/wiki/?curid=591892" target="_blank">https://cs.wikipedia.org/wiki/?curid=591892</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>15</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -3611,16 +3217,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>16</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
-      <td><a href="https://cs.wikipedia.org/wiki/Kategorie:Bývalá_hlavní_města" target="_blank">https://cs.wikipedia.org/wiki/Kategorie:Bývalá_hlavní_města</a></td>
+      <td><a href="https://cs.wikipedia.org/wiki/Kategorie:Hlavní_města_spolkových_zemí_v_Německu" target="_blank">https://cs.wikipedia.org/wiki/Kategorie:Hlavní_města_spolkových_zemí_v_Německu</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>17</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de</td>
       <td></td>
@@ -3629,7 +3233,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>18</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.@id</td>
       <td></td>
@@ -3638,7 +3241,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>19</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -3647,16 +3249,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>20</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
-      <td><a href="https://de.wikipedia.org/wiki/Kategorie:Baranof_Island" target="_blank">https://de.wikipedia.org/wiki/Kategorie:Baranof_Island</a></td>
+      <td><a href="https://de.wikipedia.org/wiki/Kategorie:Ehemalige_Gemeinde_(Rheingau-Taunus-Kreis)" target="_blank">https://de.wikipedia.org/wiki/Kategorie:Ehemalige_Gemeinde_(Rheingau-Taunus-Kreis)</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>21</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en</td>
       <td></td>
@@ -3665,7 +3265,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>22</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.@id</td>
       <td></td>
@@ -3674,7 +3273,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>23</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -3683,7 +3281,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>24</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -3692,16 +3289,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>25</th>
-      <td>list of objects</td>
+      <td>object</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl</td>
       <td></td>
-      <td>[{'@id': 'https://pl.wikipedia.org/wiki/?curid=485288', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Miasta_w_stanie_Alaska', 'name': 'Miasta w stanie Alaska'}, {'@id': 'https://pl.wikipedia.org/wiki/?curid=2408255', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Podział_administracyjny_stanu_Alaska', 'name': 'Podział administracyjny stanu Alaska'}]</td>
+      <td>{'@id': 'https://pl.wikipedia.org/wiki/?curid=4750341', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Gminy_w_okręgu_Bern-Mittelland', 'name': 'Gminy w okręgu Bern-Mittelland'}</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>26</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.@id</td>
       <td></td>
@@ -3710,7 +3305,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>27</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -3719,7 +3313,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>28</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -3728,7 +3321,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>29</th>
       <td>008</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
@@ -3737,7 +3329,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>30</th>
       <td>005</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
@@ -3746,7 +3337,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>31</th>
       <td>548^datb,dats</td>
       <td>object</td>
       <td>dateOfEstablishment</td>
@@ -3755,7 +3345,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>32</th>
       <td>548^datb,dats</td>
       <td>literal</td>
       <td>dateOfEstablishment.@value</td>
@@ -3764,7 +3353,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>33</th>
       <td>548^datb,dats</td>
       <td>literal</td>
       <td>dateOfEstablishment.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -3773,7 +3361,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>34</th>
       <td>548^datb,dats</td>
       <td>literal</td>
       <td>dateOfEstablishment.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -3782,7 +3369,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>35</th>
       <td>548^datb,dats</td>
       <td>object</td>
       <td>dateOfTermination</td>
@@ -3791,61 +3377,54 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>36</th>
       <td>548^datb,dats</td>
       <td>literal</td>
       <td>dateOfTermination.@value</td>
-      <td></td>
-      <td>1939</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>548^datb,dats</td>
-      <td>literal</td>
-      <td>dateOfTermination.<a href="http://schema.org/description" class="extlink">description</a></td>
       <td></td>
       <td>1966</td>
       <td></td>
     </tr>
     <tr>
-      <th>38</th>
+      <td>548^datb,dats</td>
+      <td>literal</td>
+      <td>dateOfTermination.<a href="http://schema.org/description" class="extlink">description</a></td>
+      <td></td>
+      <td>-1939</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>548^datb,dats</td>
       <td>literal</td>
       <td>dateOfTermination.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
       <td></td>
-      <td>Zeitraum</td>
+      <td>Erstellungszeit</td>
       <td></td>
     </tr>
     <tr>
-      <th>39</th>
       <td>551</td>
-      <td>object</td>
+      <td>list of objects</td>
       <td><a href="http://schema.org/description" class="extlink">description</a></td>
       <td></td>
-      <td>{'sameAs': 'https://d-nb.info/gnd/4475027-4', '@id': 'https://data.slub-dresden.de/geo/236237586', 'name': 'Zwettl-Niederösterreich', 'description': 'Geografikum allgemein'}</td>
+      <td>[{'sameAs': 'https://d-nb.info/gnd/4007862-0', '@id': 'https://data.slub-dresden.de/geo/10438395X', 'name': 'Bottrop', 'description': 'Ort'}, {'sameAs': 'https://d-nb.info/gnd/4217226-3', '@id': 'https://data.slub-dresden.de/geo/703034251', 'name': 'Bottrop-Feldhausen', 'description': 'Ort'}, {'sameAs': 'https://d-nb.info/gnd/4217227-5', '@id': 'https://data.slub-dresden.de/geo/70303426X', 'name': 'Haus Beck', 'description': 'Geografikum allgemein'}]</td>
       <td></td>
     </tr>
     <tr>
-      <th>40</th>
       <td>551</td>
       <td>URI</td>
       <td><a href="http://schema.org/description" class="extlink">description</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/geo/10438395X" target="_blank">https://data.slub-dresden.de/geo/10438395X</a></td>
+      <td><a href="https://data.slub-dresden.de/geo/236237586" target="_blank">https://data.slub-dresden.de/geo/236237586</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>41</th>
       <td>551</td>
       <td>literal</td>
       <td><a href="http://schema.org/description" class="extlink">description</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
       <td></td>
-      <td>Geografikum allgemein</td>
+      <td>Ort</td>
       <td></td>
     </tr>
     <tr>
-      <th>42</th>
       <td>551</td>
       <td>literal</td>
       <td><a href="http://schema.org/description" class="extlink">description</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -3854,7 +3433,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>43</th>
       <td>551</td>
       <td>URI</td>
       <td><a href="http://schema.org/description" class="extlink">description</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -3863,7 +3441,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>44</th>
       <td>034$d<br\>034$e<br\>034$f<br\>034$g</td>
       <td>object</td>
       <td><a href="http://schema.org/geo" class="extlink">geo</a></td>
@@ -3872,7 +3449,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>45</th>
       <td>034$d<br\>034$e<br\>034$f<br\>034$g</td>
       <td>literal</td>
       <td><a href="http://schema.org/geo" class="extlink">geo</a>.@type</td>
@@ -3881,7 +3457,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>46</th>
       <td>034$d<br\>034$e<br\>034$f<br\>034$g</td>
       <td>literal</td>
       <td><a href="http://schema.org/geo" class="extlink">geo</a>.<a href="http://schema.org/latitude" class="extlink">latitude</a></td>
@@ -3890,7 +3465,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>47</th>
       <td>034$d<br\>034$e<br\>034$f<br\>034$g</td>
       <td>literal</td>
       <td><a href="http://schema.org/geo" class="extlink">geo</a>.<a href="http://schema.org/longitude" class="extlink">longitude</a></td>
@@ -3899,7 +3473,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>48</th>
       <td>001</td>
       <td>literal</td>
       <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
@@ -3908,43 +3481,38 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>49</th>
       <td>URI</td>
       <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/source/swb-aut/703167847" target="_blank">https://data.slub-dresden.de/source/swb-aut/703167847</a></td>
+      <td><a href="https://data.slub-dresden.de/source/swb-aut/703737058" target="_blank">https://data.slub-dresden.de/source/swb-aut/703737058</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>50</th>
       <td>object</td>
       <td><a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>{'cs': ['Sitka (město)'], 'de': ['Sitka'], 'en': ['Sitka, Alaska'], 'pl': ['Sitka']}</td>
+      <td>{'de': ['Engenhahn']}</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>51</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.cs</td>
       <td></td>
-      <td>[Sitka (město)]</td>
+      <td>[Schwerin]</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>52</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.de</td>
       <td></td>
-      <td>[Sitka]</td>
+      <td>[Engenhahn]</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>53</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.en</td>
       <td></td>
@@ -3953,7 +3521,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>54</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.pl</td>
       <td></td>
@@ -3962,7 +3529,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>55</th>
       <td>151$a</td>
       <td>literal</td>
       <td>preferredName</td>
@@ -3971,7 +3537,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>56</th>
       <td>035$a<br\>670$u</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -3980,7 +3545,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>57</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.@id</td>
@@ -3989,25 +3553,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>58</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
       <td></td>
-      <td>{'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/703167847'}</td>
+      <td>{'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/703737058'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>59</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/source/swb-aut/703737058" target="_blank">https://data.slub-dresden.de/source/swb-aut/703737058</a></td>
+      <td><a href="https://data.slub-dresden.de/source/swb-aut/703167847" target="_blank">https://data.slub-dresden.de/source/swb-aut/703167847</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>60</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@type</td>
@@ -4016,7 +3577,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>61</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a></td>
@@ -4025,7 +3585,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>62</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.@id</td>
@@ -4034,7 +3593,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>63</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.abbr</td>
@@ -4043,7 +3601,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>64</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.preferredName</td>
@@ -4060,7 +3617,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>MARC21-Field(s)</th>
       <th>Type</th>
       <th>field</th>
@@ -4071,7 +3627,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
       <td>URI</td>
       <td>@context</td>
@@ -4080,16 +3635,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>1</th>
       <td>001</td>
       <td>URI</td>
       <td>@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/works/1697302157" target="_blank">https://data.slub-dresden.de/works/1697302157</a></td>
+      <td><a href="https://data.slub-dresden.de/works/835740684" target="_blank">https://data.slub-dresden.de/works/835740684</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>2</th>
       <td><a href="http://schema.org/CreativeWork" target="_blank">http://schema.org/CreativeWork</a></td>
       <td>URI</td>
       <td>@type</td>
@@ -4098,7 +3651,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>3</th>
       <td>003</td>
       <td>literal</td>
       <td>_isil</td>
@@ -4107,7 +3659,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>4</th>
       <td>object</td>
       <td><a href="http://schema.org/about" class="extlink">about</a></td>
       <td></td>
@@ -4116,7 +3667,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>5</th>
       <td>URI</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.@id</td>
       <td></td>
@@ -4125,7 +3675,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>6</th>
       <td>object</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a></td>
       <td></td>
@@ -4134,7 +3683,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>7</th>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.@type</td>
       <td></td>
@@ -4143,7 +3691,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>8</th>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/propertyID" class="extlink">propertyID</a></td>
       <td></td>
@@ -4152,7 +3699,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>9</th>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/value" class="extlink">value</a></td>
       <td></td>
@@ -4161,34 +3707,30 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>10</th>
       <td>400$t<br\>410$t<br\>411$t<br\>430$t<br\>240$a<br\>240$p<br\>246$a<br\>246$b<br\>245$p<br\>249$a<br\>249$b<br\>730$a<br\>730$p<br\>740$a<br\>740$p<br\>920$t</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
       <td></td>
-      <td>[Die rothe Nase, Setzt euch zu mir ums Fass herum]</td>
+      <td>[Kleine Partita über ein Thema von Georg Friedrich Händel, Partiten]</td>
       <td></td>
     </tr>
     <tr>
-      <th>11</th>
       <td>500</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/author" class="extlink">author</a></td>
       <td></td>
-      <td>[{'sameAs': 'https://d-nb.info/gnd/116189762', '@id': 'https://data.slub-dresden.de/persons/33407858X', 'name': 'Pirani, Eugenio di', 'description': 'Komponist1'}]</td>
+      <td>[{'sameAs': 'https://d-nb.info/gnd/100625320', '@id': 'https://data.slub-dresden.de/persons/076637255', 'name': 'Reißiger, Carl Gottlieb', 'description': 'Komponist1'}]</td>
       <td></td>
     </tr>
     <tr>
-      <th>12</th>
       <td>500</td>
       <td>URI</td>
       <td><a href="http://schema.org/author" class="extlink">author</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/persons/076637255" target="_blank">https://data.slub-dresden.de/persons/076637255</a></td>
+      <td><a href="https://data.slub-dresden.de/persons/33407858X" target="_blank">https://data.slub-dresden.de/persons/33407858X</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>13</th>
       <td>500</td>
       <td>literal</td>
       <td><a href="http://schema.org/author" class="extlink">author</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -4197,61 +3739,54 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>14</th>
       <td>500</td>
       <td>literal</td>
       <td><a href="http://schema.org/author" class="extlink">author</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Pirani, Eugenio di</td>
+      <td>Reißiger, Carl Gottlieb</td>
       <td></td>
     </tr>
     <tr>
-      <th>15</th>
       <td>500</td>
       <td>URI</td>
       <td><a href="http://schema.org/author" class="extlink">author</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
-      <td><a href="https://d-nb.info/gnd/100625320" target="_blank">https://d-nb.info/gnd/100625320</a></td>
+      <td><a href="https://d-nb.info/gnd/116189762" target="_blank">https://d-nb.info/gnd/116189762</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>16</th>
       <td>object</td>
       <td><a href="http://schema.org/category" class="extlink">category</a></td>
       <td></td>
-      <td>{'de': [{'@id': 'https://de.wikipedia.org/wiki/?curid=1023616', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Bilderbuch', 'name': 'Bilderbuch'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=4350955', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Deutscher_Comic_(Werk)', 'name': 'Deutscher Comic (Werk)'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=242451', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Literarische_Figur', 'name': 'Literarische Figur'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=299434', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Literarisches_Werk', 'name': 'Literarisches Werk'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=2099857', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Literatur_(19._Jahrhundert)', 'name': 'Literatur (19. Jahrhundert)'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=1968235', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Religionsparodie', 'name': 'Religionsparodie'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=7511259', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Werk_von_Wilhelm_Busch', 'name': 'Werk von Wilhelm Busch'}]}</td>
+      <td>{'de': [{'@id': 'https://de.wikipedia.org/wiki/?curid=2605982', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Gedicht', 'name': 'Gedicht'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=299434', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Literarisches_Werk', 'name': 'Literarisches Werk'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=2099857', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Literatur_(19._Jahrhundert)', 'name': 'Literatur (19. Jahrhundert)'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=278897', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Literatur_(Deutsch)', 'name': 'Literatur (Deutsch)'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=278940', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Lyrik', 'name': 'Lyrik'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=6891549', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Stefan_George', 'name': 'Stefan George'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=7441422', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Zyklisches_Werk', 'name': 'Zyklisches Werk'}]}</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>17</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs</td>
       <td></td>
-      <td>[{'@id': 'https://cs.wikipedia.org/wiki/?curid=1272354', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Divadelní_hry_z_roku_1773', 'name': 'Divadelní hry z roku 1773'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1679514', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Díla_Johanna_Wolfganga_von_Goetha', 'name': 'Díla Johanna Wolfganga von Goetha'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1272353', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Knihy_z_roku_1773', 'name': 'Knihy z roku 1773'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1243431', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Stránky_používající_kouzelné_odkazy_ISBN', 'name': 'Monitoring:Stránky používající kouzelné odkazy ISBN'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697382', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_BNF', 'name': 'Monitoring:Články s identifikátorem BNF'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697362', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_GND', 'name': 'Monitoring:Články s identifikátorem GND'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697361', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_LCCN', 'name': 'Monitoring:Články s identifikátorem LCCN'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697387', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_SUDOC', 'name': 'Monitoring:Články s identifikátorem SUDOC'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697363', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_VIAF', 'name': 'Monitoring:Články s identifikátorem VIAF'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697398', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátory_WorldCat-VIAF', 'name': 'Monitoring:Články s identifikátory WorldCat-VIAF'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=192487', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Německé_divadelní_hry', 'name': 'Německé divadelní hry'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1272329', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Preromantická_literární_díla', 'name': 'Preromantická literární díla'}]</td>
+      <td>[{'@id': 'https://cs.wikipedia.org/wiki/?curid=1462795', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Eposy', 'name': 'Eposy'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1594831', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Knihy_z_8._století_př._n._l.', 'name': 'Knihy z 8. století př. n. l.'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697382', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_BNF', 'name': 'Monitoring:Články s identifikátorem BNF'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697362', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_GND', 'name': 'Monitoring:Články s identifikátorem GND'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697361', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_LCCN', 'name': 'Monitoring:Články s identifikátorem LCCN'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697493', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_MusicBrainz_dílo', 'name': 'Monitoring:Články s identifikátorem MusicBrainz dílo'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1693676', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_NKC', 'name': 'Monitoring:Články s identifikátorem NKC'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697396', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_NLI', 'name': 'Monitoring:Články s identifikátorem NLI'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697387', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_SUDOC', 'name': 'Monitoring:Články s identifikátorem SUDOC'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697363', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátorem_VIAF', 'name': 'Monitoring:Články s identifikátorem VIAF'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=1697398', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Monitoring:Články_s_identifikátory_WorldCat-VIAF', 'name': 'Monitoring:Články s identifikátory WorldCat-VIAF'}, {'@id': 'https://cs.wikipedia.org/wiki/?curid=269463', 'sameAs': 'https://cs.wikipedia.org/wiki/Kategorie:Starověká_řecká_básnická_díla', 'name': 'Starověká řecká básnická díla'}]</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>18</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.@id</td>
       <td></td>
-      <td><a href="https://cs.wikipedia.org/wiki/?curid=1272354" target="_blank">https://cs.wikipedia.org/wiki/?curid=1272354</a></td>
+      <td><a href="https://cs.wikipedia.org/wiki/?curid=1462795" target="_blank">https://cs.wikipedia.org/wiki/?curid=1462795</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>19</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Divadelní hry z roku 1773</td>
+      <td>Eposy</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>20</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -4260,7 +3795,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>21</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de</td>
       <td></td>
@@ -4269,7 +3803,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>22</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.@id</td>
       <td></td>
@@ -4278,7 +3811,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>23</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -4287,16 +3819,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>24</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
-      <td><a href="https://de.wikipedia.org/wiki/Kategorie:Gedicht" target="_blank">https://de.wikipedia.org/wiki/Kategorie:Gedicht</a></td>
+      <td><a href="https://de.wikipedia.org/wiki/Kategorie:Bilderbuch" target="_blank">https://de.wikipedia.org/wiki/Kategorie:Bilderbuch</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>25</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en</td>
       <td></td>
@@ -4305,25 +3835,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>26</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.@id</td>
       <td></td>
-      <td><a href="https://en.wikipedia.org/wiki/?curid=65305040" target="_blank">https://en.wikipedia.org/wiki/?curid=65305040</a></td>
+      <td><a href="https://en.wikipedia.org/wiki/?curid=5620997" target="_blank">https://en.wikipedia.org/wiki/?curid=5620997</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>27</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>1st-century texts</td>
+      <td>1773 plays</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>28</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -4332,25 +3859,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>29</th>
-      <td>object</td>
+      <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl</td>
       <td></td>
-      <td>{'@id': 'https://pl.wikipedia.org/wiki/?curid=1169359', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Apokryfy_Starego_Testamentu', 'name': 'Apokryfy Starego Testamentu'}</td>
+      <td>[{'@id': 'https://pl.wikipedia.org/wiki/?curid=2331958', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Adaptacje_filmowe_powstałe_w_koprodukcji', 'name': 'Adaptacje filmowe powstałe w koprodukcji'}, {'@id': 'https://pl.wikipedia.org/wiki/?curid=1636301', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Amerykańskie_filmy_muzyczne', 'name': 'Amerykańskie filmy muzyczne'}, {'@id': 'https://pl.wikipedia.org/wiki/?curid=3038218', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Amerykańskie_filmy_z_1979_roku', 'name': 'Amerykańskie filmy z 1979 roku'}, {'@id': 'https://pl.wikipedia.org/wiki/?curid=3922838', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Amerykańskie_musicale_filmowe', 'name': 'Amerykańskie musicale filmowe'}, {'@id': 'https://pl.wikipedia.org/wiki/?curid=3146601', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Filmowe_adaptacje_sztuk_scenicznych', 'name': 'Filmowe adaptacje sztuk scenicznych'}, {'@id': 'https://pl.wikipedia.org/wiki/?curid=447220', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Filmy_o_wojnie_w_Wietnamie', 'name': 'Filmy o wojnie w Wietnamie'}, {'@id': 'https://pl.wikipedia.org/wiki/?curid=570076', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Filmy_w_reżyserii_Miloša_Formana', 'name': 'Filmy w reżyserii Miloša Formana'}, {'@id': 'https://pl.wikipedia.org/wiki/?curid=2219118', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Filmy_wytwórni_United_Artists', 'name': 'Filmy wytwórni United Artists'}, {'@id': 'https://pl.wikipedia.org/wiki/?curid=1985842', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Niemieckie_filmy_muzyczne', 'name': 'Niemieckie filmy muzyczne'}, {'@id': 'https://pl.wikipedia.org/wiki/?curid=3041270', 'sameAs': 'https://pl.wikipedia.org/wiki/Kategoria:Niemieckie_filmy_z_1979_roku', 'name': 'Niemieckie filmy z 1979 roku'}]</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>30</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.@id</td>
       <td></td>
-      <td><a href="https://pl.wikipedia.org/wiki/?curid=1169359" target="_blank">https://pl.wikipedia.org/wiki/?curid=1169359</a></td>
+      <td><a href="https://pl.wikipedia.org/wiki/?curid=2331958" target="_blank">https://pl.wikipedia.org/wiki/?curid=2331958</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>31</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -4359,7 +3883,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>32</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -4368,7 +3891,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>33</th>
       <td>700</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/contributor" class="extlink">contributor</a></td>
@@ -4377,7 +3899,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>34</th>
       <td>700</td>
       <td>literal</td>
       <td><a href="http://schema.org/contributor" class="extlink">contributor</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -4386,7 +3907,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>35</th>
       <td>008</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
@@ -4395,43 +3915,38 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>36</th>
       <td>005</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
       <td></td>
-      <td>2020-12-25T21:26:00Z</td>
+      <td>2019-03-17T13:20:00Z</td>
       <td></td>
     </tr>
     <tr>
-      <th>37</th>
       <td>548^datb,dats</td>
       <td>object</td>
       <td>dateOfEstablishment</td>
       <td></td>
-      <td>{'@value': '1997', 'disambiguatingDescription': 'Erstellungszeit', 'description': '1997-1998'}</td>
+      <td>{'@value': '1035', 'disambiguatingDescription': 'Erstellungszeit', 'description': 'ca. 1035'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>38</th>
       <td>548^datb,dats</td>
       <td>literal</td>
       <td>dateOfEstablishment.@value</td>
       <td></td>
-      <td>1035</td>
+      <td>1997</td>
       <td></td>
     </tr>
     <tr>
-      <th>39</th>
       <td>548^datb,dats</td>
       <td>literal</td>
       <td>dateOfEstablishment.<a href="http://schema.org/description" class="extlink">description</a></td>
       <td></td>
-      <td>1997-1998</td>
+      <td>ca. 1035</td>
       <td></td>
     </tr>
     <tr>
-      <th>40</th>
       <td>548^datb,dats</td>
       <td>literal</td>
       <td>dateOfEstablishment.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -4440,25 +3955,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>41</th>
       <td>548^datb,dats</td>
       <td>object</td>
       <td>dateOfTermination</td>
       <td></td>
-      <td>{'@value': '1998', 'disambiguatingDescription': 'Erstellungszeit', 'description': '1997-1998'}</td>
+      <td>{'@value': '1035', 'disambiguatingDescription': 'Erstellungszeit', 'description': 'ca. 1035'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>42</th>
       <td>548^datb,dats</td>
       <td>literal</td>
       <td>dateOfTermination.@value</td>
       <td></td>
-      <td>1035</td>
+      <td>1998</td>
       <td></td>
     </tr>
     <tr>
-      <th>43</th>
       <td>548^datb,dats</td>
       <td>literal</td>
       <td>dateOfTermination.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -4467,7 +3979,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>44</th>
       <td>548^datb,dats</td>
       <td>literal</td>
       <td>dateOfTermination.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -4476,7 +3987,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>45</th>
       <td>130$f<br\>260$c<br\>264$c<br\>362$a</td>
       <td>literal</td>
       <td><a href="http://schema.org/datePublished" class="extlink">datePublished</a></td>
@@ -4485,7 +3995,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>46</th>
       <td>001</td>
       <td>literal</td>
       <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
@@ -4494,7 +4003,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>47</th>
       <td>377$a<br\>041$a<br\>041$d<br\>130$l<br\>730$l</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/inLanguage" class="extlink">inLanguage</a></td>
@@ -4503,25 +4011,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>48</th>
       <td>URI</td>
       <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/source/swb-aut/835740684" target="_blank">https://data.slub-dresden.de/source/swb-aut/835740684</a></td>
+      <td><a href="https://data.slub-dresden.de/source/swb-aut/1697302157" target="_blank">https://data.slub-dresden.de/source/swb-aut/1697302157</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>49</th>
       <td>022$a<br\>022$y<br\>022$z<br\>029$a<br\>490$x<br\>730$x<br\>773$x<br\>776$x<br\>780$x<br\>785$x<br\>800$x<br\>810$x<br\>811$x<br\>830$x</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/issn" class="extlink">issn</a></td>
       <td></td>
-      <td>[Confessio Virtembergica]</td>
+      <td>[Confessio Helvetica posterior]</td>
       <td></td>
     </tr>
     <tr>
-      <th>50</th>
       <td>object</td>
       <td><a href="http://schema.org/knows" class="extlink">knows</a></td>
       <td></td>
@@ -4530,7 +4035,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>51</th>
       <td>URI</td>
       <td><a href="http://schema.org/knows" class="extlink">knows</a>.@id</td>
       <td></td>
@@ -4539,7 +4043,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>52</th>
       <td>literal</td>
       <td><a href="http://schema.org/knows" class="extlink">knows</a>.<a href="http://schema.org/author" class="extlink">author</a></td>
       <td></td>
@@ -4548,7 +4051,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>53</th>
       <td>literal</td>
       <td><a href="http://schema.org/knows" class="extlink">knows</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -4557,7 +4059,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>54</th>
       <td>URI</td>
       <td><a href="http://schema.org/knows" class="extlink">knows</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -4566,7 +4067,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>55</th>
       <td>551^orth</td>
       <td>object</td>
       <td><a href="http://schema.org/locationCreated" class="extlink">locationCreated</a></td>
@@ -4575,7 +4075,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>56</th>
       <td>551^orth</td>
       <td>URI</td>
       <td><a href="http://schema.org/locationCreated" class="extlink">locationCreated</a>.@id</td>
@@ -4584,7 +4083,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>57</th>
       <td>551^orth</td>
       <td>literal</td>
       <td><a href="http://schema.org/locationCreated" class="extlink">locationCreated</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -4593,7 +4091,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>58</th>
       <td>551^orth</td>
       <td>literal</td>
       <td><a href="http://schema.org/locationCreated" class="extlink">locationCreated</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -4602,7 +4099,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>59</th>
       <td>551^orth</td>
       <td>URI</td>
       <td><a href="http://schema.org/locationCreated" class="extlink">locationCreated</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -4611,7 +4107,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>60</th>
       <td>object</td>
       <td><a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -4620,7 +4115,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>61</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.cs</td>
       <td></td>
@@ -4629,7 +4123,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>62</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.de</td>
       <td></td>
@@ -4638,7 +4131,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>63</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.en</td>
       <td></td>
@@ -4647,16 +4139,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>64</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.pl</td>
       <td></td>
-      <td>[Hair (film)]</td>
+      <td>[2 Księga Barucha]</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>65</th>
       <td>100$t<br\>110$t<br\>130$t<br\>111$t<br\>130$a</td>
       <td>literal</td>
       <td>preferredName</td>
@@ -4665,7 +4155,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>66</th>
       <td>260$a260$b<br\>264$a<br\>264$b</td>
       <td>object</td>
       <td><a href="http://schema.org/publisher" class="extlink">publisher</a></td>
@@ -4674,7 +4163,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>67</th>
       <td>260$a260$b<br\>264$a<br\>264$b</td>
       <td>object</td>
       <td><a href="http://schema.org/publisher" class="extlink">publisher</a>.<a href="http://schema.org/location" class="extlink">location</a></td>
@@ -4683,16 +4171,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>68</th>
       <td>260$a260$b<br\>264$a<br\>264$b</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/publisher" class="extlink">publisher</a>.<a href="http://schema.org/location" class="extlink">location</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>[Sowjetunion, Deutsche Frage, Geschichte 1952]</td>
+      <td>[Janota, Eugeniusz Arnold, 1823, 1878, Stundenbuch, Ripuarisch]</td>
       <td></td>
     </tr>
     <tr>
-      <th>69</th>
       <td>260$a260$b<br\>264$a<br\>264$b</td>
       <td>literal</td>
       <td><a href="http://schema.org/publisher" class="extlink">publisher</a>.<a href="http://schema.org/location" class="extlink">location</a>.type</td>
@@ -4701,7 +4187,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>70</th>
       <td>500</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a></td>
@@ -4710,7 +4195,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>71</th>
       <td>500</td>
       <td>URI</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a>.@id</td>
@@ -4719,7 +4203,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>72</th>
       <td>500</td>
       <td>literal</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a>.<a href="http://schema.org/author" class="extlink">author</a></td>
@@ -4728,16 +4211,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>73</th>
       <td>500</td>
       <td>literal</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Mahlke, Hans</td>
+      <td>Weigert, Herman</td>
       <td></td>
     </tr>
     <tr>
-      <th>74</th>
       <td>500</td>
       <td>URI</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -4746,7 +4227,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>75</th>
       <td>035$a<br\>670$u</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -4755,7 +4235,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>76</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.@id</td>
@@ -4764,16 +4243,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>77</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
       <td></td>
-      <td>{'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/1697302157'}</td>
+      <td>{'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/835740684'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>78</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@id</td>
@@ -4782,7 +4259,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>79</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@type</td>
@@ -4791,7 +4267,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>80</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a></td>
@@ -4800,7 +4275,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>81</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.@id</td>
@@ -4809,7 +4283,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>82</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.abbr</td>
@@ -4818,7 +4291,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>83</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.preferredName</td>
@@ -4835,7 +4307,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>MARC21-Field(s)</th>
       <th>Type</th>
       <th>field</th>
@@ -4846,7 +4317,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
       <td>URI</td>
       <td>@context</td>
@@ -4855,7 +4325,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>1</th>
       <td>001</td>
       <td>URI</td>
       <td>@id</td>
@@ -4864,7 +4333,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>2</th>
       <td><a href="http://schema.org/Thing" target="_blank">http://schema.org/Thing</a></td>
       <td>URI</td>
       <td>@type</td>
@@ -4873,7 +4341,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>3</th>
       <td>003</td>
       <td>literal</td>
       <td>_isil</td>
@@ -4882,16 +4349,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>4</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/about" class="extlink">about</a></td>
       <td></td>
-      <td>[{'identifier': {'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '629.2221'}, '@id': 'http://purl.org/NET/decimalised#c629'}, {'identifier': {'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '629.228'}, '@id': 'http://purl.org/NET/decimalised#c629'}]</td>
+      <td>[{'identifier': {'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '830.7943311'}, '@id': 'http://purl.org/NET/decimalised#c830'}]</td>
       <td></td>
     </tr>
     <tr>
-      <th>5</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>URI</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.@id</td>
@@ -4900,16 +4365,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>6</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>object</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a></td>
       <td></td>
-      <td>{'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '629.2221'}</td>
+      <td>{'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '830.7943311'}</td>
       <td></td>
     </tr>
     <tr>
-      <th>7</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.@type</td>
@@ -4918,7 +4381,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>8</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/propertyID" class="extlink">propertyID</a></td>
@@ -4927,7 +4389,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>9</th>
       <td>936<br\>084<br\>083<br\>082<br\>655</td>
       <td>literal</td>
       <td><a href="http://schema.org/about" class="extlink">about</a>.<a href="http://schema.org/identifier" class="extlink">identifier</a>.<a href="http://schema.org/value" class="extlink">value</a></td>
@@ -4936,7 +4397,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>10</th>
       <td>550</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/additionalType" class="extlink">additionalType</a></td>
@@ -4945,7 +4405,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>11</th>
       <td>550</td>
       <td>URI</td>
       <td><a href="http://schema.org/additionalType" class="extlink">additionalType</a>.@id</td>
@@ -4954,7 +4413,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>12</th>
       <td>550</td>
       <td>literal</td>
       <td><a href="http://schema.org/additionalType" class="extlink">additionalType</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -4963,7 +4421,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>13</th>
       <td>550</td>
       <td>literal</td>
       <td><a href="http://schema.org/additionalType" class="extlink">additionalType</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -4972,7 +4429,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>14</th>
       <td>550</td>
       <td>URI</td>
       <td><a href="http://schema.org/additionalType" class="extlink">additionalType</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -4981,7 +4437,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>15</th>
       <td>450$a+x</td>
       <td>list of literals</td>
       <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
@@ -4990,16 +4445,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>16</th>
       <td>551^geow</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/areaServed" class="extlink">areaServed</a></td>
       <td></td>
-      <td>[{'sameAs': 'https://d-nb.info/gnd/4015701-5', '@id': 'https://data.slub-dresden.de/geo/104289007', 'name': 'Europa', 'description': 'Wirkungsraum'}]</td>
+      <td>[{'sameAs': 'https://d-nb.info/gnd/4041612-4', '@id': 'https://data.slub-dresden.de/geo/10621845X', 'name': 'Nepal', 'description': 'Wirkungsraum'}]</td>
       <td></td>
     </tr>
     <tr>
-      <th>17</th>
       <td>551^geow</td>
       <td>URI</td>
       <td><a href="http://schema.org/areaServed" class="extlink">areaServed</a>.@id</td>
@@ -5008,7 +4461,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>18</th>
       <td>551^geow</td>
       <td>literal</td>
       <td><a href="http://schema.org/areaServed" class="extlink">areaServed</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -5017,16 +4469,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>19</th>
       <td>551^geow</td>
       <td>literal</td>
       <td><a href="http://schema.org/areaServed" class="extlink">areaServed</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Europa</td>
+      <td>Nepal</td>
       <td></td>
     </tr>
     <tr>
-      <th>20</th>
       <td>551^geow</td>
       <td>URI</td>
       <td><a href="http://schema.org/areaServed" class="extlink">areaServed</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -5035,7 +4485,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>21</th>
       <td>object</td>
       <td><a href="http://schema.org/category" class="extlink">category</a></td>
       <td></td>
@@ -5044,7 +4493,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>22</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs</td>
       <td></td>
@@ -5053,7 +4501,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>23</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.@id</td>
       <td></td>
@@ -5062,7 +4509,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>24</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -5071,7 +4517,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>25</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.cs.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -5080,7 +4525,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>26</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de</td>
       <td></td>
@@ -5089,16 +4533,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>27</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.@id</td>
       <td></td>
-      <td><a href="https://de.wikipedia.org/wiki/?curid=1169524" target="_blank">https://de.wikipedia.org/wiki/?curid=1169524</a></td>
+      <td><a href="https://de.wikipedia.org/wiki/?curid=242285" target="_blank">https://de.wikipedia.org/wiki/?curid=242285</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>28</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -5107,16 +4549,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>29</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.de.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
-      <td><a href="https://de.wikipedia.org/wiki/Kategorie:Eid" target="_blank">https://de.wikipedia.org/wiki/Kategorie:Eid</a></td>
+      <td><a href="https://de.wikipedia.org/wiki/Kategorie:Fotografie" target="_blank">https://de.wikipedia.org/wiki/Kategorie:Fotografie</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>30</th>
       <td>list of objects</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en</td>
       <td></td>
@@ -5125,16 +4565,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>31</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.@id</td>
       <td></td>
-      <td><a href="https://en.wikipedia.org/wiki/?curid=9329647" target="_blank">https://en.wikipedia.org/wiki/?curid=9329647</a></td>
+      <td><a href="https://en.wikipedia.org/wiki/?curid=60404974" target="_blank">https://en.wikipedia.org/wiki/?curid=60404974</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>32</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -5143,7 +4581,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>33</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.en.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -5152,7 +4589,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>34</th>
       <td>object</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl</td>
       <td></td>
@@ -5161,25 +4597,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>35</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.@id</td>
       <td></td>
-      <td><a href="https://pl.wikipedia.org/wiki/?curid=94431" target="_blank">https://pl.wikipedia.org/wiki/?curid=94431</a></td>
+      <td><a href="https://pl.wikipedia.org/wiki/?curid=66326" target="_blank">https://pl.wikipedia.org/wiki/?curid=66326</a></td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>36</th>
       <td>literal</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Fotografia</td>
+      <td>Etyka</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>37</th>
       <td>URI</td>
       <td><a href="http://schema.org/category" class="extlink">category</a>.pl.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
@@ -5188,7 +4621,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>38</th>
       <td>551^punk</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/contentLocation" class="extlink">contentLocation</a></td>
@@ -5197,7 +4629,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>39</th>
       <td>551^punk</td>
       <td>URI</td>
       <td><a href="http://schema.org/contentLocation" class="extlink">contentLocation</a>.@id</td>
@@ -5206,7 +4637,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>40</th>
       <td>551^punk</td>
       <td>literal</td>
       <td><a href="http://schema.org/contentLocation" class="extlink">contentLocation</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -5215,7 +4645,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>41</th>
       <td>551^punk</td>
       <td>literal</td>
       <td><a href="http://schema.org/contentLocation" class="extlink">contentLocation</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -5224,7 +4653,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>42</th>
       <td>551^punk</td>
       <td>URI</td>
       <td><a href="http://schema.org/contentLocation" class="extlink">contentLocation</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -5233,7 +4661,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>43</th>
       <td>008</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
@@ -5242,7 +4669,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>44</th>
       <td>005</td>
       <td>literal</td>
       <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
@@ -5251,7 +4677,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>45</th>
       <td>548^datb</td>
       <td>object</td>
       <td>dateOfEstablishment</td>
@@ -5260,7 +4685,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>46</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfEstablishment.@value</td>
@@ -5269,7 +4693,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>47</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfEstablishment.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -5278,7 +4701,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>48</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfEstablishment.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -5287,7 +4709,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>49</th>
       <td>548^datb</td>
       <td>object</td>
       <td>dateOfTermination</td>
@@ -5296,7 +4717,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>50</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfTermination.@value</td>
@@ -5305,7 +4725,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>51</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfTermination.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -5314,7 +4733,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>52</th>
       <td>548^datb</td>
       <td>literal</td>
       <td>dateOfTermination.<a href="http://schema.org/disambiguatingDescription" class="extlink">disambiguatingDescription</a></td>
@@ -5323,7 +4741,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>53</th>
       <td>679$a</td>
       <td>literal</td>
       <td><a href="http://schema.org/description" class="extlink">description</a></td>
@@ -5332,7 +4749,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>54</th>
       <td>551^geoa</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/fromLocation" class="extlink">fromLocation</a></td>
@@ -5341,7 +4757,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>55</th>
       <td>551^geoa</td>
       <td>URI</td>
       <td><a href="http://schema.org/fromLocation" class="extlink">fromLocation</a>.@id</td>
@@ -5350,7 +4765,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>56</th>
       <td>551^geoa</td>
       <td>literal</td>
       <td><a href="http://schema.org/fromLocation" class="extlink">fromLocation</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -5359,7 +4773,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>57</th>
       <td>551^geoa</td>
       <td>literal</td>
       <td><a href="http://schema.org/fromLocation" class="extlink">fromLocation</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -5368,7 +4781,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>58</th>
       <td>551^geoa</td>
       <td>URI</td>
       <td><a href="http://schema.org/fromLocation" class="extlink">fromLocation</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -5377,7 +4789,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>59</th>
       <td>001</td>
       <td>literal</td>
       <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
@@ -5386,7 +4797,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>60</th>
       <td>URI</td>
       <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
       <td></td>
@@ -5395,7 +4805,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>61</th>
       <td>551^orta</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/location" class="extlink">location</a></td>
@@ -5404,7 +4813,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>62</th>
       <td>551^orta</td>
       <td>URI</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.@id</td>
@@ -5413,7 +4821,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>63</th>
       <td>551^orta</td>
       <td>literal</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -5422,7 +4829,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>64</th>
       <td>551^orta</td>
       <td>literal</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -5431,16 +4837,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>65</th>
       <td>551^orta</td>
       <td>URI</td>
       <td><a href="http://schema.org/location" class="extlink">location</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td></td>
-      <td><a href="https://d-nb.info/gnd/4050471-2" target="_blank">https://d-nb.info/gnd/4050471-2</a></td>
+      <td><a href="https://d-nb.info/gnd/4534600-8" target="_blank">https://d-nb.info/gnd/4534600-8</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>66</th>
       <td>object</td>
       <td><a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
@@ -5449,7 +4853,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>67</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.cs</td>
       <td></td>
@@ -5458,16 +4861,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>68</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.de</td>
       <td></td>
-      <td>[Eid]</td>
+      <td>[Fotografie]</td>
       <td></td>
       <td>None</td>
     </tr>
     <tr>
-      <th>69</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.en</td>
       <td></td>
@@ -5476,7 +4877,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>70</th>
       <td>list of literals</td>
       <td><a href="http://schema.org/name" class="extlink">name</a>.pl</td>
       <td></td>
@@ -5485,7 +4885,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td>None</td>
     </tr>
     <tr>
-      <th>71</th>
       <td>551^bete</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/participant" class="extlink">participant</a></td>
@@ -5494,7 +4893,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>72</th>
       <td>551^bete</td>
       <td>URI</td>
       <td><a href="http://schema.org/participant" class="extlink">participant</a>.@id</td>
@@ -5503,7 +4901,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>73</th>
       <td>551^bete</td>
       <td>literal</td>
       <td><a href="http://schema.org/participant" class="extlink">participant</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -5512,7 +4909,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>74</th>
       <td>551^bete</td>
       <td>literal</td>
       <td><a href="http://schema.org/participant" class="extlink">participant</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
@@ -5521,7 +4917,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>75</th>
       <td>551^bete</td>
       <td>URI</td>
       <td><a href="http://schema.org/participant" class="extlink">participant</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -5530,7 +4925,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>76</th>
       <td>150</td>
       <td>literal</td>
       <td>preferredName</td>
@@ -5539,25 +4933,22 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>77</th>
       <td>551^vbal</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a></td>
       <td></td>
-      <td>[{'sameAs': 'https://d-nb.info/gnd/4029455-9', '@id': 'https://data.slub-dresden.de/geo/106274171', 'name': 'Kanaan', 'description': 'Verwandter Begriff'}]</td>
+      <td>[{'sameAs': 'https://d-nb.info/gnd/4046744-2', '@id': 'https://data.slub-dresden.de/geo/104730749', 'name': 'Pommern', 'description': 'Verwandter Begriff'}]</td>
       <td></td>
     </tr>
     <tr>
-      <th>78</th>
       <td>551^vbal</td>
       <td>URI</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a>.@id</td>
       <td></td>
-      <td><a href="https://data.slub-dresden.de/geo/106274171" target="_blank">https://data.slub-dresden.de/geo/106274171</a></td>
+      <td><a href="https://data.slub-dresden.de/geo/104730749" target="_blank">https://data.slub-dresden.de/geo/104730749</a></td>
       <td></td>
     </tr>
     <tr>
-      <th>79</th>
       <td>551^vbal</td>
       <td>literal</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a>.<a href="http://schema.org/description" class="extlink">description</a></td>
@@ -5566,16 +4957,14 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>80</th>
       <td>551^vbal</td>
       <td>literal</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a>.<a href="http://schema.org/name" class="extlink">name</a></td>
       <td></td>
-      <td>Kanaan</td>
+      <td>Pommern</td>
       <td></td>
     </tr>
     <tr>
-      <th>81</th>
       <td>551^vbal</td>
       <td>URI</td>
       <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a>.<a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -5584,7 +4973,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>82</th>
       <td>035$a<br\>670$u</td>
       <td>list of objects</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
@@ -5593,7 +4981,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>83</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.@id</td>
@@ -5602,7 +4989,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>84</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
@@ -5611,7 +4997,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>85</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@id</td>
@@ -5620,7 +5005,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>86</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a>.@type</td>
@@ -5629,7 +5013,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>87</th>
       <td>035$a<br\>670$u</td>
       <td>object</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a></td>
@@ -5638,7 +5021,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>88</th>
       <td>035$a<br\>670$u</td>
       <td>URI</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.@id</td>
@@ -5647,7 +5029,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>89</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.abbr</td>
@@ -5656,7 +5037,6 @@ On this page you can find our mapping-tables, which are fed into our processing 
       <td></td>
     </tr>
     <tr>
-      <th>90</th>
       <td>035$a<br\>670$u</td>
       <td>literal</td>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a>.<a href="http://schema.org/publisher" class="extlink">publisher</a>.preferredName</td>
@@ -5666,3 +5046,5 @@ On this page you can find our mapping-tables, which are fed into our processing 
     </tr>
   </tbody>
 </table>
+
+

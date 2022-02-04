@@ -24,7 +24,7 @@ search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
 
 # Footer with imprint and Copyright
-footer_content: "Copyright &copy; 2019-2021 SLUB Dresden. <a href=\"https://www.slub-dresden.de/impressum/\">Legal Notice</a>, Privacy Policies: <a href=\"https://www.slub-dresden.de/en/privacy-policy/\">API usage</a>, <a href=\"https://docs.github.com/en/github/site-policy/github-privacy-statement\">Github Pages (webpage)</a><img class=\"efre\" src=\"/assets/images/EFRE_EU_quer_2015_rgb_engl.svg\" alt=\"EFRE EU Logo\">"
+footer_content: "Copyright &copy; 2019-2022 SLUB Dresden. <a href=\"https://www.slub-dresden.de/impressum/\">Legal Notice</a>, Privacy Policies: <a href=\"https://www.slub-dresden.de/en/privacy-policy/\">API usage</a>, <a href=\"https://docs.github.com/en/github/site-policy/github-privacy-statement\">Github Pages (webpage)</a><img class=\"efre\" src=\"/assets/images/EFRE_EU_quer_2015_rgb_engl.svg\" alt=\"EFRE EU Logo\">"
       
 
 # Aux links for the upper right navigation

@@ -139,6 +139,19 @@ $link-color: $slub-tuerkis;
 //xl: 1400px
 //);
 
+@media screen {
+  .main {
+    margin-left: 264px !important;
+    position: relative;
+    max-width: 1600px !important;
+  }
+}
+
+@media screen {
+  .side-bar {
+    width: 264px !important;
+  }
+}
 a.extlink {
     color: $slub-blau;
 }

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Explorative Suche
+title: Exploratory Search
 published: true
 nav_order: 6
 ---
 
-# Explorative Suche
+# Exploratory Search
 
 
 [![explorative-search-preview]({{ site.baseurl }}{% link assets/images/explorative-Suche-preview.png%})](https://data.slub-dresden.de/explore){:target="_blank"}

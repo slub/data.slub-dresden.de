@@ -48,7 +48,7 @@ Using the prepared file [painter_born.json]({{ site.baseurl }}{% link assets/fil
 
   ![Screenshot-reconcile-2]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-2.png%})
 
-* Select "Person" as entity and inclue the "_-_-born" column as `birthDate` ([See Data Type details for Persons]({{ site.baseurl }}{% link doc/entity_types/persons.md%})). Eventually, press `Start Reconciling`
+* Select "Person" as entity and inclue the "_-_-born" column as `birthDate` ([See Data Type details for Persons]({{ site.baseurl }}{% link doc/entity_types/persons.html%})). Eventually, press `Start Reconciling`
 
   ![Screenshot-reconcile-3]({{ site.baseurl }}{% link assets/images/Screenshot-reconcile-3.png%})
 

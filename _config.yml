@@ -10,7 +10,7 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 logo: "/assets/images/slublogo.svg"
 
 # theme
-theme: just-the-docs
+#theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "slub_light"
 

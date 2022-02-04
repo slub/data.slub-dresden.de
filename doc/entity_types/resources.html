@@ -1,0 +1,338 @@
+---
+layout: default
+
+title: Resources
+nav_order: 1
+parent: "Entity Types"
+
+---
+
+<h1>Resources</h1>
+<br>
+<a href="https://schema.org/Resource">Resource</a>
+<br>
+
+<table class="relative-table wrapped" style="width: 96.4228%;"> <colgroup> <col style="width: 24.0686%;" /> <col style="width: 5.06116%;" /> <col style="width: 17.6578%;" /> <col style="width: 6.4108%;" /> </colgroup>
+  <thead>
+    <tr style="text-align: right;">
+      <th>property</th>
+      <th>Type</th>
+      <th>multi-/ single valued</th>
+      <th>example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#the-context" class="extlink">@context</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#node-identifiers" class="extlink">@id</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://data.slub-dresden.de/resources/1322972605" target="_blank">https://data.slub-dresden.de/resources/1322972605</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#specifying-the-type" class="extlink">@type</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="http://schema.org/CreativeWork" target="_blank">http://schema.org/CreativeWork</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/Thesis" class="extlink">Thesis</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Zugl.: Chemnitz, Techn. Univ., Diss., 2013</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/about" class="extlink">about</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'sameAs': ['http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1270705105'], '@id': 'https://rvk.uni-regensburg.de/api/json/ancestors/LH%2079510', 'identifier': {'@type': 'PropertyValue', 'propertyID': 'RVK', 'value': 'LH 79510'}, 'name': 'Historische Darstellungen', 'keywords': ['Kunstgeschichte', 'Allgemeines. Allgemeine Kunstgeschichte', 'Kunstgeschichte einzelner Gattungen der Kunst', 'Industriedesign', 'Historische Darstellungen']}, {'identifier': {'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '745.4'}, '@id': 'http://purl.org/NET/decimalised#c745'}, {'sameAs': 'https://d-nb.info/gnd/4145395-5', '@id': 'https://data.slub-dresden.de/topics/104450835', 'name': 'Bildband'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
+      <td>list of literals</td>
+      <td>m</td>
+      <td>[Die Hauptschwierigkeiten der deutschen Sprache, Enth. 1.: Die Hauptschwierigkeiten der deutschen Sprache, 2. Praktische Rede- und Stilkunde]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/alternativeHeadline" class="extlink">alternativeHeadline</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Oskar Hoffmann</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/author" class="extlink">author</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'sameAs': 'https://d-nb.info/gnd/126686602', '@id': 'https://data.slub-dresden.de/persons/382186028', 'name': 'Hoffmann, Oskar'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/contributor" class="extlink">contributor</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'name': 'Leitsmann, ...'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>2006-04-24</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>2018-12-06T18:42:40Z</td>
+    </tr>
+    <tr>
+      <td>dateOriginalPublished</td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'dateOrigin': '[1578]', 'dateParsed': '1578'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/datePublished" class="extlink">datePublished</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'dateOrigin': '[1932]', 'dateParsed': '1932'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/description" class="extlink">description</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Text engl., franz. und dt</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/genre" class="extlink">genre</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@type': 'Text', 'Text': 'Führer'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/hasPart" class="extlink">hasPart</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'name': 'Jews without money <dt.>', 'author': 'Gold, Michael'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>161804950X</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/inLanguage" class="extlink">inLanguage</a></td>
+      <td>list of literals</td>
+      <td>m</td>
+      <td>[ger]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://data.slub-dresden.de/source/kxp-de14/1322972605" target="_blank">https://data.slub-dresden.de/source/kxp-de14/1322972605</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/isPartOf" class="extlink">isPartOf</a></td>
+      <td>list of literals</td>
+      <td>m</td>
+      <td>[mot : die Autozeitschrift]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/isbn" class="extlink">isbn</a></td>
+      <td>list of literals</td>
+      <td>m</td>
+      <td>[9783125209251]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/issn" class="extlink">issn</a></td>
+      <td>list of literals</td>
+      <td>m</td>
+      <td>[0417-2000]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/license" class="extlink">license</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Public Domain Mark 1.0</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/mentions" class="extlink">mentions</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@type': 'http://schema.org/Thing', 'sameAs': 'https://d-nb.info/gnd/4072788-9', '@id': 'https://data.slub-dresden.de/topics/10609422X', 'name': 'Industriedesign'}, {'name': 'Geschichte 1880-1930'}, {'@type': 'http://schema.org/Thing', 'sameAs': 'https://d-nb.info/gnd/4011510-0', '@id': 'https://data.slub-dresden.de/topics/106352466', 'name': 'Design'}]</td>
+    </tr>
+    <tr>
+      <td>nameShort</td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Gutes Deutsch in Wort und Schrift</td>
+    </tr>
+    <tr>
+      <td>nameSub</td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Handbuch für Reisende</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/numberOfPages" class="extlink">numberOfPages</a></td>
+      <td>None</td>
+      <td>s</td>
+      <td>750</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/offers" class="extlink">offers</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'@type': 'Offer', 'offeredBy': {'@id': 'https://data.slub-dresden.de/organizations/191800287', '@type': 'Library', 'name': 'Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden', 'branchCode': 'DE-14'}, 'availability': 'https://katalog.slub-dresden.de/id/0-1322972605'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/pageStart" class="extlink">pageStart</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/partOfSeries" class="extlink">partOfSeries</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'position': '3', '@id': 'https://data.slub-dresden.de/resources/130290025', 'name': 'Wirtschafts- und Berufspädagogik in Forschung und Praxis'}]</td>
+    </tr>
+    <tr>
+      <td>physical_description</td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'extent': '176 S.', 'physical_details': 'überw. Ill. (z. T. farb.)'}</td>
+    </tr>
+    <tr>
+      <td>preferredName</td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Gutes Deutsch in Wort und Schrift</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/publisher" class="extlink">publisher</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'location': {'name': ['Dresden-Radebeul', 'Leipzig'], 'type': 'Place'}}</td>
+    </tr>
+    <tr>
+      <td>relatedEvent</td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'sameAs': 'https://d-nb.info/gnd/5545899-3', '@id': 'https://data.slub-dresden.de/events/364536403', 'name': 'International Conference on Software Maintenance'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@id': 'http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=161804950X', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/103302212', 'preferredName': 'K10Plus', 'abbr': 'KXP'}, 'isBasedOn': {'@type': 'Dataset'}}]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h2>Origin</h2>
+See <a href="/doc/mappings/marc21#resources">MARC21-mapping: Resources</a>
+<h2>Example</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>curl <span class="nt">-XGET</span> <span class="s2">"https://data.slub-dresden.de/resources/1322972605"</span> | jq <span class="s1">'.'</span></code></pre></div></div>
+<h2>Structure</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>
+  <span class="o">{</span>
+    <span class="s2">"@type"</span><span class="o">:</span> <span class="s2">"http://schema.org/CreativeWork"</span><span class="o">,</span>
+    <span class="s2">"@context"</span><span class="o">:</span> <span class="s2">"https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"</span><span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/resources/1322972605"</span><span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> <span class="s2">"1322972605"</span><span class="o">,</span>
+    <span class="s2">"dateCreated"</span><span class="o">:</span> <span class="s2">"2006-04-24"</span><span class="o">,</span>
+    <span class="s2">"offers"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> <span class="s2">"2018-12-06T18:42:40Z"</span><span class="o">,</span>
+    <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> <span class="s2">"Gutes Deutsch in Wort und Schrift"</span><span class="o">,</span>
+    <span class="s2">"nameShort"</span><span class="o">:</span> <span class="s2">"Gutes Deutsch in Wort und Schrift"</span><span class="o">,</span>
+    <span class="s2">"alternativeHeadline"</span><span class="o">:</span> <span class="s2">"Oskar Hoffmann"</span><span class="o">,</span>
+    <span class="s2">"alternateName"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"author"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"contributor"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"publisher"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"datePublished"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"inLanguage"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/source/kxp-de14/1322972605"</span><span class="o">,</span>
+  <span class="o">}</span>
+<span class="o">]</span>
+</code></pre></div></div>
+<h2>In Detail</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>
+  <span class="o">{</span>
+    <span class="s2">"@type"</span><span class="o">:</span> "http://schema.org/CreativeWork"<span class="o">,</span>
+    <span class="s2">"@context"</span><span class="o">:</span> "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"<span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> "https://data.slub-dresden.de/resources/1322972605"<span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> "1322972605"<span class="o">,</span>
+    <span class="s2">"dateCreated"</span><span class="o">:</span> "2006-04-24"<span class="o">,</span>
+    <span class="s2">"offers"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"@type"<span class="o">: </span><span class="s2">"Offer"</span><span class="o">,
+</span>        <span class="s2">"offeredBy"<span class="o">: </span><span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/organizations/191800287"</span><span class="o">,
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Library"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"S\u00e4chsische Landesbibliothek \u2013 Staats- und Universit\u00e4tsbibliothek Dresden"</span><span class="o">,
+</span>          <span class="s2">"branchCode"<span class="o">: </span><span class="s2">"DE-14"
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="s2">"availability"<span class="o">: </span><span class="s2">"https://katalog.slub-dresden.de/id/0-1322972605"
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> "2018-12-06T18:42:40Z"<span class="o">,</span>
+    <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1322972605"</span><span class="o">,
+</span>          <span class="s2">"publisher"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/organizations/103302212"</span><span class="o">,
+</span>            <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"K10Plus"</span><span class="o">,
+</span>            <span class="s2">"abbr"<span class="o">: </span><span class="s2">"KXP"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="s2">"isBasedOn"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"
+         <span class="o"> }</span>
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> "Gutes Deutsch in Wort und Schrift"<span class="o">,</span>
+    <span class="s2">"nameShort"</span><span class="o">:</span> "Gutes Deutsch in Wort und Schrift"<span class="o">,</span>
+    <span class="s2">"alternativeHeadline"</span><span class="o">:</span> "Oskar Hoffmann"<span class="o">,</span>
+    <span class="s2">"alternateName"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="s2">"Die Hauptschwierigkeiten der deutschen Sprache"</span><span class="o">,
+</span>        <span class="s2">"Enth. 1.<span class="o">: </span>Die Hauptschwierigkeiten der deutschen Sprache"</span><span class="o">,
+</span>        <span class="s2">"2. Praktische Rede- und Stilkunde"
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"author"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/126686602"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/persons/382186028"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Hoffmann, Oskar"
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"contributor"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Leitsmann, ..."
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"publisher"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"location"<span class="o">: </span><span class="o">{
+</span>          <span class="s2">"name":<span class="o"> [</span>
+            <span class="s2">"Dresden-Radebeul"</span><span class="o">,
+</span>            <span class="s2">"Leipzig"
+         <span class="o"> ]</span><span class="o">,
+</span>          <span class="s2">"type"<span class="o">: </span><span class="s2">"Place"
+       <span class="o"> }</span>
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"datePublished"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"dateOrigin"<span class="o">: </span><span class="s2">"[1932]"</span><span class="o">,
+</span>        <span class="s2">"dateParsed"<span class="o">: </span><span class="s2">"1932"
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"inLanguage"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="s2">"ger"
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> "https://data.slub-dresden.de/source/kxp-de14/1322972605"<span class="o">,</span>
+  <span class="o">}</span>
+<span class="o">]</span>
+</code></pre></div></div><br>
+

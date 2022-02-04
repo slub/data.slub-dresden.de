@@ -1,0 +1,210 @@
+---
+layout: default
+
+title: Events
+nav_order: 4
+parent: "Entity Types"
+
+---
+
+<h1>Events</h1>
+<br>
+<a href="https://schema.org/Event">Event</a>
+<br>
+
+<table class="relative-table wrapped" style="width: 96.4228%;"> <colgroup> <col style="width: 24.0686%;" /> <col style="width: 5.06116%;" /> <col style="width: 17.6578%;" /> <col style="width: 6.4108%;" /> </colgroup>
+  <thead>
+    <tr style="text-align: right;">
+      <th>property</th>
+      <th>Type</th>
+      <th>multi-/ single valued</th>
+      <th>example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#the-context" class="extlink">@context</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#node-identifiers" class="extlink">@id</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://data.slub-dresden.de/events/709381840" target="_blank">https://data.slub-dresden.de/events/709381840</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#specifying-the-type" class="extlink">@type</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="http://schema.org/Event" target="_blank">http://schema.org/Event</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/about" class="extlink">about</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'identifier': {'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '227.06'}, '@id': 'http://purl.org/NET/decimalised#c227'}]</td>
+    </tr>
+    <tr>
+      <td>adressRegion</td>
+      <td>literal</td>
+      <td>s</td>
+      <td>XD-US</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
+      <td>list of literals</td>
+      <td>m</td>
+      <td>[International Conference on Waterfront Archaeology]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/category" class="extlink">category</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'de': [{'@id': 'https://de.wikipedia.org/wiki/?curid=10251898', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Erstveranstaltung_1996', 'name': 'Erstveranstaltung 1996'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=1750006', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Volksfest_in_Thüringen', 'name': 'Volksfest in Thüringen'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=10770330', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Wikipedia:Defekte_Weblinks/Ungeprüfte_Archivlinks_2019-05', 'name': 'Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2019-05'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=10770333', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Wikipedia:Defekte_Weblinks/Ungeprüfte_Botmarkierungen_2019-05', 'name': 'Wikipedia:Defekte Weblinks/Ungeprüfte Botmarkierungen 2019-05'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=10287747', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Wikipedia:Weblink_offline_IABot', 'name': 'Wikipedia:Weblink offline IABot'}]}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>2012-04-28</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>2019-03-17T12:54:00Z</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/endDate" class="extlink">endDate</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'@value': '1986', 'disambiguatingDescription': 'Veranstaltungsdaten', 'description': '1986'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>709381840</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://data.slub-dresden.de/source/swb-aut/708851886" target="_blank">https://data.slub-dresden.de/source/swb-aut/708851886</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/location" class="extlink">location</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'sameAs': 'https://d-nb.info/gnd/4036361-2', '@id': 'https://data.slub-dresden.de/geo/106243012', 'name': 'Los Angeles, Calif.', 'description': 'Veranstaltungsort'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/name" class="extlink">name</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'de': ['Thüringentag']}</td>
+    </tr>
+    <tr>
+      <td>preferredName</td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Erlanger Podiums-Diskussion über Diabetes Mellitus</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@id': 'https://d-nb.info/gnd/800541-2', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/514366265', 'preferredName': 'Deutsche Nationalbibliothek', 'abbr': 'DNB'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/708851886'}}, {'@id': 'http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=708851886', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/103302212', 'preferredName': 'K10Plus', 'abbr': 'KXP'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/708851886'}}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/startDate" class="extlink">startDate</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'@value': '1986', 'disambiguatingDescription': 'Veranstaltungsdaten', 'description': '1986'}</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h2>Origin</h2>
+See <a href="/doc/mappings/marc21#events">MARC21-mapping: Events</a>
+<h2>Example</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>curl <span class="nt">-XGET</span> <span class="s2">"https://data.slub-dresden.de/events/708851886"</span> | jq <span class="s1">'.'</span></code></pre></div></div>
+<h2>Structure</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>
+  <span class="o">{</span>
+    <span class="s2">"@type"</span><span class="o">:</span> <span class="s2">"http://schema.org/Event"</span><span class="o">,</span>
+    <span class="s2">"@context"</span><span class="o">:</span> <span class="s2">"https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"</span><span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/events/708851886"</span><span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> <span class="s2">"708851886"</span><span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> <span class="s2">"2019-03-17T12:54:00Z"</span><span class="o">,</span>
+    <span class="s2">"dateCreated"</span><span class="o">:</span> <span class="s2">"2012-04-28"</span><span class="o">,</span>
+    <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> <span class="s2">"International Conference on Data Engineering"</span><span class="o">,</span>
+    <span class="s2">"location"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"startDate"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"endDate"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"adressRegion"</span><span class="o">:</span> <span class="s2">"XD-US"</span><span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/source/swb-aut/708851886"</span><span class="o">,</span>
+  <span class="o">}</span>
+<span class="o">]</span>
+</code></pre></div></div>
+<h2>In Detail</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>
+  <span class="o">{</span>
+    <span class="s2">"@type"</span><span class="o">:</span> "http://schema.org/Event"<span class="o">,</span>
+    <span class="s2">"@context"</span><span class="o">:</span> "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"<span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> "https://data.slub-dresden.de/events/708851886"<span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> "708851886"<span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> "2019-03-17T12:54:00Z"<span class="o">,</span>
+    <span class="s2">"dateCreated"</span><span class="o">:</span> "2012-04-28"<span class="o">,</span>
+    <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/800541-2"</span><span class="o">,
+</span>          <span class="s2">"publisher"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/organizations/514366265"</span><span class="o">,
+</span>            <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"Deutsche Nationalbibliothek"</span><span class="o">,
+</span>            <span class="s2">"abbr"<span class="o">: </span><span class="s2">"DNB"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="s2">"isBasedOn"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"</span><span class="o">,
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/source/swb-aut/708851886"
+         <span class="o"> }</span>
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=708851886"</span><span class="o">,
+</span>          <span class="s2">"publisher"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/organizations/103302212"</span><span class="o">,
+</span>            <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"K10Plus"</span><span class="o">,
+</span>            <span class="s2">"abbr"<span class="o">: </span><span class="s2">"KXP"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="s2">"isBasedOn"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"</span><span class="o">,
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/source/swb-aut/708851886"
+         <span class="o"> }</span>
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> "International Conference on Data Engineering"<span class="o">,</span>
+    <span class="s2">"location"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/4036361-2"</span><span class="o">,
+</span>        <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/geo/106243012"</span><span class="o">,
+</span>        <span class="s2">"name"<span class="o">: </span><span class="s2">"Los Angeles, Calif."</span><span class="o">,
+</span>        <span class="s2">"description"<span class="o">: </span><span class="s2">"Veranstaltungsort"
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"startDate"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"@value"<span class="o">: </span><span class="s2">"1986"</span><span class="o">,
+</span>        <span class="s2">"disambiguatingDescription"<span class="o">: </span><span class="s2">"Veranstaltungsdaten"</span><span class="o">,
+</span>        <span class="s2">"description"<span class="o">: </span><span class="s2">"1986"
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"endDate"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"@value"<span class="o">: </span><span class="s2">"1986"</span><span class="o">,
+</span>        <span class="s2">"disambiguatingDescription"<span class="o">: </span><span class="s2">"Veranstaltungsdaten"</span><span class="o">,
+</span>        <span class="s2">"description"<span class="o">: </span><span class="s2">"1986"
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"adressRegion"</span><span class="o">:</span> "XD-US"<span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> "https://data.slub-dresden.de/source/swb-aut/708851886"<span class="o">,</span>
+  <span class="o">}</span>
+<span class="o">]</span>
+</code></pre></div></div><br>
+

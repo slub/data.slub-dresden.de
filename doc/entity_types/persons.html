@@ -1,0 +1,305 @@
+---
+layout: default
+
+title: Persons
+nav_order: 2
+parent: "Entity Types"
+
+---
+
+<h1>Persons</h1>
+<br>
+<a href="https://schema.org/Person">Person</a>
+<br>
+
+<table class="relative-table wrapped" style="width: 96.4228%;"> <colgroup> <col style="width: 24.0686%;" /> <col style="width: 5.06116%;" /> <col style="width: 17.6578%;" /> <col style="width: 6.4108%;" /> </colgroup>
+  <thead>
+    <tr style="text-align: right;">
+      <th>property</th>
+      <th>Type</th>
+      <th>multi-/ single valued</th>
+      <th>example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#the-context" class="extlink">@context</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#node-identifiers" class="extlink">@id</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://data.slub-dresden.de/persons/588731439" target="_blank">https://data.slub-dresden.de/persons/588731439</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#specifying-the-type" class="extlink">@type</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="http://schema.org/Person" target="_blank">http://schema.org/Person</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/about" class="extlink">about</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'identifier': {'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '351'}, '@id': 'http://purl.org/NET/decimalised#c351'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
+      <td>list of literals</td>
+      <td>m</td>
+      <td>[Gebhardus, Georgius, Gebhard, Georgius, Gebhard, Georg, aus Regensburg]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/birthDate" class="extlink">birthDate</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'@value': '1953', 'disambiguatingDescription': 'Lebensdaten', 'description': '1953-'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/birthPlace" class="extlink">birthPlace</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'name': 'Forchheim', 'description': 'Geburtsort'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/category" class="extlink">category</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'en': [{'@id': 'https://en.wikipedia.org/wiki/?curid=1005377', 'sameAs': 'https://en.wikipedia.org/wiki/Category:1959_births', 'name': '1959 births'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=24815679', 'sameAs': 'https://en.wikipedia.org/wiki/Category:All_articles_lacking_reliable_references', 'name': 'All articles lacking reliable references'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=51849372', 'sameAs': 'https://en.wikipedia.org/wiki/Category:All_articles_sourced_by_IMDb', 'name': 'All articles sourced by IMDb'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=39705130', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_containing_Japanese-language_text', 'name': 'Articles containing Japanese-language text'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=51207960', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_lacking_reliable_references_from_August_2016', 'name': 'Articles lacking reliable references from August 2016'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=51208049', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_sourced_only_by_IMDb_from_August_2016', 'name': 'Articles sourced only by IMDb from August 2016'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=38547981', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_BNF_identifiers', 'name': 'Articles with BNF identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=57707713', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_CINII_identifiers', 'name': 'Articles with CINII identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=38547977', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_GND_identifiers', 'name': 'Articles with GND identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=39382986', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_ISNI_identifiers', 'name': 'Articles with ISNI identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=38547913', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_LCCN_identifiers', 'name': 'Articles with LCCN identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=43420884', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_NDL_identifiers', 'name': 'Articles with NDL identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=62441372', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_NLK_identifiers', 'name': 'Articles with NLK identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=57707729', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_SUDOC_identifiers', 'name': 'Articles with SUDOC identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=38289939', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_VIAF_identifiers', 'name': 'Articles with VIAF identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=65072063', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_WORLDCATID_identifiers', 'name': 'Articles with WORLDCATID identifiers'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=12054615', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_hCards', 'name': 'Articles with hCards'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=56024289', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Articles_with_short_description', 'name': 'Articles with short description'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=51208069', 'sameAs': 'https://en.wikipedia.org/wiki/Category:BLP_articles_lacking_sources_from_August_2016', 'name': 'BLP articles lacking sources from August 2016'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=40388552', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Japanese_male_film_actors', 'name': 'Japanese male film actors'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=40974406', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Japanese_male_television_actors', 'name': 'Japanese male television actors'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=3782398', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Living_people', 'name': 'Living people'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=34021140', 'sameAs': 'https://en.wikipedia.org/wiki/Category:People_from_Saitama_(city)', 'name': 'People from Saitama (city)'}, {'@id': 'https://en.wikipedia.org/wiki/?curid=64773288', 'sameAs': 'https://en.wikipedia.org/wiki/Category:Short_description_is_different_from_Wikidata', 'name': 'Short description is different from Wikidata'}]}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/children" class="extlink">children</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'name': 'Günther, Friedrich Adolf'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/colleague" class="extlink">colleague</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'name': 'Weber, Markus', 'sameAs': 'https://d-nb.info/gnd/1058344870', '@id': 'https://data.slub-dresden.de/persons/796716161'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/contributor" class="extlink">contributor</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'name': 'Harpprecht, Christoph Friedrich', 'sameAs': 'https://d-nb.info/gnd/116484012', '@id': 'https://data.slub-dresden.de/persons/136483089'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>2012-04-19</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>2019-03-17T13:11:00Z</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/deathDate" class="extlink">deathDate</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'@value': '1638', 'disambiguatingDescription': 'Lebensdaten', 'description': '1561-1638'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/deathPlace" class="extlink">deathPlace</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'sameAs': 'https://d-nb.info/gnd/4014491-4', '@id': 'https://data.slub-dresden.de/geo/10633994X', 'name': 'Ellwangen (Jagst)', 'description': 'Sterbeort'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/follows" class="extlink">follows</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'name': 'Hemmerde, Karl Hermann', 'sameAs': 'https://d-nb.info/gnd/1037496973', '@id': 'https://data.slub-dresden.de/persons/75606869X'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/hasOccupation" class="extlink">hasOccupation</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'sameAs': 'https://d-nb.info/gnd/4045893-3', '@id': 'https://data.slub-dresden.de/topics/106200003', 'name': 'Fotograf', 'description': 'Charakteristischer Beruf'}, {'name': 'Naturphotograph', 'description': 'Beruf'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/honorificPrefix" class="extlink">honorificPrefix</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'name': 'PhD', 'description': 'Akademischer Grad'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>588731439</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://data.slub-dresden.de/source/swb-aut/588731439" target="_blank">https://data.slub-dresden.de/source/swb-aut/588731439</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/knows" class="extlink">knows</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'name': 'Bebel, Heinrich', 'sameAs': 'https://d-nb.info/gnd/118654233', '@id': 'https://data.slub-dresden.de/persons/133383156'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/name" class="extlink">name</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'en': ['Dankan']}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/parent" class="extlink">parent</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'name': 'Wendt, Amadeus', 'sameAs': 'https://d-nb.info/gnd/100700411', '@id': 'https://data.slub-dresden.de/persons/134332709'}</td>
+    </tr>
+    <tr>
+      <td>periodOfActivityEnd</td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'@value': '1559', 'disambiguatingDescription': 'Wirkungsdaten', 'description': '1559'}</td>
+    </tr>
+    <tr>
+      <td>periodOfActivityStart</td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'@value': '1559', 'disambiguatingDescription': 'Wirkungsdaten', 'description': '1559'}</td>
+    </tr>
+    <tr>
+      <td>preferredName</td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Kästel, Egon</td>
+    </tr>
+    <tr>
+      <td>recipent</td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'name': 'Bullinger, Heinrich', 'sameAs': 'https://d-nb.info/gnd/118517384', '@id': 'https://data.slub-dresden.de/persons/135566819'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'name': 'Gläser, Johann Georg', 'sameAs': 'https://d-nb.info/gnd/1031694692', '@id': 'https://data.slub-dresden.de/persons/737134380'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@id': 'https://d-nb.info/gnd/136975240', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/514366265', 'preferredName': 'Deutsche Nationalbibliothek', 'abbr': 'DNB'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/588731439'}}, {'@id': 'http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=588731439', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/103302212', 'preferredName': 'K10Plus', 'abbr': 'KXP'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/588731439'}}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/sibling" class="extlink">sibling</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'name': 'Liebig, Eugen von', 'sameAs': 'https://d-nb.info/gnd/101840012', '@id': 'https://data.slub-dresden.de/persons/613777816'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/spouse" class="extlink">spouse</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'name': 'Sturm, Nelly', 'sameAs': 'https://d-nb.info/gnd/128739576', '@id': 'https://data.slub-dresden.de/persons/707058147'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/workLocation" class="extlink">workLocation</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'sameAs': 'https://d-nb.info/gnd/4048989-9', '@id': 'https://data.slub-dresden.de/geo/106188860', 'name': 'Regensburg', 'description': 'Wirkungsort'}</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h2>Origin</h2>
+See <a href="/doc/mappings/marc21#persons">MARC21-mapping: Persons</a>
+<h2>Example</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>curl <span class="nt">-XGET</span> <span class="s2">"https://data.slub-dresden.de/persons/588731439"</span> | jq <span class="s1">'.'</span></code></pre></div></div>
+<h2>Structure</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>
+  <span class="o">{</span>
+    <span class="s2">"@type"</span><span class="o">:</span> <span class="s2">"http://schema.org/Person"</span><span class="o">,</span>
+    <span class="s2">"@context"</span><span class="o">:</span> <span class="s2">"https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"</span><span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/persons/588731439"</span><span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> <span class="s2">"588731439"</span><span class="o">,</span>
+    <span class="s2">"dateCreated"</span><span class="o">:</span> <span class="s2">"2012-04-19"</span><span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> <span class="s2">"2019-03-17T13:11:00Z"</span><span class="o">,</span>
+    <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> <span class="s2">"Kästel, Egon"</span><span class="o">,</span>
+    <span class="s2">"hasOccupation"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"birthPlace"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"honorificPrefix"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"birthDate"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/source/swb-aut/588731439"</span><span class="o">,</span>
+  <span class="o">}</span>
+<span class="o">]</span>
+</code></pre></div></div>
+<h2>In Detail</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>
+  <span class="o">{</span>
+    <span class="s2">"@type"</span><span class="o">:</span> "http://schema.org/Person"<span class="o">,</span>
+    <span class="s2">"@context"</span><span class="o">:</span> "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"<span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> "https://data.slub-dresden.de/persons/588731439"<span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> "588731439"<span class="o">,</span>
+    <span class="s2">"dateCreated"</span><span class="o">:</span> "2012-04-19"<span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> "2019-03-17T13:11:00Z"<span class="o">,</span>
+    <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/136975240"</span><span class="o">,
+</span>          <span class="s2">"publisher"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/organizations/514366265"</span><span class="o">,
+</span>            <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"Deutsche Nationalbibliothek"</span><span class="o">,
+</span>            <span class="s2">"abbr"<span class="o">: </span><span class="s2">"DNB"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="s2">"isBasedOn"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"</span><span class="o">,
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/source/swb-aut/588731439"
+         <span class="o"> }</span>
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=588731439"</span><span class="o">,
+</span>          <span class="s2">"publisher"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/organizations/103302212"</span><span class="o">,
+</span>            <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"K10Plus"</span><span class="o">,
+</span>            <span class="s2">"abbr"<span class="o">: </span><span class="s2">"KXP"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="s2">"isBasedOn"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"</span><span class="o">,
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/source/swb-aut/588731439"
+         <span class="o"> }</span>
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> "K\u00e4stel, Egon"<span class="o">,</span>
+    <span class="s2">"hasOccupation"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/4045893-3"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/topics/106200003"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Fotograf"</span><span class="o">,
+</span>          <span class="s2">"description"<span class="o">: </span><span class="s2">"Charakteristischer Beruf"
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Naturphotograph"</span><span class="o">,
+</span>          <span class="s2">"description"<span class="o">: </span><span class="s2">"Beruf"
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"birthPlace"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"name"<span class="o">: </span><span class="s2">"Forchheim"</span><span class="o">,
+</span>        <span class="s2">"description"<span class="o">: </span><span class="s2">"Geburtsort"
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"honorificPrefix"</span><span class="o">:</span> []<span class="o">,</span>
+    <span class="s2">"birthDate"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"@value"<span class="o">: </span><span class="s2">"1931"</span><span class="o">,
+</span>        <span class="s2">"disambiguatingDescription"<span class="o">: </span><span class="s2">"Lebensdaten"</span><span class="o">,
+</span>        <span class="s2">"description"<span class="o">: </span><span class="s2">"1931-"
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> "https://data.slub-dresden.de/source/swb-aut/588731439"<span class="o">,</span>
+  <span class="o">}</span>
+<span class="o">]</span>
+</code></pre></div></div><br>
+

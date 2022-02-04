@@ -1,0 +1,218 @@
+---
+layout: default
+
+title: Organizations
+nav_order: 3
+parent: "Entity Types"
+
+---
+
+<h1>Organizations</h1>
+<br>
+<a href="https://schema.org/Organization">Organization</a>
+<br>
+
+<table class="relative-table wrapped" style="width: 96.4228%;"> <colgroup> <col style="width: 24.0686%;" /> <col style="width: 5.06116%;" /> <col style="width: 17.6578%;" /> <col style="width: 6.4108%;" /> </colgroup>
+  <thead>
+    <tr style="text-align: right;">
+      <th>property</th>
+      <th>Type</th>
+      <th>multi-/ single valued</th>
+      <th>example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#the-context" class="extlink">@context</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#node-identifiers" class="extlink">@id</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://data.slub-dresden.de/organizations/708723349" target="_blank">https://data.slub-dresden.de/organizations/708723349</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#specifying-the-type" class="extlink">@type</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="http://schema.org/Organization" target="_blank">http://schema.org/Organization</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/about" class="extlink">about</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'identifier': {'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '433124'}, '@id': 'http://purl.org/NET/decimalised#c433'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/additionalType" class="extlink">additionalType</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'sameAs': 'https://d-nb.info/gnd/4609258-4', '@id': 'https://data.slub-dresden.de/topics/326304142', 'name': 'Konvikt', 'description': 'Oberbegriff instantiell'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
+      <td>list of literals</td>
+      <td>m</td>
+      <td>[Policy Research Project]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/areaServed" class="extlink">areaServed</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'sameAs': 'https://d-nb.info/gnd/4042570-8', '@id': 'https://data.slub-dresden.de/geo/106213644', 'name': 'Nordrhein-Westfalen', 'description': 'Wirkungsraum'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/category" class="extlink">category</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'de': [{'@id': 'https://de.wikipedia.org/wiki/?curid=2730316', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Bauwerk_in_Salzburg', 'name': 'Bauwerk in Salzburg'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=7243567', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Erbaut_im_14._oder_15._Jahrhundert', 'name': 'Erbaut im 14. oder 15. Jahrhundert'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=7784615', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Gutshof_in_Österreich', 'name': 'Gutshof in Österreich'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=2730341', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Kultur_(Salzburg)', 'name': 'Kultur (Salzburg)'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=7485634', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Lehen_(Salzburg)', 'name': 'Lehen (Salzburg)'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=1018426', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Literarisches_Leben', 'name': 'Literarisches Leben'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=996510', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Literatur_(Österreich)', 'name': 'Literatur (Österreich)'}]}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>2012-04-28</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>2019-03-17T12:44:00Z</td>
+    </tr>
+    <tr>
+      <td>dateOfEstablishment</td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'disambiguatingDescription': 'Zeitraum', 'description': 'XX.06.2012-30.08.2015'}</td>
+    </tr>
+    <tr>
+      <td>dateOfTermination</td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'@value': '2015-08-30', 'disambiguatingDescription': 'Zeitraum', 'description': 'XX.06.2012-30.08.2015'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/fromLocation" class="extlink">fromLocation</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'sameAs': 'https://d-nb.info/gnd/4104502-6', '@id': 'https://data.slub-dresden.de/geo/703004131', 'name': 'Schloss Gracht', 'description': 'Geografikum allgemein'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>816809534</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://data.slub-dresden.de/source/swb-aut/816809534" target="_blank">https://data.slub-dresden.de/source/swb-aut/816809534</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/location" class="extlink">location</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'sameAs': 'https://d-nb.info/gnd/4023118-5', '@id': 'https://data.slub-dresden.de/geo/106305433', 'name': 'Hamburg', 'description': 'Ort'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/name" class="extlink">name</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'de': ['Literaturhaus Salzburg']}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/parentOrganization" class="extlink">parentOrganization</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'sameAs': 'https://d-nb.info/gnd/4026761-1', '@id': 'https://data.slub-dresden.de/geo/104585110', 'name': 'Indonesien', 'description': 'Ueberordnung'}</td>
+    </tr>
+    <tr>
+      <td>preferredName</td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Regine Luther-Fischer</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@id': 'https://d-nb.info/gnd/106566110X', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/514366265', 'preferredName': 'Deutsche Nationalbibliothek', 'abbr': 'DNB'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/816809534'}}, {'@id': 'http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=816809534', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/103302212', 'preferredName': 'K10Plus', 'abbr': 'KXP'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/816809534'}}]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h2>Origin</h2>
+See <a href="/doc/mappings/marc21#organizations">MARC21-mapping: Organizations</a>
+<h2>Example</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>curl <span class="nt">-XGET</span> <span class="s2">"https://data.slub-dresden.de/organizations/708723349"</span> | jq <span class="s1">'.'</span></code></pre></div></div>
+<h2>Structure</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>
+  <span class="o">{</span>
+    <span class="s2">"@type"</span><span class="o">:</span> <span class="s2">"http://schema.org/Organization"</span><span class="o">,</span>
+    <span class="s2">"@context"</span><span class="o">:</span> <span class="s2">"https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"</span><span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/organizations/708723349"</span><span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> <span class="s2">"708723349"</span><span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> <span class="s2">"2019-03-17T12:53:00Z"</span><span class="o">,</span>
+    <span class="s2">"dateCreated"</span><span class="o">:</span> <span class="s2">"2012-04-28"</span><span class="o">,</span>
+    <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> <span class="s2">"Lyndon B. Johnson School of Public Affairs. Policy Research Project"</span><span class="o">,</span>
+    <span class="s2">"alternateName"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"location"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/source/swb-aut/708723349"</span><span class="o">,</span>
+  <span class="o">}</span>
+<span class="o">]</span>
+</code></pre></div></div>
+<h2>In Detail</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>
+  <span class="o">{</span>
+    <span class="s2">"@type"</span><span class="o">:</span> "http://schema.org/Organization"<span class="o">,</span>
+    <span class="s2">"@context"</span><span class="o">:</span> "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"<span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> "https://data.slub-dresden.de/organizations/708723349"<span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> "708723349"<span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> "2019-03-17T12:53:00Z"<span class="o">,</span>
+    <span class="s2">"dateCreated"</span><span class="o">:</span> "2012-04-28"<span class="o">,</span>
+    <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/1092712-8"</span><span class="o">,
+</span>          <span class="s2">"publisher"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/organizations/514366265"</span><span class="o">,
+</span>            <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"Deutsche Nationalbibliothek"</span><span class="o">,
+</span>            <span class="s2">"abbr"<span class="o">: </span><span class="s2">"DNB"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="s2">"isBasedOn"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"</span><span class="o">,
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/source/swb-aut/708723349"
+         <span class="o"> }</span>
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=708723349"</span><span class="o">,
+</span>          <span class="s2">"publisher"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/organizations/103302212"</span><span class="o">,
+</span>            <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"K10Plus"</span><span class="o">,
+</span>            <span class="s2">"abbr"<span class="o">: </span><span class="s2">"KXP"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="s2">"isBasedOn"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"</span><span class="o">,
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/source/swb-aut/708723349"
+         <span class="o"> }</span>
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> "Lyndon B. Johnson School of Public Affairs. Policy Research Project"<span class="o">,</span>
+    <span class="s2">"alternateName"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="s2">"Policy Research Project"
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"location"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/4079879-3"</span><span class="o">,
+</span>        <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/geo/106071637"</span><span class="o">,
+</span>        <span class="s2">"name"<span class="o">: </span><span class="s2">"Austin, Tex."</span><span class="o">,
+</span>        <span class="s2">"description"<span class="o">: </span><span class="s2">"Ort"
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> "https://data.slub-dresden.de/source/swb-aut/708723349"<span class="o">,</span>
+  <span class="o">}</span>
+<span class="o">]</span>
+</code></pre></div></div><br>
+

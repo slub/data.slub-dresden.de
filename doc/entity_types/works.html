@@ -1,0 +1,240 @@
+---
+layout: default
+
+title: Works
+nav_order: 6
+parent: "Entity Types"
+
+---
+
+<h1>Works</h1>
+<br>
+<a href="https://schema.org/Work">Work</a>
+<br>
+
+<table class="relative-table wrapped" style="width: 96.4228%;"> <colgroup> <col style="width: 24.0686%;" /> <col style="width: 5.06116%;" /> <col style="width: 17.6578%;" /> <col style="width: 6.4108%;" /> </colgroup>
+  <thead>
+    <tr style="text-align: right;">
+      <th>property</th>
+      <th>Type</th>
+      <th>multi-/ single valued</th>
+      <th>example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#the-context" class="extlink">@context</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld" target="_blank">https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#node-identifiers" class="extlink">@id</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://data.slub-dresden.de/works/1697302157" target="_blank">https://data.slub-dresden.de/works/1697302157</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://json-ld.org/spec/latest/json-ld/#specifying-the-type" class="extlink">@type</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="http://schema.org/CreativeWork" target="_blank">http://schema.org/CreativeWork</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/about" class="extlink">about</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'identifier': {'propertyID': 'gndSubjectCategory', '@type': 'PropertyValue', 'value': 'gnd-sc#12.2p'}, '@id': 'https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
+      <td>list of literals</td>
+      <td>m</td>
+      <td>[Die rothe Nase, Setzt euch zu mir ums Fass herum]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/author" class="extlink">author</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'sameAs': 'https://d-nb.info/gnd/100625320', '@id': 'https://data.slub-dresden.de/persons/076637255', 'name': 'Reißiger, Carl Gottlieb', 'description': 'Komponist1'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/category" class="extlink">category</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'de': [{'@id': 'https://de.wikipedia.org/wiki/?curid=1023616', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Bilderbuch', 'name': 'Bilderbuch'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=4350955', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Deutscher_Comic_(Werk)', 'name': 'Deutscher Comic (Werk)'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=242451', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Literarische_Figur', 'name': 'Literarische Figur'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=299434', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Literarisches_Werk', 'name': 'Literarisches Werk'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=2099857', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Literatur_(19._Jahrhundert)', 'name': 'Literatur (19. Jahrhundert)'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=1968235', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Religionsparodie', 'name': 'Religionsparodie'}, {'@id': 'https://de.wikipedia.org/wiki/?curid=7511259', 'sameAs': 'https://de.wikipedia.org/wiki/Kategorie:Werk_von_Wilhelm_Busch', 'name': 'Werk von Wilhelm Busch'}]}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/contributor" class="extlink">contributor</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'name': 'Der kranke Mann'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>2015-09-29</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>2020-12-25T21:26:00Z</td>
+    </tr>
+    <tr>
+      <td>dateOfEstablishment</td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'@value': '1997', 'disambiguatingDescription': 'Erstellungszeit', 'description': '1997-1998'}</td>
+    </tr>
+    <tr>
+      <td>dateOfTermination</td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'@value': '1998', 'disambiguatingDescription': 'Erstellungszeit', 'description': '1997-1998'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/datePublished" class="extlink">datePublished</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>1927-1941</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
+      <td>literal</td>
+      <td>s</td>
+      <td>835740684</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/inLanguage" class="extlink">inLanguage</a></td>
+      <td>list of literals</td>
+      <td>m</td>
+      <td>[ger]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
+      <td>URI</td>
+      <td>s</td>
+      <td><a href="https://data.slub-dresden.de/source/swb-aut/1697302157" target="_blank">https://data.slub-dresden.de/source/swb-aut/1697302157</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/issn" class="extlink">issn</a></td>
+      <td>list of literals</td>
+      <td>m</td>
+      <td>[Confessio Helvetica posterior]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/knows" class="extlink">knows</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'name': 'Romanzen und Balladen', 'author': 'Schumann, Robert', 'sameAs': 'https://d-nb.info/gnd/30037643X', '@id': 'https://data.slub-dresden.de/works/701952121'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/locationCreated" class="extlink">locationCreated</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'sameAs': 'https://d-nb.info/gnd/4005728-8', '@id': 'https://data.slub-dresden.de/geo/10482638X', 'name': 'Berlin', 'description': 'Herstellungsort'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/name" class="extlink">name</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'de': ['Die fromme Helene']}</td>
+    </tr>
+    <tr>
+      <td>preferredName</td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Balladen</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/publisher" class="extlink">publisher</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'location': {'name': ['Sowjetunion', 'Deutsche Frage', 'Geschichte 1952'], 'type': 'Place'}}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/relatedTo" class="extlink">relatedTo</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'name': 'Mahlke, Hans', 'sameAs': 'https://d-nb.info/gnd/1080505962', '@id': 'https://data.slub-dresden.de/persons/844743445'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@id': 'https://d-nb.info/gnd/1209623579', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/514366265', 'preferredName': 'Deutsche Nationalbibliothek', 'abbr': 'DNB'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/1697302157'}}, {'@id': 'http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1697302157', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/103302212', 'preferredName': 'K10Plus', 'abbr': 'KXP'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/swb-aut/1697302157'}}]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h2>Origin</h2>
+See <a href="/doc/mappings/marc21#works">MARC21-mapping: Works</a>
+<h2>Example</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>curl <span class="nt">-XGET</span> <span class="s2">"https://data.slub-dresden.de/works/835740684"</span> | jq <span class="s1">'.'</span></code></pre></div></div>
+<h2>Structure</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>
+  <span class="o">{</span>
+    <span class="s2">"@type"</span><span class="o">:</span> <span class="s2">"http://schema.org/CreativeWork"</span><span class="o">,</span>
+    <span class="s2">"@context"</span><span class="o">:</span> <span class="s2">"https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"</span><span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/works/835740684"</span><span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> <span class="s2">"835740684"</span><span class="o">,</span>
+    <span class="s2">"dateCreated"</span><span class="o">:</span> <span class="s2">"2015-09-29"</span><span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> <span class="s2">"2019-03-17T13:20:00Z"</span><span class="o">,</span>
+    <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> <span class="s2">"Balladen"</span><span class="o">,</span>
+    <span class="s2">"author"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/source/swb-aut/835740684"</span><span class="o">,</span>
+  <span class="o">}</span>
+<span class="o">]</span>
+</code></pre></div></div>
+<h2>In Detail</h2>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>
+  <span class="o">{</span>
+    <span class="s2">"@type"</span><span class="o">:</span> "http://schema.org/CreativeWork"<span class="o">,</span>
+    <span class="s2">"@context"</span><span class="o">:</span> "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"<span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> "https://data.slub-dresden.de/works/835740684"<span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> "835740684"<span class="o">,</span>
+    <span class="s2">"dateCreated"</span><span class="o">:</span> "2015-09-29"<span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> "2019-03-17T13:20:00Z"<span class="o">,</span>
+    <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/1077025076"</span><span class="o">,
+</span>          <span class="s2">"publisher"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/organizations/514366265"</span><span class="o">,
+</span>            <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"Deutsche Nationalbibliothek"</span><span class="o">,
+</span>            <span class="s2">"abbr"<span class="o">: </span><span class="s2">"DNB"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="s2">"isBasedOn"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"</span><span class="o">,
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/source/swb-aut/835740684"
+         <span class="o"> }</span>
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=835740684"</span><span class="o">,
+</span>          <span class="s2">"publisher"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/organizations/103302212"</span><span class="o">,
+</span>            <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"K10Plus"</span><span class="o">,
+</span>            <span class="s2">"abbr"<span class="o">: </span><span class="s2">"KXP"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="s2">"isBasedOn"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"</span><span class="o">,
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/source/swb-aut/835740684"
+         <span class="o"> }</span>
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> "Balladen"<span class="o">,</span>
+    <span class="s2">"author"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/116189762"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/persons/33407858X"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Pirani, Eugenio di"</span><span class="o">,
+</span>          <span class="s2">"description"<span class="o">: </span><span class="s2">"Komponist1"
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> "https://data.slub-dresden.de/source/swb-aut/835740684"<span class="o">,</span>
+  <span class="o">}</span>
+<span class="o">]</span>
+</code></pre></div></div><br>
+

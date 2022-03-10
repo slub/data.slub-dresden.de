@@ -13,7 +13,7 @@ There is an [interactive UI](https://data.slub-dresden.de/doc/api) where you can
 
 
 ## TL;DR
-[Try the API](https://data.slub-dresden.de/doc/api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }
+[Try the API](https://data.slub-dresden.de/doc/swagger_api){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .m r-2 }
 
 ## Explore our data
 

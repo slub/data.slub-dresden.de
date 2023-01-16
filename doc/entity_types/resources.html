@@ -32,7 +32,7 @@ parent: "Entity Types"
       <td><a href="https://json-ld.org/spec/latest/json-ld/#node-identifiers" class="extlink">@id</a></td>
       <td>URI</td>
       <td>s</td>
-      <td><a href="https://data.slub-dresden.de/resources/1322972605" target="_blank">https://data.slub-dresden.de/resources/1322972605</a></td>
+      <td><a href="https://data.slub-dresden.de/resources/1391959485" target="_blank">https://data.slub-dresden.de/resources/1391959485</a></td>
     </tr>
     <tr>
       <td><a href="https://json-ld.org/spec/latest/json-ld/#specifying-the-type" class="extlink">@type</a></td>
@@ -44,115 +44,115 @@ parent: "Entity Types"
       <td><a href="http://schema.org/Thesis" class="extlink">Thesis</a></td>
       <td>literal</td>
       <td>s</td>
-      <td>Zugl.: Chemnitz, Techn. Univ., Diss., 2013</td>
+      <td>Darmstadt, Univ., Diss., 1927</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/about" class="extlink">about</a></td>
-      <td>list of objects</td>
+      <td>list</td>
       <td>m</td>
-      <td>[{'sameAs': ['http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1270705105'], '@id': 'https://rvk.uni-regensburg.de/api/json/ancestors/LH%2079510', 'identifier': {'@type': 'PropertyValue', 'propertyID': 'RVK', 'value': 'LH 79510'}, 'name': 'Historische Darstellungen', 'keywords': ['Kunstgeschichte', 'Allgemeines. Allgemeine Kunstgeschichte', 'Kunstgeschichte einzelner Gattungen der Kunst', 'Industriedesign', 'Historische Darstellungen']}, {'identifier': {'@type': 'PropertyValue', 'propertyID': 'DDC', 'value': '745.4'}, '@id': 'http://purl.org/NET/decimalised#c745'}, {'sameAs': 'https://d-nb.info/gnd/4145395-5', '@id': 'https://data.slub-dresden.de/topics/104450835', 'name': 'Bildband'}]</td>
+      <td>[[{'@id': 'https://data.slub-dresden.de/topics/096631023', 'name': 'Biographie'}, {'@id': 'https://data.slub-dresden.de/topics/096631007', 'name': 'Bibliographie'}]]</td>
     </tr>
     <tr>
-      <td><a href="http://schema.org/alternateName" class="extlink">alternateName</a></td>
-      <td>list of literals</td>
-      <td>m</td>
-      <td>[Die Hauptschwierigkeiten der deutschen Sprache, Enth. 1.: Die Hauptschwierigkeiten der deutschen Sprache, 2. Praktische Rede- und Stilkunde]</td>
-    </tr>
-    <tr>
-      <td><a href="http://schema.org/alternativeHeadline" class="extlink">alternativeHeadline</a></td>
+      <td><a href="http://schema.org/accessMode" class="extlink">accessMode</a></td>
       <td>literal</td>
       <td>s</td>
-      <td>Oskar Hoffmann</td>
+      <td>online</td>
     </tr>
     <tr>
-      <td><a href="http://schema.org/author" class="extlink">author</a></td>
+      <td>additionalInfo</td>
       <td>list of objects</td>
       <td>m</td>
-      <td>[{'sameAs': 'https://d-nb.info/gnd/126686602', '@id': 'https://data.slub-dresden.de/persons/382186028', 'name': 'Hoffmann, Oskar'}]</td>
+      <td>[{'@type': 'otherNote', 'description': 'Verf. ermittelt'}, {'@type': 'originalLocationNote', 'holder': 'SLUB Dresden', 'originalShelfMark': 'Biogr.erud.D.2169.n'}]</td>
+    </tr>
+    <tr>
+      <td>cartographicData</td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'scale': '1:1 200 000'}</td>
+    </tr>
+    <tr>
+      <td>classifications</td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@type': 'CategoryCodeSet', '@id': 'http://uri.gbv.de/terminology/bk/', 'name': 'Basisklassifikation', 'alternateName': ['BKL', 'BK'], 'sameAs': 'https://www.wikidata.org/wiki/Q29938469', 'CategoryCodes': [{'@type': 'CategoryCode', '@id': 'http://uri.gbv.de/terminology/bk/44.01', 'codeValue': '44.01'}]}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/collection" class="extlink">collection</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'preferredName': 'SSG Allgemeine Kunstwissenschaft, Mittlere und neuere Kunstgeschichte bis 1945', 'abbr': '9,10'}]</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/contributor" class="extlink">contributor</a></td>
       <td>list of objects</td>
       <td>m</td>
-      <td>[{'name': 'Leitsmann, ...'}]</td>
-    </tr>
-    <tr>
-      <td><a href="http://schema.org/dateCreated" class="extlink">dateCreated</a></td>
-      <td>literal</td>
-      <td>s</td>
-      <td>2006-04-24</td>
+      <td>[{'@type': 'Person', '@id': 'https://data.slub-dresden.de/persons/137030290', 'name': 'Maty, Matthew', 'sameAs': 'https://d-nb.info/gnd/10103024X', 'roles': [{'@type': 'Role', '@id': 'https://id.loc.gov/vocabulary/relators/aut', 'name': 'Author'}]}, {'@type': 'Person', '@id': 'https://data.slub-dresden.de/persons/133733637', 'name': 'Boerhaave, Herman', 'sameAs': 'https://d-nb.info/gnd/118660829', 'roles': [{'@type': 'Role', '@id': 'https://id.loc.gov/vocabulary/relators/oth', 'name': 'Other'}]}, {'@type': 'Person', 'name': 'Reinhold, Theodor Gottlieb', 'roles': [{'@type': 'Role', '@id': 'https://id.loc.gov/vocabulary/relators/prt', 'name': 'Printer'}]}]</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/dateModified" class="extlink">dateModified</a></td>
       <td>literal</td>
       <td>s</td>
-      <td>2018-12-06T18:42:40Z</td>
-    </tr>
-    <tr>
-      <td>dateOriginalPublished</td>
-      <td>object</td>
-      <td>s</td>
-      <td>{'dateOrigin': '[1578]', 'dateParsed': '1578'}</td>
+      <td>2022-05-28T14:05:34Z</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/datePublished" class="extlink">datePublished</a></td>
       <td>object</td>
       <td>s</td>
-      <td>{'dateOrigin': '[1932]', 'dateParsed': '1932'}</td>
+      <td>{'dateOrigin': '2010', 'dateParsed': '2010'}</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/description" class="extlink">description</a></td>
       <td>literal</td>
       <td>s</td>
-      <td>Text engl., franz. und dt</td>
+      <td>This paper accounts for the observed increase in unemployment duration relative to the unemployment rate in the U.S. over the past thirty years, typified by the record low level of short-term unemployment. We show that part of the increase is due to changes in how duration is measured, a consequence of the 1994 Current Population Survey redesign. Another part is due to the passage of the baby boomers into their prime working years. After accounting for these shifts, most of the remaining increase in unemployment duration relative to the unemployment rate is concentrated among women, whose unemployment rate has fallen sharply in the last two decades while their unemployment duration has increased. Using labor market transition data, we show that this is a consequence of the increase in women's labor force attachment</td>
+    </tr>
+    <tr>
+      <td>editionSequence</td>
+      <td>literal</td>
+      <td>s</td>
+      <td>1991/92(1992) - 1992/93(1993); 1995/96(1996) - 1996/97(1997)</td>
+    </tr>
+    <tr>
+      <td>editionStatement</td>
+      <td>literal</td>
+      <td>s</td>
+      <td>New ed., prepared by Betty Kirkpatrick. 10. impr.</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/genre" class="extlink">genre</a></td>
       <td>list of objects</td>
       <td>m</td>
-      <td>[{'@type': 'Text', 'Text': 'Führer'}]</td>
+      <td>[{'@type': 'Text', 'Text': ['Biographie', 'Bibliographie']}]</td>
     </tr>
     <tr>
-      <td><a href="http://schema.org/hasPart" class="extlink">hasPart</a></td>
+      <td>identifiedBy</td>
       <td>list of objects</td>
       <td>m</td>
-      <td>[{'name': 'Jews without money <dt.>', 'author': 'Gold, Michael'}]</td>
+      <td>[{'@type': 'VD-18', 'validValues': ['VD18 10232028']}, {'@type': 'OCLC', 'validValues': ['699625987']}]</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/identifier" class="extlink">identifier</a></td>
-      <td>literal</td>
-      <td>s</td>
-      <td>161804950X</td>
-    </tr>
-    <tr>
-      <td><a href="http://schema.org/inLanguage" class="extlink">inLanguage</a></td>
-      <td>list of literals</td>
+      <td>list of objects</td>
       <td>m</td>
-      <td>[ger]</td>
+      <td>[{'@id': 'https://nbn-resolving.org/urn:nbn:de:bsz:14-ppn3219594852', '@type': 'PropertyValue', 'propertyID': 'urn', 'value': 'urn:nbn:de:bsz:14-ppn3219594852'}]</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/isBasedOn" class="extlink">isBasedOn</a></td>
       <td>URI</td>
       <td>s</td>
-      <td><a href="https://data.slub-dresden.de/source/kxp-de14/1322972605" target="_blank">https://data.slub-dresden.de/source/kxp-de14/1322972605</a></td>
+      <td><a href="https://data.slub-dresden.de/source/kxp-de14/1391959485" target="_blank">https://data.slub-dresden.de/source/kxp-de14/1391959485</a></td>
     </tr>
     <tr>
       <td><a href="http://schema.org/isPartOf" class="extlink">isPartOf</a></td>
-      <td>list of literals</td>
+      <td>list of objects</td>
       <td>m</td>
-      <td>[mot : die Autozeitschrift]</td>
+      <td>[{'@id': 'https://data.slub-dresden.de/resources/1105854167', 'position': '2', 'mainTitle': 'Zur Kenntnis und Würdigung der Mittelalterlichen Altäre Deutschlands', 'partStatement': '2 Mit 100 photogr. Tafeln', 'name': 'Zur Kenntnis und Würdigung der Mittelalterlichen Altäre Deutschlands. 2 Mit 100 photogr. Tafeln'}]</td>
     </tr>
     <tr>
-      <td><a href="http://schema.org/isbn" class="extlink">isbn</a></td>
-      <td>list of literals</td>
+      <td><a href="http://schema.org/language" class="extlink">language</a></td>
+      <td>list of objects</td>
       <td>m</td>
-      <td>[9783125209251]</td>
-    </tr>
-    <tr>
-      <td><a href="http://schema.org/issn" class="extlink">issn</a></td>
-      <td>list of literals</td>
-      <td>m</td>
-      <td>[0417-2000]</td>
+      <td>[{'@type': 'CategoryCode', '@id': 'http://id.loc.gov/vocabulary/iso639-2/ger', 'codeValue': 'ger', 'name': {'en': 'German', 'de': 'Deutsch'}, 'inCodeSet': 'http://id.loc.gov/vocabulary/iso639-2'}]</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/license" class="extlink">license</a></td>
@@ -161,105 +161,159 @@ parent: "Entity Types"
       <td>Public Domain Mark 1.0</td>
     </tr>
     <tr>
+      <td><a href="http://schema.org/location" class="extlink">location</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@type': 'Publication place', 'preferredName': 'Leipzig', '@id': 'https://data.slub-dresden.de/geo/104798998'}, {'@type': 'Publication place', 'preferredName': 'Freiberg', '@id': 'https://data.slub-dresden.de/geo/104746033'}]</td>
+    </tr>
+    <tr>
       <td><a href="http://schema.org/mentions" class="extlink">mentions</a></td>
       <td>list of objects</td>
       <td>m</td>
-      <td>[{'@type': 'http://schema.org/Thing', 'sameAs': 'https://d-nb.info/gnd/4072788-9', '@id': 'https://data.slub-dresden.de/topics/10609422X', 'name': 'Industriedesign'}, {'name': 'Geschichte 1880-1930'}, {'@type': 'http://schema.org/Thing', 'sameAs': 'https://d-nb.info/gnd/4011510-0', '@id': 'https://data.slub-dresden.de/topics/106352466', 'name': 'Design'}]</td>
-    </tr>
-    <tr>
-      <td>nameShort</td>
-      <td>literal</td>
-      <td>s</td>
-      <td>Gutes Deutsch in Wort und Schrift</td>
-    </tr>
-    <tr>
-      <td>nameSub</td>
-      <td>literal</td>
-      <td>s</td>
-      <td>Handbuch für Reisende</td>
+      <td>[{'@type': 'Genre', '@id': 'https://data.slub-dresden.de/topics/096631023', 'preferredName': 'Biographie', 'name': 'Biographie'}, {'@type': 'Genre', '@id': 'https://data.slub-dresden.de/topics/096631007', 'preferredName': 'Bibliographie', 'name': 'Bibliographie'}, {'@type': 'Person', 'sameAs': 'https://d-nb.info/gnd/118660829', '@id': 'https://data.slub-dresden.de/persons/133733637', 'preferredName': 'Boerhaave, Herman', 'name': 'Boerhaave, Herman', 'date': '1668-1738'}]</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/numberOfPages" class="extlink">numberOfPages</a></td>
       <td>None</td>
       <td>s</td>
-      <td>750</td>
+      <td>7</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/offers" class="extlink">offers</a></td>
       <td>object</td>
       <td>s</td>
-      <td>{'@type': 'Offer', 'offeredBy': {'@id': 'https://data.slub-dresden.de/organizations/191800287', '@type': 'Library', 'name': 'Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden', 'branchCode': 'DE-14'}, 'availability': 'https://katalog.slub-dresden.de/id/0-1322972605'}</td>
+      <td>{'@type': 'Offer', 'offeredBy': {'@id': 'https://data.slub-dresden.de/organizations/191800287', '@type': 'Library', 'name': 'Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden', 'branchCode': 'DE-14'}, 'availability': 'https://katalog.slub-dresden.de/id/0-1391959485'}</td>
+    </tr>
+    <tr>
+      <td>originalLanguage</td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@type': 'CategoryCode', '@id': 'http://id.loc.gov/vocabulary/iso639-2/yid', 'codeValue': 'yid', 'name': {'en': 'Yiddish', 'de': 'Jiddisch'}, 'inCodeSet': 'http://id.loc.gov/vocabulary/iso639-2'}]</td>
+    </tr>
+    <tr>
+      <td>originalPublisher</td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@type': 'Organization', 'name': 'Reinhold', 'location': {'@type': 'Place', 'name': 'Leipzig, Freyberg'}}]</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/pageStart" class="extlink">pageStart</a></td>
       <td>literal</td>
       <td>s</td>
-      <td>1</td>
+      <td>2</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/partOfSeries" class="extlink">partOfSeries</a></td>
       <td>list of objects</td>
       <td>m</td>
-      <td>[{'position': '3', '@id': 'https://data.slub-dresden.de/resources/130290025', 'name': 'Wirtschafts- und Berufspädagogik in Forschung und Praxis'}]</td>
+      <td>[{'@id': 'https://data.slub-dresden.de/resources/1382640374', 'name': 'Drucke des 18. Jahrhunderts'}]</td>
     </tr>
     <tr>
       <td>physical_description</td>
       <td>object</td>
       <td>s</td>
-      <td>{'extent': '176 S.', 'physical_details': 'überw. Ill. (z. T. farb.)'}</td>
+      <td>{'extent': '[16] Bl., 160 S.', 'dimensions': '8o', 'reproduction_extent': 'Online-Ressource'}</td>
     </tr>
     <tr>
       <td>preferredName</td>
       <td>literal</td>
       <td>s</td>
-      <td>Gutes Deutsch in Wort und Schrift</td>
+      <td>Versuch über den Character des Grossen Arztes, oder Kritische Lebensbeschreibung Herrn D. Herrmann Boerhaves nebst einem Verzeichnisse der Boerhavischen Schriften</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/publisher" class="extlink">publisher</a></td>
-      <td>object</td>
-      <td>s</td>
-      <td>{'location': {'name': ['Dresden-Radebeul', 'Leipzig'], 'type': 'Place'}}</td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@type': 'Organization', 'name': 'SLUB', 'location': {'@type': 'Place', 'name': 'Dresden'}}]</td>
     </tr>
     <tr>
       <td>relatedEvent</td>
       <td>list of objects</td>
       <td>m</td>
-      <td>[{'sameAs': 'https://d-nb.info/gnd/5545899-3', '@id': 'https://data.slub-dresden.de/events/364536403', 'name': 'International Conference on Software Maintenance'}]</td>
+      <td>[{'sameAs': 'https://d-nb.info/gnd/1800228-6', '@id': 'https://data.slub-dresden.de/events/04077774X', 'name': 'KTB-Schwerpunkt-Kolloquium', 'position': '7'}]</td>
+    </tr>
+    <tr>
+      <td>relations</td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@id': 'https://data.slub-dresden.de/resources/1105646599', 'name': 'Versuch über den Character des Grossen Arztes, oder Kritische Lebensbeschreibung Herrn D. Herrmann Boerhaves / Maty, Matthew, 1718 - 1776', 'relationType': 'Druckausg.'}]</td>
+    </tr>
+    <tr>
+      <td>reproductionSeriesStatement</td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'name': ['VD18 digital', 'Drucke des 18. Jahrhunderts']}]</td>
+    </tr>
+    <tr>
+      <td>reproductionType</td>
+      <td>literal</td>
+      <td>s</td>
+      <td>Online-Ausg.</td>
     </tr>
     <tr>
       <td><a href="http://schema.org/sameAs" class="extlink">sameAs</a></td>
       <td>list of objects</td>
       <td>m</td>
-      <td>[{'@id': 'http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=161804950X', 'publisher': {'@id': 'https://data.slub-dresden.de/organizations/103302212', 'preferredName': 'K10Plus', 'abbr': 'KXP'}, 'isBasedOn': {'@type': 'Dataset'}}]</td>
+      <td>[{'@id': 'https://opac.k10plus.de/DB=2.299/PPNSET?PPN=1391959485', 'publisher': {'preferredName': 'K10Plus', '@id': 'https://ld.zdb-services.de/resource/organisations/DE-627', 'abbr': 'KXP'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/kxp-de14/1391959485'}}, {'@id': 'https://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1391959485', 'publisher': {'@id': 'https://ld.zdb-services.de/resource/organisations/DE-576', 'preferredName': 'Bibliotheksservice-Zentrum Baden-Württemberg (BSZ)', 'abbr': 'BSZ'}, 'isBasedOn': {'@type': 'Dataset', '@id': 'https://data.slub-dresden.de/source/kxp-de14/1391959485'}}]</td>
+    </tr>
+    <tr>
+      <td>seriesStatement</td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'name': 'Klett-Lektürehilfen'}]</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/title" class="extlink">title</a></td>
+      <td>object</td>
+      <td>s</td>
+      <td>{'preferredName': 'Versuch über den Character des Grossen Arztes, oder Kritische Lebensbeschreibung Herrn D. Herrmann Boerhaves : nebst einem Verzeichnisse der Boerhavischen Schriften / [Matthew Maty]', 'mainTitle': 'Versuch über den Character des Grossen Arztes, oder Kritische Lebensbeschreibung Herrn D. Herrmann Boerhaves', 'subTitle': 'nebst einem Verzeichnisse der Boerhavischen Schriften', 'responsibilityStatement': '[Matthew Maty]'}</td>
+    </tr>
+    <tr>
+      <td><a href="http://schema.org/usageInfo" class="extlink">usageInfo</a></td>
+      <td>list of objects</td>
+      <td>m</td>
+      <td>[{'@type': 'accessState', 'name': 'Open Access', 'sameAs': 'http://purl.org/coar/access_right/c_abf2'}, {'@type': 'licenceState', 'name': 'Public Domain Mark 1.0', 'alternateName': 'PDM 1.0', 'sameAs': 'http://creativecommons.org/publicdomain/mark/1.0/'}]</td>
     </tr>
   </tbody>
 </table>
 <br>
 <h2>Origin</h2>
-See <a href="/doc/mappings/marc21#resources">MARC21-mapping: Resources</a>
+See <a href="http://data.slub-dresden.de/doc/mappings/marc21#resources">MARC21-mapping: Resources</a>
 <h2>Example</h2>
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>curl <span class="nt">-XGET</span> <span class="s2">"https://data.slub-dresden.de/resources/1322972605"</span> | jq <span class="s1">'.'</span></code></pre></div></div>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>curl <span class="nt">-XGET</span> <span class="s2">"https://data.slub-dresden.de/Resources/1391959485"</span> | jq <span class="s1">'.'</span></code></pre></div></div>
 <h2>Structure</h2>
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>
   <span class="o">{</span>
     <span class="s2">"@type"</span><span class="o">:</span> <span class="s2">"http://schema.org/CreativeWork"</span><span class="o">,</span>
     <span class="s2">"@context"</span><span class="o">:</span> <span class="s2">"https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"</span><span class="o">,</span>
-    <span class="s2">"@id"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/resources/1322972605"</span><span class="o">,</span>
-    <span class="s2">"identifier"</span><span class="o">:</span> <span class="s2">"1322972605"</span><span class="o">,</span>
-    <span class="s2">"dateCreated"</span><span class="o">:</span> <span class="s2">"2006-04-24"</span><span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/resources/1391959485"</span><span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
     <span class="s2">"offers"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
-    <span class="s2">"dateModified"</span><span class="o">:</span> <span class="s2">"2018-12-06T18:42:40Z"</span><span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> <span class="s2">"2022-05-28T14:05:34Z"</span><span class="o">,</span>
     <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
-    <span class="s2">"preferredName"</span><span class="o">:</span> <span class="s2">"Gutes Deutsch in Wort und Schrift"</span><span class="o">,</span>
-    <span class="s2">"nameShort"</span><span class="o">:</span> <span class="s2">"Gutes Deutsch in Wort und Schrift"</span><span class="o">,</span>
-    <span class="s2">"alternativeHeadline"</span><span class="o">:</span> <span class="s2">"Oskar Hoffmann"</span><span class="o">,</span>
-    <span class="s2">"alternateName"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
-    <span class="s2">"author"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"title"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> <span class="s2">"Versuch über den Character des Grossen Arztes, oder Kritische Lebensbeschreibung Herrn D. Herrmann Boerhaves nebst einem Verzeichnisse der Boerhavischen Schriften"</span><span class="o">,</span>
     <span class="s2">"contributor"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
-    <span class="s2">"publisher"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"genre"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"license"</span><span class="o">:</span> <span class="s2">"Public Domain Mark 1.0"</span><span class="o">,</span>
+    <span class="s2">"about"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"mentions"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"physical_description"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
+    <span class="s2">"reproductionType"</span><span class="o">:</span> <span class="s2">"Online-Ausg."</span><span class="o">,</span>
+    <span class="s2">"additionalInfo"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"classifications"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"accessMode"</span><span class="o">:</span> <span class="s2">"online"</span><span class="o">,</span>
+    <span class="s2">"identifiedBy"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"language"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"partOfSeries"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"reproductionSeriesStatement"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"relations"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"usageInfo"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"publisher"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"originalPublisher"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
     <span class="s2">"datePublished"</span><span class="o">:</span> <span class="o">{…}</span><span class="o">,</span>
-    <span class="s2">"inLanguage"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
-    <span class="s2">"isBasedOn"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/source/kxp-de14/1322972605"</span><span class="o">,</span>
+    <span class="s2">"location"</span><span class="o">:</span> <span class="o">[…]</span><span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> <span class="s2">"https://data.slub-dresden.de/source/kxp-de14/1391959485"</span><span class="o">,</span>
   <span class="o">}</span>
 <span class="o">]</span>
 </code></pre></div></div>
@@ -268,9 +322,15 @@ See <a href="/doc/mappings/marc21#resources">MARC21-mapping: Resources</a>
   <span class="o">{</span>
     <span class="s2">"@type"</span><span class="o">:</span> "http://schema.org/CreativeWork"<span class="o">,</span>
     <span class="s2">"@context"</span><span class="o">:</span> "https://raw.githubusercontent.com/slub/esmarc/master/conf/context.jsonld"<span class="o">,</span>
-    <span class="s2">"@id"</span><span class="o">:</span> "https://data.slub-dresden.de/resources/1322972605"<span class="o">,</span>
-    <span class="s2">"identifier"</span><span class="o">:</span> "1322972605"<span class="o">,</span>
-    <span class="s2">"dateCreated"</span><span class="o">:</span> "2006-04-24"<span class="o">,</span>
+    <span class="s2">"@id"</span><span class="o">:</span> "https://data.slub-dresden.de/resources/1391959485"<span class="o">,</span>
+    <span class="s2">"identifier"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://nbn-resolving.org/urn:nbn:de:bsz:14-ppn3219594852"</span><span class="o">,
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"PropertyValue"</span><span class="o">,
+</span>          <span class="s2">"propertyID"<span class="o">: </span><span class="s2">"urn"</span><span class="o">,
+</span>          <span class="s2">"value"<span class="o">: </span><span class="s2">"urn:nbn:de:bsz:14-ppn3219594852"
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
     <span class="s2">"offers"</span><span class="o">:</span> <span class="o">{
 </span>        <span class="s2">"@type"<span class="o">: </span><span class="s2">"Offer"</span><span class="o">,
 </span>        <span class="s2">"offeredBy"<span class="o">: </span><span class="o">{
@@ -279,59 +339,259 @@ See <a href="/doc/mappings/marc21#resources">MARC21-mapping: Resources</a>
 </span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"S\u00e4chsische Landesbibliothek \u2013 Staats- und Universit\u00e4tsbibliothek Dresden"</span><span class="o">,
 </span>          <span class="s2">"branchCode"<span class="o">: </span><span class="s2">"DE-14"
        <span class="o"> }</span><span class="o">,
-</span>        <span class="s2">"availability"<span class="o">: </span><span class="s2">"https://katalog.slub-dresden.de/id/0-1322972605"
+</span>        <span class="s2">"availability"<span class="o">: </span><span class="s2">"https://katalog.slub-dresden.de/id/0-1391959485"
      <span class="o"> }</span><span class="o">,</span>
-    <span class="s2">"dateModified"</span><span class="o">:</span> "2018-12-06T18:42:40Z"<span class="o">,</span>
+    <span class="s2">"dateModified"</span><span class="o">:</span> "2022-05-28T14:05:34Z"<span class="o">,</span>
     <span class="s2">"sameAs"</span><span class="o">:</span> <span class="o">[
 </span>        <span class="o">{
-</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1322972605"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://opac.k10plus.de/DB=2.299/PPNSET?PPN=1391959485"</span><span class="o">,
 </span>          <span class="s2">"publisher"<span class="o">: </span><span class="o">{
-</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/organizations/103302212"</span><span class="o">,
 </span>            <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"K10Plus"</span><span class="o">,
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://ld.zdb-services.de/resource/organisations/DE-627"</span><span class="o">,
 </span>            <span class="s2">"abbr"<span class="o">: </span><span class="s2">"KXP"
          <span class="o"> }</span><span class="o">,
 </span>          <span class="s2">"isBasedOn"<span class="o">: </span><span class="o">{
-</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"</span><span class="o">,
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/source/kxp-de14/1391959485"
+         <span class="o"> }</span>
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://swb.bsz-bw.de/DB=2.1/PPNSET?PPN=1391959485"</span><span class="o">,
+</span>          <span class="s2">"publisher"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://ld.zdb-services.de/resource/organisations/DE-576"</span><span class="o">,
+</span>            <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"Bibliotheksservice-Zentrum Baden-W\u00fcrttemberg (BSZ)"</span><span class="o">,
+</span>            <span class="s2">"abbr"<span class="o">: </span><span class="s2">"BSZ"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="s2">"isBasedOn"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Dataset"</span><span class="o">,
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/source/kxp-de14/1391959485"
          <span class="o"> }</span>
        <span class="o"> }</span>
      <span class="o"> ]</span><span class="o">,</span>
-    <span class="s2">"preferredName"</span><span class="o">:</span> "Gutes Deutsch in Wort und Schrift"<span class="o">,</span>
-    <span class="s2">"nameShort"</span><span class="o">:</span> "Gutes Deutsch in Wort und Schrift"<span class="o">,</span>
-    <span class="s2">"alternativeHeadline"</span><span class="o">:</span> "Oskar Hoffmann"<span class="o">,</span>
-    <span class="s2">"alternateName"</span><span class="o">:</span> <span class="o">[
-</span>        <span class="s2">"Die Hauptschwierigkeiten der deutschen Sprache"</span><span class="o">,
-</span>        <span class="s2">"Enth. 1.<span class="o">: </span>Die Hauptschwierigkeiten der deutschen Sprache"</span><span class="o">,
-</span>        <span class="s2">"2. Praktische Rede- und Stilkunde"
-     <span class="o"> ]</span><span class="o">,</span>
-    <span class="s2">"author"</span><span class="o">:</span> <span class="o">[
-</span>        <span class="o">{
-</span>          <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/126686602"</span><span class="o">,
-</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/persons/382186028"</span><span class="o">,
-</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Hoffmann, Oskar"
-       <span class="o"> }</span>
-     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"title"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"Versuch \u00fcber den Character des Grossen Arztes, oder Kritische Lebensbeschreibung Herrn D. Herrmann Boerhaves <span class="o">: </span>nebst einem Verzeichnisse der Boerhavischen Schriften /<span class="o"> [</span>Matthew Maty]"</span><span class="o">,
+</span>        <span class="s2">"mainTitle"<span class="o">: </span><span class="s2">"Versuch \u00fcber den Character des Grossen Arztes, oder Kritische Lebensbeschreibung Herrn D. Herrmann Boerhaves"</span><span class="o">,
+</span>        <span class="s2">"subTitle"<span class="o">: </span><span class="s2">"nebst einem Verzeichnisse der Boerhavischen Schriften"</span><span class="o">,
+</span>        <span class="s2">"responsibilityStatement"<span class="o">: </span><span class="s2">"[Matthew Maty]"
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"preferredName"</span><span class="o">:</span> "Versuch \u00fcber den Character des Grossen Arztes, oder Kritische Lebensbeschreibung Herrn D. Herrmann Boerhaves nebst einem Verzeichnisse der Boerhavischen Schriften"<span class="o">,</span>
     <span class="s2">"contributor"</span><span class="o">:</span> <span class="o">[
 </span>        <span class="o">{
-</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Leitsmann, ..."
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Person"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/persons/137030290"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Maty, Matthew"</span><span class="o">,
+</span>          <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/10103024X"</span><span class="o">,
+</span>          <span class="s2">"roles":<span class="o"> [</span>
+            <span class="o">{
+</span>              <span class="s2">"@type"<span class="o">: </span><span class="s2">"Role"</span><span class="o">,
+</span>              <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://id.loc.gov/vocabulary/relators/aut"</span><span class="o">,
+</span>              <span class="s2">"name"<span class="o">: </span><span class="s2">"Author"
+           <span class="o"> }</span>
+         <span class="o"> ]</span>
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Person"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/persons/133733637"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Boerhaave, Herman"</span><span class="o">,
+</span>          <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/118660829"</span><span class="o">,
+</span>          <span class="s2">"roles":<span class="o"> [</span>
+            <span class="o">{
+</span>              <span class="s2">"@type"<span class="o">: </span><span class="s2">"Role"</span><span class="o">,
+</span>              <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://id.loc.gov/vocabulary/relators/oth"</span><span class="o">,
+</span>              <span class="s2">"name"<span class="o">: </span><span class="s2">"Other"
+           <span class="o"> }</span>
+         <span class="o"> ]</span>
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Person"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Reinhold, Theodor Gottlieb"</span><span class="o">,
+</span>          <span class="s2">"roles":<span class="o"> [</span>
+            <span class="o">{
+</span>              <span class="s2">"@type"<span class="o">: </span><span class="s2">"Role"</span><span class="o">,
+</span>              <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://id.loc.gov/vocabulary/relators/prt"</span><span class="o">,
+</span>              <span class="s2">"name"<span class="o">: </span><span class="s2">"Printer"
+           <span class="o"> }</span>
+         <span class="o"> ]</span>
        <span class="o"> }</span>
      <span class="o"> ]</span><span class="o">,</span>
-    <span class="s2">"publisher"</span><span class="o">:</span> <span class="o">{
-</span>        <span class="s2">"location"<span class="o">: </span><span class="o">{
-</span>          <span class="s2">"name":<span class="o"> [</span>
-            <span class="s2">"Dresden-Radebeul"</span><span class="o">,
-</span>            <span class="s2">"Leipzig"
+    <span class="s2">"genre"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Text"</span><span class="o">,
+</span>          <span class="s2">"Text":<span class="o"> [</span>
+            <span class="s2">"Biographie"</span><span class="o">,
+</span>            <span class="s2">"Bibliographie"
+         <span class="o"> ]</span>
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"license"</span><span class="o">:</span> "Public Domain Mark 1.0"<span class="o">,</span>
+    <span class="s2">"about"</span><span class="o">:</span> <span class="o">[
+</span>       <span class="o"> [</span>
+          <span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/topics/096631023"</span><span class="o">,
+</span>            <span class="s2">"name"<span class="o">: </span><span class="s2">"Biographie"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="o">{
+</span>            <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/topics/096631007"</span><span class="o">,
+</span>            <span class="s2">"name"<span class="o">: </span><span class="s2">"Bibliographie"
+         <span class="o"> }</span>
+       <span class="o"> ]</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"mentions"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Genre"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/topics/096631023"</span><span class="o">,
+</span>          <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"Biographie"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Biographie"
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Genre"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/topics/096631007"</span><span class="o">,
+</span>          <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"Bibliographie"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Bibliographie"
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Person"</span><span class="o">,
+</span>          <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"https://d-nb.info/gnd/118660829"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/persons/133733637"</span><span class="o">,
+</span>          <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"Boerhaave, Herman"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Boerhaave, Herman"</span><span class="o">,
+</span>          <span class="s2">"date"<span class="o">: </span><span class="s2">"1668-1738"
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"physical_description"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"extent"<span class="o">: </span><span class="s2">"[16] Bl., 160 S."</span><span class="o">,
+</span>        <span class="s2">"dimensions"<span class="o">: </span><span class="s2">"8o"</span><span class="o">,
+</span>        <span class="s2">"reproduction_extent"<span class="o">: </span><span class="s2">"Online-Ressource"
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"reproductionType"</span><span class="o">:</span> "Online-Ausg."<span class="o">,</span>
+    <span class="s2">"additionalInfo"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"otherNote"</span><span class="o">,
+</span>          <span class="s2">"description"<span class="o">: </span><span class="s2">"Verf. ermittelt"
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"originalLocationNote"</span><span class="o">,
+</span>          <span class="s2">"holder"<span class="o">: </span><span class="s2">"SLUB Dresden"</span><span class="o">,
+</span>          <span class="s2">"originalShelfMark"<span class="o">: </span><span class="s2">"Biogr.erud.D.2169.n"
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"classifications"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"CategoryCodeSet"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"http://uri.gbv.de/terminology/bk/"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Basisklassifikation"</span><span class="o">,
+</span>          <span class="s2">"alternateName":<span class="o"> [</span>
+            <span class="s2">"BKL"</span><span class="o">,
+</span>            <span class="s2">"BK"
          <span class="o"> ]</span><span class="o">,
-</span>          <span class="s2">"type"<span class="o">: </span><span class="s2">"Place"
+</span>          <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"https://www.wikidata.org/wiki/Q29938469"</span><span class="o">,
+</span>          <span class="s2">"CategoryCodes":<span class="o"> [</span>
+            <span class="o">{
+</span>              <span class="s2">"@type"<span class="o">: </span><span class="s2">"CategoryCode"</span><span class="o">,
+</span>              <span class="s2">"@id"<span class="o">: </span><span class="s2">"http://uri.gbv.de/terminology/bk/44.01"</span><span class="o">,
+</span>              <span class="s2">"codeValue"<span class="o">: </span><span class="s2">"44.01"
+           <span class="o"> }</span>
+         <span class="o"> ]</span>
        <span class="o"> }</span>
-     <span class="o"> }</span><span class="o">,</span>
-    <span class="s2">"datePublished"</span><span class="o">:</span> <span class="o">{
-</span>        <span class="s2">"dateOrigin"<span class="o">: </span><span class="s2">"[1932]"</span><span class="o">,
-</span>        <span class="s2">"dateParsed"<span class="o">: </span><span class="s2">"1932"
-     <span class="o"> }</span><span class="o">,</span>
-    <span class="s2">"inLanguage"</span><span class="o">:</span> <span class="o">[
-</span>        <span class="s2">"ger"
      <span class="o"> ]</span><span class="o">,</span>
-    <span class="s2">"isBasedOn"</span><span class="o">:</span> "https://data.slub-dresden.de/source/kxp-de14/1322972605"<span class="o">,</span>
+    <span class="s2">"accessMode"</span><span class="o">:</span> "online"<span class="o">,</span>
+    <span class="s2">"identifiedBy"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"VD-18"</span><span class="o">,
+</span>          <span class="s2">"validValues":<span class="o"> [</span>
+            <span class="s2">"VD18 10232028"
+         <span class="o"> ]</span>
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"OCLC"</span><span class="o">,
+</span>          <span class="s2">"validValues":<span class="o"> [</span>
+            <span class="s2">"699625987"
+         <span class="o"> ]</span>
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"language"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"CategoryCode"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"http://id.loc.gov/vocabulary/iso639-2/ger"</span><span class="o">,
+</span>          <span class="s2">"codeValue"<span class="o">: </span><span class="s2">"ger"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"en"<span class="o">: </span><span class="s2">"German"</span><span class="o">,
+</span>            <span class="s2">"de"<span class="o">: </span><span class="s2">"Deutsch"
+         <span class="o"> }</span><span class="o">,
+</span>          <span class="s2">"inCodeSet"<span class="o">: </span><span class="s2">"http://id.loc.gov/vocabulary/iso639-2"
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"partOfSeries"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/resources/1382640374"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Drucke des 18. Jahrhunderts"
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"reproductionSeriesStatement"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"name":<span class="o"> [</span>
+            <span class="s2">"VD18 digital"</span><span class="o">,
+</span>            <span class="s2">"Drucke des 18. Jahrhunderts"
+         <span class="o"> ]</span>
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"relations"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/resources/1105646599"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Versuch \u00fcber den Character des Grossen Arztes, oder Kritische Lebensbeschreibung Herrn D. Herrmann Boerhaves / Maty, Matthew, 1718 - 1776"</span><span class="o">,
+</span>          <span class="s2">"relationType"<span class="o">: </span><span class="s2">"Druckausg."
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"usageInfo"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"accessState"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Open Access"</span><span class="o">,
+</span>          <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"http://purl.org/coar/access_right/c_abf2"
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"licenceState"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Public Domain Mark 1.0"</span><span class="o">,
+</span>          <span class="s2">"alternateName"<span class="o">: </span><span class="s2">"PDM 1.0"</span><span class="o">,
+</span>          <span class="s2">"sameAs"<span class="o">: </span><span class="s2">"http://creativecommons.org/publicdomain/mark/1.0/"
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"publisher"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Organization"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"SLUB"</span><span class="o">,
+</span>          <span class="s2">"location"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Place"</span><span class="o">,
+</span>            <span class="s2">"name"<span class="o">: </span><span class="s2">"Dresden"
+         <span class="o"> }</span>
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"originalPublisher"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Organization"</span><span class="o">,
+</span>          <span class="s2">"name"<span class="o">: </span><span class="s2">"Reinhold"</span><span class="o">,
+</span>          <span class="s2">"location"<span class="o">: </span><span class="o">{
+</span>            <span class="s2">"@type"<span class="o">: </span><span class="s2">"Place"</span><span class="o">,
+</span>            <span class="s2">"name"<span class="o">: </span><span class="s2">"Leipzig, Freyberg"
+         <span class="o"> }</span>
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"datePublished"</span><span class="o">:</span> <span class="o">{
+</span>        <span class="s2">"dateOrigin"<span class="o">: </span><span class="s2">"2010"</span><span class="o">,
+</span>        <span class="s2">"dateParsed"<span class="o">: </span><span class="s2">"2010"
+     <span class="o"> }</span><span class="o">,</span>
+    <span class="s2">"location"</span><span class="o">:</span> <span class="o">[
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Publication place"</span><span class="o">,
+</span>          <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"Leipzig"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/geo/104798998"
+       <span class="o"> }</span><span class="o">,
+</span>        <span class="o">{
+</span>          <span class="s2">"@type"<span class="o">: </span><span class="s2">"Publication place"</span><span class="o">,
+</span>          <span class="s2">"preferredName"<span class="o">: </span><span class="s2">"Freiberg"</span><span class="o">,
+</span>          <span class="s2">"@id"<span class="o">: </span><span class="s2">"https://data.slub-dresden.de/geo/104746033"
+       <span class="o"> }</span>
+     <span class="o"> ]</span><span class="o">,</span>
+    <span class="s2">"isBasedOn"</span><span class="o">:</span> "https://data.slub-dresden.de/source/kxp-de14/1391959485"<span class="o">,</span>
   <span class="o">}</span>
 <span class="o">]</span>
 </code></pre></div></div><br>
